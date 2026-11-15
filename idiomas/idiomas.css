@@ -1,0 +1,41 @@
+.language-switch {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 0.25rem;
+  border: 1px solid #657f8c;
+  border-radius: 0.5rem;
+  background: #111c26;
+  color: #f8fafc;
+  inline-size: fit-content;
+}
+.language-switch button {
+  min-block-size: 44px;
+  padding: 0.5rem 0.85rem;
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+  font: inherit;
+  font-size: 0.95rem;
+  color: #f8fafc;
+  background: transparent;
+  cursor: pointer;
+}
+.language-switch button:hover { background: #29424e; }
+.language-switch button[aria-pressed="true"] {
+  background: #a6dce5;
+  color: #111c26;
+  font-weight: 700;
+}
+.language-switch button:focus-visible { outline: 3px solid #ffe16a; outline-offset: 2px; }
+.tacana-navbar .nav-layout { grid-template-columns: 1fr auto 1fr; }
+body > header:has(> .language-switch) { flex-wrap: wrap; gap: 1rem; }
+.embedded .language-switch { display: none; }
+@media (max-width: 800px) {
+  .tacana-navbar .nav-layout { grid-template-columns: 1fr auto; }
+  .tacana-navbar .language-switch { grid-row: 2; grid-column: 1 / -1; justify-self: center; }
+}
+@media (forced-colors: active) {
+  .language-switch button[aria-pressed="true"] { border-color: ButtonText; }
+}

@@ -1,3 +1,4 @@
+import * as i18n from './idiomas/i18n.js';
 const base = new URL('./recursos/comparacion_tacana/', import.meta.url);
 
 // Datos numéricos originales de Python, disponibles para otras funciones.
@@ -19,18 +20,18 @@ export async function cargarResultadosPython() {
     if (!respuesta.ok) throw new Error(`${archivo}: HTTP ${respuesta.status}`);
     const datos = await respuesta.json();
     if (!['metodologiaTemperatura', 'similitud'].includes(nombre) && !Array.isArray(datos)) {
-      throw new Error(`Formato inesperado en ${archivo}`);
+      throw new Error(i18n.t("formato_inesperado_en_0", [archivo]));
     }
     return [nombre, datos];
   }));
   const nuevosResultados = Object.fromEntries(entradas);
   nuevosResultados.condiciones = Object.fromEntries(await Promise.all(['MOON', 'MARS'].map(async body => {
     const response = await fetch(new URL(`./recursos/catalogo_regiones/condiciones_${body.toLowerCase()}.json`, import.meta.url), { cache: 'no-store' });
-    if (!response.ok) throw new Error(`Condiciones ${body}: HTTP ${response.status}`);
+    if (!response.ok) throw new Error(i18n.t("condiciones_0_http_1", [body, response.status]));
     return [body, await response.json()];
   })));
   const ubicaciones = await fetch(new URL('./img/regiones-localizacion.json', import.meta.url));
-  if (!ubicaciones.ok) throw new Error('No se pudieron cargar las ubicaciones de las regiones.');
+  if (!ubicaciones.ok) throw new Error(i18n.t("no_se_pudieron_cargar_las_ubicaciones_de_las_regiones"));
   nuevosResultados.ubicaciones = await ubicaciones.json();
   resultadosPython = nuevosResultados;
   window.resultadosPython = resultadosPython;
@@ -38,7 +39,7 @@ export async function cargarResultadosPython() {
 }
 
 const numero = valor => Number.isFinite(valor)
-  ? valor.toLocaleString('es-MX', { maximumFractionDigits: 3 }) : 'No disponible';
+  ? valor.toLocaleString(i18n.locale(), { maximumFractionDigits: 3 }) : i18n.t("no_disponible");
 const rangoCompartidoValido = rango => Array.isArray(rango) && rango.length === 2
   && rango.every(Number.isFinite) && rango[0] <= rango[1];
 const paneles = [...document.querySelectorAll('.planet-comparison')];
@@ -61,37 +62,37 @@ function construirPanel(panel) {
     .filter(r => r.primary?.similarity_percent > 80)
     .sort((a, b) => b.primary.similarity_percent - a.primary.similarity_percent);
   const elegida = opciones.find(r => r.region === regionesSeleccionadas[body]) ?? opciones[0];
-  panel.innerHTML = `
-    <label class="comparison-label" for="region-${body}">Región</label>
-    <select class="comparison-region" id="region-${body}" name="region-${body}"></select>
-    <div class="similarity-summary"></div>
-    <section class="comparison-conditions" aria-label="Condiciones ambientales"></section>
-    <p class="comparison-reason"></p>
-    <div class="comparison-values"></div>`;
+  i18n.html(panel, `
+<label class="comparison-label" data-i18n="region" for="region-${body}">Region</label>
+<select class="comparison-region" id="region-${body}" name="region-${body}"></select>
+<div class="similarity-summary"></div>
+<section aria-label="Environmental conditions" class="comparison-conditions" data-i18n-attrs="aria-label:condiciones_ambientales"></section>
+<p class="comparison-reason"></p>
+<div class="comparison-values"></div>`);
   const cabecera = panel.closest('figure').querySelector('figcaption');
   if (!cabecera.querySelector('.comparison-close')) {
     const cerrar = document.createElement('button');
     cerrar.type = 'button'; cerrar.className = 'comparison-close';
-    cerrar.setAttribute('aria-label', 'Cerrar comparaciones'); cerrar.textContent = '×';
+    i18n.attr(cerrar, 'aria-label', () => i18n.t("cerrar_comparaciones")); i18n.text(cerrar, () => '×');
     cerrar.addEventListener('click', cerrarComparaciones);
     const acciones = document.createElement('div'); acciones.className = 'comparison-actions';
     const comparar = document.createElement('button');
     comparar.type = 'button'; comparar.className = 'comparison-image-button';
-    comparar.setAttribute('aria-label', `Comparar imágenes de Tacaná y ${body === 'MOON' ? 'Luna' : 'Marte'}`);
-    comparar.title = 'Comparar imágenes'; comparar.setAttribute('aria-haspopup', 'dialog');
-    comparar.innerHTML = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M12 2v20M8 9l-3 3 3 3m8-6 3 3-3 3"/></svg>';
+    i18n.attr(comparar, 'aria-label', () => i18n.t("comparar_imagenes_de_tacana_y_0", [body === 'MOON' ? i18n.t("luna") : i18n.t("marte")]));
+    i18n.attr(comparar, "title", () => i18n.t("comparar_imagenes")); comparar.setAttribute('aria-haspopup', 'dialog');
+    i18n.html(comparar, '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M12 2v20M8 9l-3 3 3 3m8-6 3 3-3 3"/></svg>');
     comparar.addEventListener('click', () => abrirImagenes(body));
     acciones.append(comparar, cerrar); cabecera.append(acciones);
   }
   if (!elegida) {
-    panel.querySelector('.comparison-reason').textContent = 'Comparación no disponible.';
+    i18n.text(panel.querySelector('.comparison-reason'), () => i18n.t("comparacion_no_disponible"));
     return;
   }
   regionesSeleccionadas[body] = elegida.region;
   const selector = panel.querySelector('.comparison-region');
   for (const region of opciones) {
     const option = document.createElement('option'); option.value = region.region;
-    option.textContent = `${region.name} · ${region.primary.similarity_percent.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} %`;
+    i18n.text(option, () => `${region.name} · ${region.primary.similarity_percent.toLocaleString(i18n.locale(), { minimumFractionDigits: 2, maximumFractionDigits: 2 })} %`);
     selector.append(option);
   }
   selector.value = elegida.region;
@@ -102,15 +103,15 @@ function construirPanel(panel) {
   });
   const botonImagen = cabecera.querySelector('.comparison-image-button');
   botonImagen.disabled = false;
-  botonImagen.title = `Comparar imágenes de Tacaná y ${elegida.name}`;
-  const porcentaje = valor => valor.toLocaleString('es-MX', { maximumFractionDigits: 1, minimumFractionDigits: 1 });
+  i18n.attr(botonImagen, "title", () => i18n.t("comparar_imagenes_de_tacana_y_0", [elegida.name]));
+  const porcentaje = valor => valor.toLocaleString(i18n.locale(), { maximumFractionDigits: 1, minimumFractionDigits: 1 });
   const resumen = panel.querySelector('.similarity-summary');
   const puntuacion = document.createElement('strong');
   puntuacion.className = 'similarity-score';
-  puntuacion.textContent = `${porcentaje(elegida.primary.similarity_percent)} / 100`;
-  const alcance = document.createElement('p'); alcance.textContent = 'Índice de pendiente y desnivel';
+  i18n.text(puntuacion, () => `${porcentaje(elegida.primary.similarity_percent)} / 100`);
+  const alcance = document.createElement('p'); i18n.text(alcance, () => i18n.t("indice_de_pendiente_y_desnivel"));
   const cobertura = document.createElement('p'); cobertura.className = 'comparison-note';
-  cobertura.textContent = `Entorno de 12 km · ${seleccion.candidate_count.toLocaleString("es-MX")} lugares comparados`;
+  i18n.text(cobertura, () => i18n.t("entorno_de_12_km_0_lugares_comparados", [seleccion.candidate_count.toLocaleString(i18n.locale())]));
   resumen.append(puntuacion, alcance, cobertura);
   const ubicacion = elegida.location;
   mostrarCondiciones(panel, body, ubicacion);
@@ -125,7 +126,7 @@ function construirPanel(panel) {
       rect.setAttribute(key, value);
     }
     svg.append(rect);
-    svg.setAttribute('aria-label', `Ubicación de ${ubicacion.label}. Recuadro ampliado, no a escala.`);
+    i18n.attr(svg, 'aria-label', () => i18n.t("ubicacion_de_0_recuadro_ampliado_no_a_escala", [ubicacion.label]));
     svg.removeAttribute('hidden');
 
   }
@@ -143,12 +144,12 @@ function construirPanel(panel) {
     table.className = 'comparison-table';
     const caption = document.createElement('caption');
     caption.id = `comparison-${body}-${variable}`;
-    caption.textContent = `${titulo} (${unidad}) · Similitud ${porcentaje(componente.similarity_percent)} %`;
+    i18n.text(caption, () => i18n.t("0_1_similitud_2", [titulo, unidad, porcentaje(componente.similarity_percent)]));
     wrapper.setAttribute('aria-labelledby', caption.id);
     const head = document.createElement('thead');
     const headings = document.createElement('tr');
-    for (const label of ['Lugar', 'Mín.', 'Máx.']) {
-      const th = document.createElement('th'); th.scope = 'col'; th.textContent = label;
+    for (const label of [i18n.t("lugar"), i18n.t("min"), i18n.t("max")]) {
+      const th = document.createElement('th'); th.scope = 'col'; i18n.text(th, () => label);
       headings.append(th);
     }
     head.append(headings);
@@ -159,14 +160,14 @@ function construirPanel(panel) {
     for (const [label, values] of [
       ['Tacaná', range(reference)],
       [elegida.name, range(componente.samples)],
-      ['En común', componente.shared_range]
+      [i18n.t("en_comun"), componente.shared_range]
     ]) {
       const row = document.createElement('tr');
-      const th = document.createElement('th'); th.scope = 'row'; th.textContent = label;
+      const th = document.createElement('th'); th.scope = 'row'; i18n.text(th, () => label);
       row.append(th);
       for (let i = 0; i < 2; i++) {
         const td = document.createElement('td');
-        td.textContent = values ? numero(values[i]) : '—';
+        i18n.text(td, () => values ? numero(values[i]) : '—');
         row.append(td);
       }
       tbody.append(row);
@@ -183,11 +184,11 @@ function abrirImagenes(body) {
   if (!modal) {
     modal = document.createElement('dialog'); modal.id = 'image-comparison-dialog';
     modal.setAttribute('aria-labelledby', 'image-comparison-title');
-    modal.innerHTML = '<div class="image-dialog-heading"><h2 id="image-comparison-title"></h2><form method="dialog"><button autofocus aria-label="Cerrar comparador">×</button></form></div><iframe title="Comparador de imágenes satelitales"></iframe>';
+    i18n.html(modal, "<div class=\"image-dialog-heading\"><h2 id=\"image-comparison-title\"></h2><form method=\"dialog\"><button aria-label=\"Close comparison\" autofocus=\"\" data-i18n-attrs=\"aria-label:cerrar_comparador\">×</button></form></div><iframe data-i18n-attrs=\"title:comparador_de_imagenes_satelitales\" title=\"Satellite image comparison\"></iframe>");
     document.body.append(modal);
     modal.addEventListener('close', () => modal.querySelector('iframe').removeAttribute('src'));
   }
-  modal.querySelector('h2').textContent = `Tacaná · ${body === 'MOON' ? 'Luna' : 'Marte'}`;
+  i18n.text(modal.querySelector('h2'), () => `Tacaná · ${body === 'MOON' ? i18n.t("luna") : i18n.t("marte")}`);
   modal.querySelector('iframe').src = new URL(`./recursos/comparador_imagenes/index.html?body=${body}&region=${encodeURIComponent(regionId)}&embed=1`, import.meta.url);
   modal.showModal();
 }
@@ -201,25 +202,25 @@ function mostrarCondiciones(panel, body, ubicacion) {
     c.reference && c.planetary && rangoCompartidoValido(c.range_overlap));
   if (!coincidencias.length) { destino.hidden = true; return; }
   const formato = n => Number.isFinite(n) && n !== 0 && Math.abs(n) < .001 ? n.toExponential(2) : numero(n);
-  const rango = s => s ? (s.min === s.max ? formato(s.min) : `${formato(s.min)} – ${formato(s.max)}`) : 'Sin datos';
+  const rango = s => s ? (s.min === s.max ? formato(s.min) : `${formato(s.min)} – ${formato(s.max)}`) : i18n.t("sin_datos");
   for (const condicion of coincidencias) {
     const wrap = document.createElement('div'); wrap.className = 'comparison-table-wrap';
     wrap.tabIndex = 0; wrap.setAttribute('role', 'region');
     const table = document.createElement('table'); table.className = 'comparison-table condition-table';
     const caption = document.createElement('caption');
     caption.id = `condition-${body}-${condicion.variable}`;
-    caption.textContent = `${condicion.label} (${condicion.unit})`;
+    i18n.text(caption, () => `${condicion.label} (${condicion.unit})`);
     wrap.setAttribute('aria-labelledby', caption.id);
     const head = document.createElement('thead');
-    head.innerHTML = '<tr><th scope="col">Lugar</th><th scope="col">Valor / rango</th></tr>';
+    i18n.html(head, "<tr><th data-i18n=\"lugar\" scope=\"col\">Location</th><th data-i18n=\"valor_rango\" scope=\"col\">Value / range</th></tr>");
     const tbody = document.createElement('tbody');
     for (const [label, valor] of [
-      [condicion.status === 'body_reference' ? 'Tierra' : 'Tacaná', rango(condicion.reference)],
-      [body === 'MOON' ? 'Luna' : 'Marte', rango(condicion.planetary)],
-      ['En común', rango({ min: condicion.range_overlap[0], max: condicion.range_overlap[1] })]
+      [condicion.status === 'body_reference' ? i18n.t("tierra") : 'Tacaná', rango(condicion.reference)],
+      [body === 'MOON' ? i18n.t("luna") : i18n.t("marte"), rango(condicion.planetary)],
+      [i18n.t("en_comun"), rango({ min: condicion.range_overlap[0], max: condicion.range_overlap[1] })]
     ]) {
       const row = document.createElement('tr'), th = document.createElement('th'), td = document.createElement('td');
-      th.scope = 'row'; th.textContent = label; td.textContent = valor;
+      th.scope = 'row'; i18n.text(th, () => label); i18n.text(td, () => valor);
       row.append(th, td); tbody.append(row);
     }
     table.append(caption, head, tbody); wrap.append(table);
@@ -242,7 +243,7 @@ export async function abrirComparaciones(boton) {
     p.replaceChildren();
     const estado = document.createElement('p');
     estado.setAttribute('role', 'status');
-    estado.textContent = 'Cargando comparaciones…'; p.append(estado);
+    i18n.text(estado, () => i18n.t("cargando_comparaciones")); p.append(estado);
   });
   solicitud = cargarResultadosPython();
   try {
@@ -252,9 +253,9 @@ export async function abrirComparaciones(boton) {
     paneles.forEach(p => {
       p.replaceChildren();
       const estado = document.createElement('p'); estado.setAttribute('role', 'status');
-      estado.textContent = 'No se pudo cargar la comparación. Inténtalo de nuevo.';
+      i18n.text(estado, () => i18n.t("no_se_pudo_cargar_la_comparacion_intentalo_de_nuevo"));
       const reintentar = document.createElement('button'); reintentar.type = 'button';
-      reintentar.textContent = 'Reintentar';
+      i18n.text(reintentar, () => i18n.t("reintentar"));
       reintentar.addEventListener('click', () => abrirComparaciones(activador));
       p.append(estado, reintentar);
     });

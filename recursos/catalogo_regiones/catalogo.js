@@ -1,7 +1,8 @@
+import * as i18n from '../../idiomas/i18n.js';
 const body = new URLSearchParams(location.search).get('body') === 'MARS' ? 'MARS' : 'MOON';
-const name = body === 'MOON' ? 'Luna' : 'Marte';
-document.getElementById('title').textContent = `Catálogo de ${name}`;
-document.title = `Catálogo de ${name} | Tacaná skylab`;
+const name = body === 'MOON' ? i18n.t("luna") : i18n.t("marte");
+i18n.text(document.getElementById('title'), () => i18n.t("catalogo_de_0", [name]));
+i18n.title(() => i18n.t("catalogo_de_0_tacana_skylab", [name]));
 const file = body.toLowerCase() + '.json';
 document.getElementById('download').href = file;
 document.getElementById('scores').href = `../comparacion_tacana/similitud_catalogo_${body.toLowerCase()}.json`;
@@ -10,9 +11,9 @@ const rows = document.getElementById('rows');
 const previous = document.getElementById('previous');
 const next = document.getElementById('next');
 const normalize = text => text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-const number = value => Number.isFinite(value) ? value.toLocaleString('es-MX', { maximumFractionDigits: 3 }) : 'Sin dato';
+const number = value => Number.isFinite(value) ? value.toLocaleString(i18n.locale(), { maximumFractionDigits: 3 }) : i18n.t("sin_dato");
 let features = [], filtered = [], page = 0, profiles = {};
-const range = s => s ? `${number(s.min)}–${number(s.max)}` : 'Sin observaciones';
+const range = s => s ? `${number(s.min)}–${number(s.max)}` : i18n.t("sin_observaciones");
 document.getElementById('conditions-download').href = `condiciones_${body.toLowerCase()}.json`;
 const size = 50;
 function render() {
@@ -21,9 +22,9 @@ function render() {
   for (const feature of filtered.slice(start, start + size)) {
     const row = document.createElement('tr');
     const th = document.createElement('th'); th.scope = 'row';
-    const link = document.createElement('a'); link.textContent = feature.name;
+    const link = document.createElement('a'); i18n.text(link, () => feature.name);
     link.href = `./condiciones.html?body=${body}&region=${encodeURIComponent(feature.id)}`;
-    const image = document.createElement('a'); image.textContent = 'Imagen';
+    const image = document.createElement('a'); i18n.text(image, () => i18n.t("imagen"));
     image.href = `../comparador_imagenes/index.html?body=${body}&region=${encodeURIComponent(feature.id)}`;
     th.append(link, document.createElement('br'), image); row.append(th);
     const profile = profiles[feature.conditions?.profile];
@@ -33,14 +34,14 @@ function render() {
       `${feature.conditions?.observation_types_available ?? 0} / 4`, number(feature.global_similarity?.percent),
       feature.feature_type, number(feature.latitude_deg), number(feature.longitude_east_deg),
       number(feature.global_terrain_context?.center_elevation_m), number(feature.global_terrain_context?.slope_10km_deg)]) {
-      const td = document.createElement('td'); td.textContent = value ?? 'Sin dato'; row.append(td);
+      const td = document.createElement('td'); i18n.text(td, () => value ?? i18n.t("sin_dato")); row.append(td);
     }
     rows.append(row);
   }
-  status.textContent = filtered.length
-    ? `${number(filtered.length)} lugares · Mostrando ${number(start + 1)}–${number(Math.min(start + size, filtered.length))} de ${number(features.length)} catalogados`
-    : 'No hay lugares que coincidan con tu búsqueda.';
-  document.getElementById('page-number').textContent = filtered.length ? `Página ${page + 1} de ${Math.ceil(filtered.length / size)}` : 'Sin resultados';
+  i18n.text(status, () => filtered.length
+    ? i18n.t("0_lugares_mostrando_1_2_de_3_catalogados", [number(filtered.length), number(start + 1), number(Math.min(start + size, filtered.length)), number(features.length)])
+    : i18n.t("no_hay_lugares_que_coincidan_con_tu_busqueda"));
+  i18n.text(document.getElementById('page-number'), () => filtered.length ? i18n.t("pagina_0_de_1", [page + 1, Math.ceil(filtered.length / size)]) : i18n.t("sin_resultados"));
   previous.disabled = page === 0; next.disabled = (page + 1) * size >= filtered.length;
   document.querySelector('.table-wrapper').scrollTop = 0;
 }
@@ -54,14 +55,14 @@ previous.addEventListener('click', () => { page--; render(); });
 next.addEventListener('click', () => { page++; render(); });
 try {
   const [response, conditionsResponse] = await Promise.all([fetch(file), fetch(`condiciones_${body.toLowerCase()}.json`)]);
-  if (!conditionsResponse.ok) throw new Error('Condiciones no disponibles');
+  if (!conditionsResponse.ok) throw new Error(i18n.t("condiciones_no_disponibles"));
   profiles = (await conditionsResponse.json()).profiles;
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   const data = await response.json();
-  if (!Array.isArray(data.features)) throw new Error('Formato inesperado');
+  if (!Array.isArray(data.features)) throw new Error(i18n.t("formato_inesperado"));
   features = data.features.sort((a, b) => a.name.localeCompare(b.name, 'es') || a.id.localeCompare(b.id)); filtered = features;
   document.getElementById('search-button').disabled = false; render();
 } catch (error) {
-  status.textContent = 'No se pudo cargar el catálogo. Recarga la página para intentarlo de nuevo.';
+  i18n.text(status, () => i18n.t("no_se_pudo_cargar_el_catalogo_recarga_la_pagina_para_intentarlo_de_nuevo"));
   console.error(error);
 }

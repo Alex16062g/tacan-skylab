@@ -1,3 +1,4 @@
+import * as i18n from './idiomas/i18n.js';
 import { abrirComparaciones } from "./resultados-python.js";
 import { agregarSismos } from './recursos/sismos/sismos.js';
 
@@ -16,7 +17,7 @@ document.getElementById("map-retry").addEventListener("click", () => location.re
 
 function showError(message) {
     loading.hidden = true;
-    errorText.textContent = message;
+    i18n.text(errorText, () => message);
     errorBox.hidden = false;
 }
 
@@ -24,11 +25,11 @@ async function initializeMap() {
     const [maplibregl, volcanoData, metodologia] = await Promise.all([
         import("https://unpkg.com/maplibre-gl@6.18.0/dist/maplibre-gl.mjs"),
         fetch("./datos/tacana.json").then(response => {
-            if (!response.ok) throw new Error("No se pudieron cargar los datos del Tacaná.");
+            if (!response.ok) throw new Error(i18n.t("no_se_pudieron_cargar_los_datos_del_tacana"));
             return response.json();
         }),
         fetch('./recursos/comparacion_tacana/metodologia.json').then(response => {
-            if (!response.ok) throw new Error('No se pudo cargar el área analizada.');
+            if (!response.ok) throw new Error(i18n.t("no_se_pudo_cargar_el_area_analizada"));
             return response.json();
         })
     ]);
@@ -53,15 +54,15 @@ async function initializeMap() {
         touchZoomRotate: true,
         touchPitch: true,
         keyboard: true,
-        attributionControl: { customAttribution: '<a href="https://doi.org/10.21766/SSNMX/EC/MX" target="_blank" rel="noopener">Sismos: SSN / UNAM</a>' },
+        attributionControl: { customAttribution: "<a data-i18n=\"sismos_ssn_unam\" href=\"https://doi.org/10.21766/SSNMX/EC/MX\" rel=\"noopener\" target=\"_blank\">Earthquakes: SSN / UNAM</a>" },
         locale: {
-            "NavigationControl.ZoomIn": "Acercar",
-            "NavigationControl.ZoomOut": "Alejar",
-            "NavigationControl.ResetBearing": "Restablecer el norte",
-            "FullscreenControl.Enter": "Pantalla completa",
-            "FullscreenControl.Exit": "Salir de pantalla completa",
-            "AttributionControl.ToggleAttribution": "Mostrar fuentes del mapa",
-            "Map.Title": "Mapa de México"
+            "NavigationControl.ZoomIn": i18n.t("acercar"),
+            "NavigationControl.ZoomOut": i18n.t("alejar"),
+            "NavigationControl.ResetBearing": i18n.t("restablecer_el_norte"),
+            "FullscreenControl.Enter": i18n.t("pantalla_completa"),
+            "FullscreenControl.Exit": i18n.t("salir_de_pantalla_completa"),
+            "AttributionControl.ToggleAttribution": i18n.t("mostrar_fuentes_del_mapa"),
+            "Map.Title": i18n.t("mapa_de_mexico")
         },
         style: {
             version: 8,
@@ -100,14 +101,14 @@ async function initializeMap() {
     label.type = "button";
     label.disabled = true;
     label.className = "tacana-map-label";
-    label.setAttribute("aria-label", "Volcán Tacaná, frontera México–Guatemala. Acercar y ver comparaciones con Luna y Marte");
+    i18n.attr(label, "aria-label", () => i18n.t("volcan_tacana_frontera_mexicoguatemala_acercar_y_ver_comparaciones_con_l"));
     label.setAttribute("aria-controls", "comparison-MOON comparison-MARS");
     label.setAttribute("aria-expanded", "false");
     label.addEventListener("click", () => { frameTacana(); abrirComparaciones(label); });
     const name = document.createElement("strong");
-    name.textContent = `Volcán ${tacana.Name}`;
+    i18n.text(name, () => i18n.t("volcan_0", [tacana.Name]));
     const location = document.createElement("span");
-    location.textContent = "México / Guatemala";
+    i18n.text(location, () => i18n.t("mexico_guatemala"));
     label.append(name, location);
     // Sin un anchor fijo, la etiqueta cambia de lado cuando se acerca a los bordes.
     new maplibregl.Popup({
@@ -172,14 +173,42 @@ async function initializeMap() {
         onRemove() { earthquakeControl.remove(); }
     }, 'top-right');
     map.addControl(new maplibregl.ScaleControl({ unit: "metric" }), "bottom-left");
-    map.getCanvas().setAttribute("aria-label", "Mapa satelital interactivo de México");
+    const mapControlLabels = {
+        '.maplibregl-ctrl-zoom-in': 'acercar',
+        '.maplibregl-ctrl-zoom-out': 'alejar',
+        '.maplibregl-ctrl-compass': 'restablecer_el_norte',
+        '.maplibregl-ctrl-attrib-button': 'mostrar_fuentes_del_mapa'
+    };
+    function translateMapControls() {
+        for (const [selector, key] of Object.entries(mapControlLabels)) {
+            const button = map.getContainer().querySelector(selector);
+            if (button) {
+                i18n.attr(button, 'aria-label', () => i18n.t(key));
+                i18n.attr(button, 'title', () => i18n.t(key));
+            }
+        }
+        const fullscreen = map.getContainer().querySelector('.maplibregl-ctrl-fullscreen, .maplibregl-ctrl-shrink');
+        if (fullscreen) {
+            const label = () => i18n.t(fullscreen.classList.contains('maplibregl-ctrl-shrink') ? 'salir_de_pantalla_completa' : 'pantalla_completa');
+            i18n.attr(fullscreen, 'title', label);
+            i18n.attr(fullscreen, 'aria-label', label);
+        }
+        const earthquakeCredit = map.getContainer().querySelector('.maplibregl-ctrl-attrib a[href="https://doi.org/10.21766/SSNMX/EC/MX"]');
+        if (earthquakeCredit) i18n.text(earthquakeCredit, () => i18n.t('sismos_ssn_unam'));
+        i18n.translateTree(map.getContainer());
+    }
+    translateMapControls();
+    window.addEventListener('languagechange', translateMapControls);
+    document.addEventListener('fullscreenchange', translateMapControls);
+    map.on('idle', translateMapControls);
+    i18n.attr(map.getCanvas(), "aria-label", () => i18n.t("mapa_satelital_interactivo_de_mexico"));
     map.getCanvas().addEventListener("webglcontextlost", () => {
-        showError("Se perdió la conexión con el procesador gráfico. Pulsa Reintentar para recuperar el mapa.");
+        showError(i18n.t("se_perdio_la_conexion_con_el_procesador_grafico_pulsa_reintentar_para_re"));
     });
 
     map.on("error", event => {
-        console.error('Error de cartografía:', event.error);
-        showError("No se pudo cargar una capa del mapa. Comprueba tu conexión y pulsa Reintentar.");
+        console.error(i18n.t("error_de_cartografia"), event.error);
+        showError(i18n.t("no_se_pudo_cargar_una_capa_del_mapa_comprueba_tu_conexion_y_pulsa_reinte"));
     });
 
     map.fitBounds(mexicoBounds, { padding: 35, pitch: 50, bearing: 0, duration: 0 });
@@ -206,5 +235,5 @@ async function initializeMap() {
 }
 
 initializeMap().catch(() => {
-    showError("No se pudo iniciar el mapa 3D. Comprueba tu conexión y que tu navegador tenga WebGL habilitado, y pulsa Reintentar.");
+    showError(i18n.t("no_se_pudo_iniciar_el_mapa_3d_comprueba_tu_conexion_y_que_tu_navegador_t"));
 });
