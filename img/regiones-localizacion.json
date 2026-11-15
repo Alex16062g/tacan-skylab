@@ -1,0 +1,16 @@
+{
+  "luna_site04": {
+    "latitude": -89.76681145215035,
+    "longitude": -171.86989764584402,
+    "label": "Borde de Shackleton",
+    "source": "recursos/datos/nasa/luna/site04/Site04_final_adj_5mpp_surf.tif",
+    "note": "Centro del raster; estereográfica polar sur, esfera de 1737400 m."
+  },
+  "marte_cerberus": {
+    "latitude": 4.87409582007845,
+    "longitude": 169.07405018,
+    "label": "Cerberus Tholi",
+    "source": "recursos/analisis_nasa/cerberus_etiqueta.txt",
+    "note": "Centro de los límites geográficos de la etiqueta HiRISE."
+  }
+}

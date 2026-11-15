@@ -1,0 +1,127 @@
+{
+  "generated_utc": "2026-11-15T14:30:50.398207+00:00",
+  "scope": "Todos los accidentes con nombre de los KMZ oficiales de Luna y Marte; no incluye todos los lugares sin nombre ni nombres informales.",
+  "nomenclature_authority": "IAU WGPSN / USGS Gazetteer of Planetary Nomenclature",
+  "official_catalog": "https://planetarynames.wr.usgs.gov/GIS_Downloads",
+  "coordinate_system": "Latitud planetocéntrica; longitud positiva al este. KMZ Moon LOLA2011; Mars MDIM2.1.",
+  "sources": {
+    "MOON": {
+      "downloaded_utc": "2026-11-15T14:30:47.072851+00:00",
+      "last_modified": "Sun, 15 Nov 2026 09:07:25 GMT",
+      "url": "https://asc-planetarynames-data.s3.us-west-2.amazonaws.com/MOON_nomenclature_center_pts.kmz",
+      "bytes": 11718225,
+      "sha256": "26490d81d64c480d7dfe8369ce7bbe9547b8f8201fa7e232a663ec8a4031be7b"
+    },
+    "MARS": {
+      "downloaded_utc": "2026-11-15T14:30:48.325734+00:00",
+      "last_modified": "Sun, 15 Nov 2026 09:07:24 GMT",
+      "url": "https://asc-planetarynames-data.s3.us-west-2.amazonaws.com/MARS_nomenclature_center_pts.kmz",
+      "bytes": 2617462,
+      "sha256": "7e4affd5f890ca96d016e59d093ec9fc1f49e98e4709e8ce4d42482d1f52e48c"
+    }
+  },
+  "global_dem_sources": {
+    "MOON": {
+      "source_file": "recursos\\datos\\nasa\\luna\\global\\ldem_16.tif",
+      "sha256": "1ea42bf44f7e9d694f79c3afa7145f97fbf06cc67372067d9fe73dce43bad796",
+      "source_url": "https://svs.gsfc.nasa.gov/4720/",
+      "features_with_context": 9087
+    },
+    "MARS": {
+      "source_file": "recursos\\datos\\nasa\\marte\\global\\megt90n000fb.img",
+      "sha256": "09ae1c0956afcdc869bd82c55993849f67c16ef0efe73f38cb1ea204c186ad8b",
+      "source_url": "https://pds-geosciences.wustl.edu/missions/mgs/megdr.html",
+      "features_with_context": 2054
+    }
+  },
+  "bodies": {
+    "MOON": {
+      "named_features": 9087,
+      "source_entries": 9087,
+      "exact_duplicates_merged": 0,
+      "with_global_terrain": 9087,
+      "with_thermal_sector_context": 9087,
+      "feature_types": {
+        "Albedo Feature": 1,
+        "Astronaut-named features": 81,
+        "Catena, catenae": 20,
+        "Crater, craters": 1615,
+        "Dorsum, dorsa": 39,
+        "Lacus, lacūs": 21,
+        "Mare, maria": 22,
+        "Mons, montes": 58,
+        "Oceanus, oceani": 1,
+        "Palus, paludes": 3,
+        "Planitia, planitiae": 1,
+        "Promontorium, promontoria": 9,
+        "Rima, rimae": 112,
+        "Rupes, rupēs": 8,
+        "Satellite Feature": 7064,
+        "Sinus, sinūs": 12,
+        "Statio": 6,
+        "Vallis, valles": 14
+      },
+      "full_catalog_url": "./recursos/catalogo_regiones/moon.json"
+    },
+    "MARS": {
+      "named_features": 2054,
+      "source_entries": 2055,
+      "exact_duplicates_merged": 1,
+      "with_global_terrain": 2054,
+      "with_thermal_sector_context": 151,
+      "feature_types": {
+        "Albedo Feature": 126,
+        "Catena, catenae": 16,
+        "Cavus, cavi": 29,
+        "Chaos, chaoses": 30,
+        "Chasma, chasmata": 25,
+        "Collis, colles": 22,
+        "Crater, craters": 1242,
+        "Dorsum, dorsa": 37,
+        "Fluctus, fluctūs": 3,
+        "Fossa, fossae": 61,
+        "Labes, labēs": 7,
+        "Labyrinthus, labyrinthi": 6,
+        "Lingula, lingulae": 5,
+        "Macula, maculae": 1,
+        "Mensa, mensae": 38,
+        "Mons, montes": 62,
+        "Palus, paludes": 6,
+        "Patera, paterae": 30,
+        "Planitia, planitiae": 10,
+        "Planum, plana": 35,
+        "Rupes, rupēs": 27,
+        "Scopulus, scopuli": 13,
+        "Serpens, serpentes": 5,
+        "Sulcus, sulci": 14,
+        "Terra, terrae": 11,
+        "Tholus, tholi": 29,
+        "Unda, undae": 6,
+        "Vallis, valles": 157,
+        "Vastitas, vastitates": 1
+      },
+      "full_catalog_url": "./recursos/catalogo_regiones/mars.json"
+    }
+  },
+  "methods": {
+    "elevation": "Interpolación bilineal en el punto de referencia del catálogo, no promedio de toda la región.",
+    "slope": "Diferencias centrales en cuatro destinos geodésicos a 10 km; derivado global descriptivo, no pendiente local a 100 m.",
+    "relief": "P95-P05 de 25 muestras separadas 10 km en una cuadrícula geodésica local de 40 km de lado.",
+    "temperatures": "Asociación contextual al sector geográfico existente; no se atribuye su media al accidente individual."
+  },
+  "limitations": [
+    "Los centros del catálogo no son polígonos ni delimitaciones geológicas.",
+    "Los archivos globales incluyen interpolación; 25 muestras no equivalen a 25 mediciones independientes.",
+    "La ventana de contexto puede exceder el tamaño del accidente; se conservan también los accidentes pequeños.",
+    "Los valores globales no se mezclan con los bloques locales de 1 km para asignar porcentajes.",
+    "Las regiones de estudio Connecting Ridge y Site04 son recortes de investigación, no sinónimos exactos de accidentes IAU."
+  ],
+  "global_similarity": {
+    "source": "../comparacion_tacana/similitud_catalogo_resumen.json",
+    "scope": "12 km neighbourhoods, 2 km analysis spacing; not local 1 km blocks",
+    "evaluated": {
+      "MOON": 9087,
+      "MARS": 2054
+    }
+  }
+}

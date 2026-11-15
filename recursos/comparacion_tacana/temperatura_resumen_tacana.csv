@@ -1,0 +1,3 @@
+phase,n_reference_pixels,temperature_mean_C,temperature_sd_C,min_local_time,max_local_time,good_mandatory_QA_pixels,other_produced_QA_pixels,area_pixels,window_hours
+day,91,14.988461538461564,2.1227534127359355,12.8,13.0,0,91,225,"[12.0, 14.0]"
+night,225,11.64111111111114,3.622566561440036,1.5,1.8,180,45,225,"[1.0, 2.0]"

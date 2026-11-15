@@ -1,0 +1,42 @@
+[
+  {
+    "block_side_m": 1000,
+    "variable": "mean_slope_deg",
+    "groups": 4,
+    "n_blocks": 584,
+    "welch_F": 1675.0380212085793,
+    "p": 6.883449568776551e-187,
+    "status": "conditional exploratory ANOVA; spatial independence unproven",
+    "p_holm": 2.7533798275106203e-186
+  },
+  {
+    "block_side_m": 1000,
+    "variable": "local_relief_m",
+    "groups": 4,
+    "n_blocks": 584,
+    "welch_F": 1055.2245820085473,
+    "p": 5.879507126133702e-157,
+    "status": "conditional exploratory ANOVA; spatial independence unproven",
+    "p_holm": 1.7638521378401104e-156
+  },
+  {
+    "block_side_m": 2000,
+    "variable": "mean_slope_deg",
+    "groups": 4,
+    "n_blocks": 116,
+    "welch_F": 691.2520591275003,
+    "p": 7.534213024821454e-47,
+    "status": "conditional exploratory ANOVA; spatial independence unproven",
+    "p_holm": 1.5068426049642908e-46
+  },
+  {
+    "block_side_m": 2000,
+    "variable": "local_relief_m",
+    "groups": 4,
+    "n_blocks": 116,
+    "welch_F": 262.42152006336596,
+    "p": 1.0430581242632907e-33,
+    "status": "conditional exploratory ANOVA; spatial independence unproven",
+    "p_holm": 1.0430581242632907e-33
+  }
+]

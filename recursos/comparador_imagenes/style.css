@@ -1,0 +1,45 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #111c26; color: #f8fafc; font: 1rem/1.5 system-ui,sans-serif; }
+header,main { max-inline-size: 1200px; margin: auto; padding: 16px 24px; }
+header { display: flex; justify-content: space-between; gap: 20px; border-block-end: 1px solid #31414f; }
+nav { display: flex; gap: 24px; }
+a { color: #a6dce5; text-underline-offset: .2em; }
+nav a[aria-current="page"] { color: #ffe16a; font-weight: 700; }
+h1 { font-size: clamp(1.4rem,3vw,2rem); margin: 0 0 12px; }
+p { margin-block: 10px; }
+.summary { display: flex; flex-wrap: wrap; gap: 8px 30px; justify-content: space-between; color: #c6dce7; margin-block-end: 14px; font-variant-numeric: tabular-nums; }
+figure { margin: 0; }
+.stage { --split: 50%; position: relative; margin-inline: auto; inline-size: min(100%,76svh); aspect-ratio: 1; border: 3px solid #a6dce5; isolation: isolate; overflow: hidden; background: #203440; }
+.stage img { position: absolute; inset: 0; inline-size: 100%; block-size: 100%; object-fit: contain; user-select: none; }
+.earth { clip-path: inset(0 calc(100% - var(--split)) 0 0); }
+.divider { position: absolute; inset-block: 0; inset-inline-start: var(--split); inline-size: 3px; background: #fff; transform: translateX(-50%); pointer-events: none; }
+.handle { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); inline-size: 52px; block-size: 52px; display: grid; place-items: center; border-radius: 50%; background: #fff; color: #133860; }
+.handle path { fill: none; stroke: currentColor; stroke-width: 2; }
+.tag { position: absolute; bottom: 10px; background: #111c26e8; padding: 5px 9px; max-inline-size: 45%; font-size: .8rem; pointer-events: none; }
+.left { left: 10px; } .right { right: 10px; text-align: end; }
+.scale { position: absolute; top: 14px; left: 14px; inline-size: calc(100% / 6); text-align: center; border-top: 3px solid white; font-size: .7rem; background: #111c26b0; pointer-events: none; }
+#swipe { appearance: none; position: absolute; left: -26px; top: 0; inline-size: calc(100% + 52px); block-size: 100%; padding: 0; margin: 0; border: 0; background: transparent; cursor: ew-resize; touch-action: pan-y; }
+#swipe::-webkit-slider-runnable-track { block-size: 4px; background: transparent; }
+#swipe::-webkit-slider-thumb { appearance: none; inline-size: 52px; block-size: 52px; margin-top: -24px; background: transparent; border: 0; }
+#swipe::-moz-range-track { block-size: 4px; background: transparent; }
+#swipe::-moz-range-thumb { inline-size: 52px; block-size: 52px; background: transparent; border: 0; }
+#swipe:focus-visible { outline: none; }
+.stage:focus-within { outline: 3px solid #ffe16a; outline-offset: 4px; }
+figcaption { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-block-start: 12px; }
+output { color: #a6dce5; font-variant-numeric: tabular-nums; }
+#imagery-note,.resolution,.sources { color: #c6dce7; font-size: .85rem; }
+#imagery-note { max-inline-size: 850px; margin: 16px auto; line-height: 1.6; }
+.sources { display: flex; flex-wrap: wrap; gap: 0 24px; }
+details { border-block-start: 1px solid #31414f; margin-block-start: 18px; padding-block: 14px; }
+summary { cursor: pointer; padding-block: 8px; }
+button { font: inherit; color: #fff; background: #203440; padding: 10px 16px; border: 1px solid #829ba9; cursor: pointer; }
+:focus-visible { outline: 3px solid #ffe16a; outline-offset: 3px; }
+[hidden] { display: none !important; }
+.embedded main { max-inline-size: none; padding: 8px 12px; }
+.embedded .stage { inline-size: min(100%, calc(100dvh - 50px)); border: 1px solid #516777; }
+.embedded-sources { max-inline-size: 850px; margin: 16px auto 8px; font-size: .75rem; line-height: 1.6; color: #c6dce7; overflow-wrap: anywhere; }
+.embedded-sources p { padding-inline-start: 1.5em; text-indent: -1.5em; margin-block: 10px; }
+.image-view-controls { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-block: 8px 14px; font-size: .85rem; }
+.stage { background-color: #203440; }
+::selection { color: #111c26; background: #a6dce5; }
+@media(max-width:600px) { header,main { padding: 14px; } .tag { font-size: .7rem; padding: 4px 6px; } }

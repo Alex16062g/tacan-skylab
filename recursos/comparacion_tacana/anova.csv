@@ -1,0 +1,5 @@
+block_side_m,variable,groups,n_blocks,welch_F,p,status,p_holm
+1000,mean_slope_deg,4,584,1675.0380212085793,6.883449568776551e-187,conditional exploratory ANOVA; spatial independence unproven,2.7533798275106203e-186
+1000,local_relief_m,4,584,1055.2245820085473,5.879507126133702e-157,conditional exploratory ANOVA; spatial independence unproven,1.7638521378401104e-156
+2000,mean_slope_deg,4,116,691.2520591275003,7.534213024821454e-47,conditional exploratory ANOVA; spatial independence unproven,1.5068426049642908e-46
+2000,local_relief_m,4,116,262.42152006336596,1.0430581242632907e-33,conditional exploratory ANOVA; spatial independence unproven,1.0430581242632907e-33

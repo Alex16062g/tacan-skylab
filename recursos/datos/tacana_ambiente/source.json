@@ -1,0 +1,4 @@
+{
+  "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MIN%2CT2M_MAX%2CRH2M%2CPS%2CWS2M%2CPRECTOTCORR%2CALLSKY_SFC_SW_DWN%2CTOA_SW_DWN&community=RE&longitude=-92.109&latitude=15.132&start=20111024&end=20111031&format=JSON&time-standard=UTC",
+  "documentation": "https://power.larc.nasa.gov/docs/services/api/temporal/daily/"
+}

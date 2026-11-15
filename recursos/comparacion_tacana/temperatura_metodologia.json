@@ -1,0 +1,22 @@
+{
+  "product": "MYD11A2.A2011297.h09v07.061.2021203214519",
+  "source": "https://doi.org/10.5067/MODIS/MYD11A2.061",
+  "mirror": "Microsoft Planetary Computer",
+  "reference_bounds": [
+    -92.17388888888888,
+    15.069166666666664,
+    -92.04416666666667,
+    15.194999999999999
+  ],
+  "limits": [
+    "Temperature matching is descriptive, not a test of physical equivalence: MODIS land-surface, Diviner bolometric and MCS brightness temperatures have different spectral definitions.",
+    "Tacana is the approximately 14 km square around the volcano, not only the summit. Its product is an 8-day clear-sky composite.",
+    "Mars: October 31 2011; Earth: October 24-31 2011; Moon: cumulative 2009-2015. Seasons and illumination geometry are not controlled.",
+    "Day window 12-14 local solar hours; night window 1-2. Actual within-window sampling differs.",
+    "QC accepts mandatory good OR other-produced, detailed QA=0 and nominal error class <=2K. Daytime reference includes other-produced QA; do not label all pixels highest quality.",
+    "Terrestrial pixels, lunar 0.5-degree samples and Martian 1-degree aggregates have different spatial supports. No resampling creates independent observations.",
+    "p values and unadjusted confidence intervals assume independent units and remain exploratory; Holm corrects multiple tests, not spatial correlation.",
+    "Smaller distribution distance means closer observed temperatures in the selected sample; it is not a percentage of similarity, equivalence or habitability.",
+    "Oxygen and pressure are not included in this ranking; no regional terrestrial oxygen data were supplied."
+  ]
+}

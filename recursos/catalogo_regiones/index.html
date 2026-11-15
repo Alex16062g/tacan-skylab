@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catálogo de regiones | Tacaná skylab</title>
+  <link rel="stylesheet" href="./catalogo.css">
+</head>
+<body>
+  <header><a href="../../index.html">← Volver al mapa</a><nav aria-label="Cuerpo celeste"><a href="?body=MOON">Luna</a><a href="?body=MARS">Marte</a></nav></header>
+  <main>
+    <p>Condiciones ambientales y terreno · Fuentes NASA / IAU / USGS</p>
+    <h1 id="title">Catálogo de regiones</h1>
+    <p>Incluye cráteres, montañas, valles y otros accidentes con nombre oficial, también los más pequeños.</p>
+    <form id="search-form" role="search">
+      <label for="query">Buscar por nombre o tipo</label>
+      <div class="search-row"><input id="query" name="query" type="search" placeholder="Por ejemplo: Olympus o crater"><button type="submit" id="search-button" disabled>Buscar</button></div>
+    </form>
+    <p id="status" role="status">Cargando catálogo…</p>
+    <p class="note">Condiciones por lugar, ordenadas por nombre. Temperatura y presión: contexto de sectores de 30° × 60°, no mediciones del accidente. Gravedad, irradiancia y duración del día: referencias del cuerpo. El índice de relieve no representa similitud ambiental.</p>
+    <div class="table-wrapper" tabindex="0" role="region" aria-labelledby="caption">
+      <table><caption id="caption">Condiciones disponibles y contexto del terreno</caption>
+        <thead><tr><th scope="col">Nombre / condiciones</th><th scope="col">Temp. diurna del sector (°C)</th><th scope="col">Temp. nocturna del sector (°C)</th><th scope="col">Presión del sector (kPa, 31 oct. 2011)</th><th scope="col">Gravedad del cuerpo (m/s²)</th><th scope="col">Irradiancia extraterrestre (W/m²)</th><th scope="col">Día solar (h)</th><th scope="col">Cobertura del sector (tipos / 4)</th><th scope="col">Índice de relieve (0–100)</th><th scope="col">Tipo oficial</th><th scope="col">Latitud (°)</th><th scope="col">Longitud E (°)</th><th scope="col">Elevación (m)</th><th scope="col">Pendiente a 10 km (°)</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <nav class="pagination" aria-label="Páginas del catálogo"><button type="button" id="previous" disabled>Anterior</button><span id="page-number"></span><button type="button" id="next" disabled>Siguiente</button></nav>
+    <p><a id="scores" download>Descargar comparaciones completas</a> · <a id="download" download>Descargar todos los datos JSON</a> · <a href="./regiones.geojson" download>Descargar coordenadas GeoJSON</a> · <a href="./resumen.json">Fuentes y cobertura</a> · <a id="conditions-download" download>Condiciones ambientales JSON</a> · <a href="../comparacion_tacana/similitud_catalogo_resumen.json">Método y resultados</a></p>
+    <p><a href="https://planetarynames.wr.usgs.gov/GIS_Downloads">Catálogo oficial IAU / USGS</a></p>
+    <noscript>Activa JavaScript para explorar el catálogo. También puedes descargar <a href="./moon.json">Luna</a> o <a href="./mars.json">Marte</a>.</noscript>
+  </main>
+  <script type="module" src="./catalogo.js"></script>
+</body>
+</html>

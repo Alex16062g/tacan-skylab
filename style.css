@@ -1,0 +1,378 @@
+.tacana-navbar {
+    padding-block: 1.5rem;
+    background-color: #111c26;
+    border-block-end: 1px solid #31414f;
+}
+
+.tacana-navbar .navbar-brand {
+    max-inline-size: 100%;
+    color: #f8fafc;
+    font-size: clamp(1.25rem, 3.5vw, 1.75rem);
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    white-space: normal;
+}
+
+.tacana-navbar .navbar-brand:hover {
+    color: #cce8ed;
+}
+
+.tacana-navbar .navbar-brand:focus-visible {
+    outline: 2px solid #a6dce5;
+    outline-offset: 6px;
+    border-radius: 2px;
+}
+
+.tacana-logo {
+    inline-size: clamp(6.25rem, 20vw, 10rem);
+    block-size: auto;
+    flex-shrink: 0;
+}
+
+.tacana-brand-secondary {
+    font-weight: 400;
+}
+
+.tacana-navbar .nav-layout { display: grid; grid-template-columns: 1fr auto; gap: 1.5rem; align-items: center; }
+.pakal-logo { justify-self: end; inline-size: 90px; block-size: auto; filter: grayscale(1) invert(1); mix-blend-mode: screen; }
+@media (max-width: 800px) {
+    .tacana-navbar { padding-block: 0.75rem; }
+    .tacana-navbar .nav-layout { grid-template-columns: 1fr auto; gap: 0.75rem; }
+    .pakal-logo { grid-column: 2; grid-row: 1; inline-size: 64px; }
+    .tacana-navbar .navbar-brand { gap: 0.5rem !important; }
+    .tacana-logo { inline-size: 65px; }
+}
+
+body {
+    margin: 0;
+    min-block-size: 100svh;
+    display: flex;
+    flex-direction: column;
+    background: #f5f7f8;
+    color: #182c39;
+}
+
+.map-workspace {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.map-reset-button {
+    min-block-size: 44px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #7b8d98;
+    background: #fff;
+    color: #182c39;
+    font-weight: 500;
+}
+
+.map-message .btn:hover {
+    background: #e2edf1;
+    border-color: #163e50;
+    color: #163e50;
+}
+
+.map-stage {
+    position: relative;
+    flex: 1;
+    min-block-size: 420px;
+    background: #c5dce7;
+}
+
+#mapa {
+    position: absolute;
+    inset: 0;
+}
+
+.planet-map-previews[hidden] { display: none; }
+.planet-map-previews {
+    position: absolute;
+    inset-block-start: 12px;
+    inset-inline-end: 60px;
+    inset-inline-start: 12px;
+    z-index: 2;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    pointer-events: none;
+}
+
+.planet-map-preview {
+    inline-size: clamp(120px, 18vw, 210px);
+    max-inline-size: calc((100% - 10px) / 2);
+    flex-shrink: 0;
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid #ffffff60;
+    border-radius: 8px;
+    background: #111c26;
+    color: #f8fafc;
+    box-shadow: 0 4px 16px #10253140;
+}
+
+.planet-map-preview img {
+    display: block;
+    inline-size: 100%;
+    block-size: auto;
+    aspect-ratio: 2 / 1;
+}
+
+.planet-map-preview figcaption {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 2px;
+    padding: 7px 10px;
+    font-family: system-ui, sans-serif;
+}
+.planet-map-preview figcaption > :is(strong, span) { grid-column: 1; }
+
+.planet-map-preview strong { font-size: .9rem; }
+.planet-map-preview span { color: #c6dce7; font-size: .65rem; }
+
+.comparisons-open .planet-map-preview {
+    inline-size: clamp(140px, 28vw, 340px);
+    max-block-size: calc(100svh - 190px);
+    overflow-y: auto;
+    pointer-events: auto;
+    scrollbar-width: thin;
+}
+.planet-comparison { padding: 10px; font-family: system-ui, sans-serif; font-size: .8rem; }
+.planet-comparison[hidden] { display: none; }
+.planet-comparison button { min-block-size: 48px; min-inline-size: 48px; cursor: pointer; }
+.comparison-close { display: none; grid-column: 2; grid-row: 1 / 3; align-self: center; place-items: center; inline-size: 44px; block-size: 44px; padding: 0; border: 0; background: transparent; color: #f8fafc; font-size: 1.5rem; line-height: 1; cursor: pointer; }
+.comparisons-open .comparison-close { display: grid; }
+.comparison-close:focus-visible { outline: 3px solid #a6dce5; outline-offset: 2px; }
+.comparison-actions { display: none; grid-column: 2; grid-row: 1 / 3; align-self: center; }
+.comparisons-open .comparison-actions { display: flex; }
+.comparison-image-button { display: grid; place-items: center; inline-size: 44px; block-size: 44px; padding: 0; border: 0; background: transparent; color: #ffe16a; cursor: pointer; }
+.comparison-image-button:focus-visible { outline: 3px solid #a6dce5; outline-offset: 2px; }
+#image-comparison-dialog { inline-size: min(1100px, calc(100vw - 24px)); max-inline-size: calc(100vw - 24px); block-size: min(900px, calc(100dvh - 24px)); max-block-size: calc(100dvh - 24px); padding: 0; border: 1px solid #516777; border-radius: 12px; background: #111c26; color: #f8fafc; }
+#image-comparison-dialog[open] { display: flex; flex-direction: column; }
+#image-comparison-dialog:modal { overscroll-behavior: contain; }
+#image-comparison-dialog::backdrop { background: #000b; overflow: hidden; overscroll-behavior: contain; }
+.image-dialog-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 8px 16px; }
+.image-dialog-heading h2 { margin: 0; font-size: 1.1rem; }
+.image-dialog-heading button { inline-size: 44px; block-size: 44px; border: 0; background: transparent; color: inherit; font-size: 1.6rem; cursor: pointer; }
+#image-comparison-dialog iframe { inline-size: 100%; flex: 1; min-block-size: 0; border: 0; }
+.planet-comparison :is(button, a):focus-visible { outline: 3px solid #a6dce5; outline-offset: 2px; }
+.comparison-label { margin-block: 12px 4px; color: #a6dce5; font-size: .75rem; }
+.comparison-region { font-size: 1.1rem; margin-block: 0 10px; overflow-wrap: anywhere; }
+.comparison-reason { line-height: 1.5; }
+.comparison-values h3 { font-size: .95rem; border-block-start: 1px solid #31414f; padding-block-start: 14px; margin-block: 16px 0; }
+.comparison-table-wrap { overflow: auto; max-inline-size: 100%; margin-block: 20px; }
+.comparison-table-wrap:focus-visible { outline: 2px solid #a6dce5; outline-offset: 2px; }
+.comparison-table { inline-size: 100%; border-collapse: separate; border-spacing: 0; font-size: .85rem; font-variant-numeric: tabular-nums; }
+.comparison-table caption { caption-side: top; color: #f8fafc; text-align: start; font-weight: 600; padding-block-end: 10px; }
+.comparison-table th, .comparison-table td { padding: 8px 6px; border-block-end: 1px solid #31414f; }
+.comparison-table td { text-align: end; white-space: nowrap; }
+.comparison-table th { text-align: start; background: #101e28; }
+.comparison-table thead { position: sticky; inset-block-start: 0; z-index: 2; }
+.comparison-table tbody th { position: sticky; inset-inline-start: 0; z-index: 1; min-inline-size: 6rem; }
+.comparison-table tbody tr:last-child { color: #a6dce5; font-weight: 600; }
+.planet-map-image { position: relative; }
+.region-locator { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.region-locator[hidden] { display: none; }
+.region-locator rect { fill: #ffe16a22; stroke: #ffe16a; stroke-width: 3; vector-effect: non-scaling-stroke; }
+.comparison-region { border: 1px solid #ffe16a; border-radius: 4px; padding: 8px; }
+select.comparison-region { display: block; inline-size: 100%; min-inline-size: 0; min-block-size: 48px; font: inherit; font-size: 1rem; background: #111c26; color: #f8fafc; color-scheme: dark; }
+label.comparison-label { display: block; }
+select.comparison-region:focus-visible { outline: 3px solid #a6dce5; outline-offset: 2px; }
+.comparison-image-button:disabled { opacity: .4; cursor: not-allowed; }
+.comparison-values dl { margin: 14px 0; }
+.comparison-common-range { border-inline-start: 3px solid #a6dce5; padding: 8px; background: #203440; font-weight: 600; line-height: 1.5; }
+.similarity-summary { padding-block: 10px; border-block-end: 1px solid #31414f; }
+.similarity-summary p { margin-block: 4px; }
+.similarity-score { display: block; font-size: clamp(1.5rem, 3vw, 2.4rem) !important; color: #a6dce5; font-variant-numeric: tabular-nums; }
+.similarity-component { font-size: 1rem; font-weight: 600; color: #a6dce5; margin-block: 8px; }
+.comparison-catalog { color: #a6dce5; display: inline-block; padding-block: 12px; }
+.comparison-3d { color: #ffe16a; display: inline-block; padding-block: 12px; font-weight: 600; }
+.comparison-environment { color: #a6dce5; display: inline-block; padding-block: 10px; }
+.comparison-values dt { color: #c6dce7; font-weight: 400; margin-block-start: 10px; }
+.comparison-values dd { margin: 2px 0 0; font-size: 1rem; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.comparison-note { font-size: .75rem; line-height: 1.5; color: #c6dce7; }
+.condition-table tbody tr:last-child { color: inherit; font-weight: normal; }
+.comparison-conditions { margin-block-start: 20px; }
+.comparison-source { color: #a6dce5; display: inline-block; padding-block: 12px; }
+
+.map-message {
+    position: absolute;
+    inset-block-end: 3.5rem;
+    inset-inline-start: 1rem;
+    max-inline-size: min(30rem, calc(100% - 5rem));
+    padding: 1rem;
+    background: #fff;
+    color: #182c39;
+    border-radius: 6px;
+    box-shadow: 0 4px 16px #10253126;
+}
+
+.map-message[hidden] {
+    display: none;
+}
+
+.map-message progress {
+    display: block;
+    inline-size: 100%;
+    accent-color: #163e50;
+    margin-block-end: 0.5rem;
+}
+
+.map-message p {
+    margin-block-end: 0.75rem;
+}
+
+:where(button, input, .maplibregl-canvas, .maplibregl-ctrl a):focus-visible {
+    outline: 3px solid #237691;
+    outline-offset: 3px;
+}
+
+.maplibregl-ctrl-group button {
+    inline-size: 40px;
+    block-size: 40px;
+}
+
+.map-layers {
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-end: calc(100% + 8px);
+    margin: 0;
+    inline-size: 160px;
+    min-inline-size: 0;
+    padding: 0.75rem;
+    border: 0;
+    border-radius: 6px;
+    background: #fff;
+    color: #182c39;
+    color-scheme: light;
+    box-shadow: 0 4px 16px #10253126;
+}
+
+.map-layer-control {
+    position: relative;
+}
+.earthquake-control button { display: grid; place-items: center; color: #333; }
+.earthquake-control button:focus-visible { outline: 3px solid #237691; outline-offset: 3px; }
+.earthquake-control button:disabled { opacity: 0.4; }
+.earthquake-control svg { pointer-events: none; }
+
+.map-layer-control .map-layers-toggle {
+    display: grid;
+    place-items: center;
+    color: #333;
+}
+
+.map-layers-toggle svg {
+    pointer-events: none;
+}
+
+.map-layers-toggle:disabled svg {
+    opacity: 0.3;
+}
+
+.map-layer-control .map-layers-toggle:focus-visible {
+    outline: 3px solid #237691;
+    outline-offset: 3px;
+}
+
+.map-layer-control .map-layers-toggle[aria-expanded="true"] {
+    background: #e2edf1;
+}
+
+.map-layers legend {
+    float: left;
+    inline-size: 100%;
+    margin: 0 0 0.25rem;
+    padding: 0;
+    background: #fff;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.map-layers label {
+    clear: both;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-block-size: 36px;
+    cursor: pointer;
+    font-size: 0.875rem;
+}
+
+.map-layers input {
+    margin: 0;
+    inline-size: 16px;
+    block-size: 16px;
+}
+
+.tacana-popup .maplibregl-popup-content {
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+.tacana-popup .maplibregl-popup-tip {
+    display: none;
+}
+
+.tacana-map-label {
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    background: #111c26;
+    color: #f8fafc;
+    box-shadow: 0 4px 16px #0005;
+    text-align: center;
+    max-inline-size: 240px;
+    border: 0;
+    cursor: pointer;
+    min-block-size: 44px;
+    font-family: inherit;
+}
+
+.tacana-map-label:hover {
+    background: #214252;
+}
+
+.tacana-map-label:disabled {
+    cursor: wait;
+}
+
+.tacana-map-label strong,
+.tacana-map-label span {
+    display: block;
+}
+
+.sismo-marker { display: grid; place-items: center; inline-size: 44px; block-size: 44px; pointer-events: none; }
+.sismo-marker[hidden] { display: none; }
+.sismo-marker:focus-within, .sismo-marker:hover { z-index: 2; }
+.sismo-icon { display: grid; place-items: center; inline-size: 24px; block-size: 24px; padding: 0; border: 0; border-radius: 50%; background: transparent; cursor: pointer; color: var(--earthquake-color, #c6dce7); pointer-events: auto; }
+.sismo-icon svg { inline-size: 12px; block-size: 12px; opacity: 0.85; }
+.sismo-icon svg path { fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.sismo-icon:is(:hover, :focus-visible) svg { opacity: 1; }
+.sismo-icon:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
+@media (pointer: coarse) {
+  .sismo-icon { inline-size: 44px; block-size: 44px; }
+}
+.sismo-tooltip { position: fixed; inset: auto; margin: 0; padding: 10px 14px; max-inline-size: calc(100vw - 16px); border: 1px solid #607e8d; border-radius: 6px; background: #111c26; color: #f8fafc; font: 0.875rem/1.5 system-ui, sans-serif; font-variant-numeric: tabular-nums; pointer-events: auto; }
+.sismo-tooltip span, .sismo-tooltip strong { display: block; }
+.sismo-tooltip strong { color: #ffe16a; }
+.sismo-tooltip:is(:popover-open, .\:popover-open) { display: block; }
+
+.tacana-map-label strong {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.tacana-map-label span {
+    margin-block-start: 0.125rem;
+    color: #c6dce7;
+    font-size: 0.75rem;
+}
+
+@media (max-width: 575px) {
+    .map-stage {
+        min-block-size: 55svh;
+    }
+}

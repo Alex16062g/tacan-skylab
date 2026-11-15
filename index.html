@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volcán Tacaná | Tacaná skylab</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@6.18.0/dist/maplibre-gl.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar tacana-navbar" aria-label="Navegación principal">
+            <div class="container-fluid px-3 px-lg-4 nav-layout">
+                <a class="navbar-brand d-inline-flex align-items-center gap-3 m-0" href="./index.html" aria-current="page">
+                    <img class="tacana-logo" src="./img/logo.png" alt="" width="160" height="64">
+                    <span>Tacaná <span class="tacana-brand-secondary">skylab</span></span>
+                </a>
+                <img class="pakal-logo" src="./img/pakal.png" width="1024" height="1008" alt="Pakal Club Astronómico">
+            </div>
+        </nav>
+    </header>
+
+    <main class="map-workspace">
+        <h1 class="visually-hidden">Mapa del volcán Tacaná</h1>
+        <div class="map-stage">
+            <div class="maplibregl-ctrl maplibregl-ctrl-group earthquake-control" id="earthquake-control">
+                <button type="button" id="alternar-sismos" aria-label="Sismos" title="Sismos · color según magnitud" aria-controls="mapa" aria-pressed="false" disabled>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12h4l3-8 6 16 3-8h4"/></svg>
+                </button>
+            </div>
+            <div id="mapa" aria-label="Mapa satelital interactivo de México" role="region"></div>
+            <aside class="planet-map-previews" aria-label="Mapas de la Luna y Marte" hidden>
+                <figure class="planet-map-preview">
+                    <div class="planet-map-image"><img src="./img/mapa-luna.webp" width="720" height="360" alt="Mapa global del relieve lunar, con el norte arriba" decoding="async" fetchpriority="low"><svg class="region-locator" viewBox="0 0 720 360" role="img" hidden></svg></div>
+                    <figcaption><strong>Luna</strong><span>Relieve · NASA LOLA</span></figcaption>
+                    <div class="planet-comparison" id="comparison-MOON" data-body="MOON" hidden></div>
+                </figure>
+                <figure class="planet-map-preview">
+                    <div class="planet-map-image"><img src="./img/mapa-marte.webp" width="720" height="360" alt="Mapa global del relieve de Marte, con el norte arriba" decoding="async" fetchpriority="low"><svg class="region-locator" viewBox="0 0 720 360" role="img" hidden></svg></div>
+                    <figcaption><strong>Marte</strong><span>Relieve · NASA MOLA</span></figcaption>
+                    <div class="planet-comparison" id="comparison-MARS" data-body="MARS" hidden></div>
+                </figure>
+            </aside>
+            <div class="maplibregl-ctrl maplibregl-ctrl-group map-layer-control" id="map-layer-control">
+                <button class="map-layers-toggle" id="map-layers-toggle" type="button" aria-label="Capas del mapa" title="Capas del mapa" aria-expanded="false" aria-controls="map-layers" disabled>
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                        <path d="m12 3 10 5-10 5L2 8l10-5Z" />
+                        <path d="m2 12 10 5 10-5M2 16l10 5 10-5" />
+                    </svg>
+                </button>
+                <fieldset class="map-layers" id="map-layers" disabled hidden>
+                    <legend>Capas</legend>
+                    <label for="vista-2d">
+                        <input id="vista-2d" type="radio" name="capa-mapa" value="2d">
+                        <span>Satélite 2D</span>
+                    </label>
+                    <label for="vista-3d">
+                        <input id="vista-3d" type="radio" name="capa-mapa" value="3d" checked>
+                        <span>Relieve 3D</span>
+                    </label>
+                </fieldset>
+            </div>
+            <div class="map-message" id="map-loading">
+                <progress aria-label="Cargando el mapa"></progress>
+                <span>Cargando cartografía y relieve…</span>
+            </div>
+            <div class="map-message" id="map-error" role="status" hidden>
+                <p id="map-error-text"></p>
+                <button class="btn map-reset-button" id="map-retry" type="button">Reintentar</button>
+            </div>
+        </div>
+
+        <noscript><p class="p-3">Activa JavaScript para explorar el mapa y cargar los resultados.</p></noscript>
+    </main>
+    <script type="module" src="./mapa.js"></script>
+    <script type="module" src="./resultados-python.js"></script>
+</body>
+</html>

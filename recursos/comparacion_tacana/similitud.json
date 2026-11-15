@@ -1,0 +1,316 @@
+{
+  "version": 1,
+  "scope": "terrain_only",
+  "experimental": true,
+  "formula": "s_j = 100 / (1 + Wasserstein_j / SD_Tacana_j); S = 0.5*s_slope + 0.5*s_relief",
+  "interpretation": "Índice descriptivo diseñado para este proyecto, no una probabilidad ni un porcentaje de equivalencia. 100 indica distribuciones empíricas iguales en las medidas incluidas.",
+  "calibration": "Sin calibración externa. Una distancia de una desviación estándar de Tacaná produce 50 puntos en esa medida. Los pesos iguales son una decisión de diseño.",
+  "primary_scale_m": 1000,
+  "sensitivity_scale_m": 2000,
+  "source_file": "recursos\\comparacion_tacana\\bloques.json",
+  "source_sha256": "f9574c95ea7f256f2cd836b4101500be7ca7fe8fc04bfc5722dc1e59c95dd36f",
+  "coverage": [
+    {
+      "feature": "Pendiente",
+      "included": true,
+      "reason": "Bloques locales a escala común."
+    },
+    {
+      "feature": "Relieve local",
+      "included": true,
+      "reason": "Bloques locales a escala común."
+    },
+    {
+      "feature": "Temperatura diurna y nocturna",
+      "included": false,
+      "reason": "Sectores y soportes distintos del relieve local. Marte térmico polar; Cerberus no tiene cobertura coincidente en esta descarga."
+    },
+    {
+      "feature": "Oxígeno y presión",
+      "included": false,
+      "reason": "No hay series regionales comparables de Tacaná y las regiones seleccionadas."
+    },
+    {
+      "feature": "Gravedad, masa, diámetro y datos orbitales",
+      "included": false,
+      "reason": "Propiedades de cuerpos completos; no describen semejanza entre regiones del terreno."
+    },
+    {
+      "feature": "Sismicidad",
+      "included": false,
+      "reason": "No hay catálogos compatibles para las regiones de los tres cuerpos."
+    },
+    {
+      "feature": "Elevación absoluta",
+      "included": false,
+      "reason": "Referencias verticales distintas; se usa relieve local."
+    },
+    {
+      "feature": "Imágenes y coordenadas",
+      "included": false,
+      "reason": "Se usan para localizar y visualizar; no son puntuaciones de similitud."
+    }
+  ],
+  "selections": {
+    "MOON": {
+      "candidate_count": 2,
+      "selected_region": "luna_site04",
+      "ranking": [
+        "luna_site04",
+        "luna_site01"
+      ]
+    },
+    "MARS": {
+      "candidate_count": 1,
+      "selected_region": "marte_cerberus",
+      "ranking": [
+        "marte_cerberus"
+      ]
+    }
+  },
+  "regions": [
+    {
+      "region": "luna_site01",
+      "name": "Luna: Connecting Ridge",
+      "body": "MOON",
+      "primary": {
+        "block_side_m": 1000,
+        "similarity_percent": 32.04275773099133,
+        "features": [
+          {
+            "variable": "mean_slope_deg",
+            "label": "Pendiente",
+            "unit": "°",
+            "similarity_percent": 27.55874251946201,
+            "weight": 0.5,
+            "reference_mean": 24.410877467832634,
+            "region_mean": 11.378694753960078,
+            "reference_sd": 4.957817966849711,
+            "wasserstein_distance": 13.032182713872551,
+            "n_reference": 144,
+            "n_region": 196,
+            "shared_range": [
+              12.55223323583603,
+              23.87694995880127
+            ]
+          },
+          {
+            "variable": "local_relief_m",
+            "label": "Relieve local",
+            "unit": "m",
+            "similarity_percent": 36.52677294252066,
+            "weight": 0.5,
+            "reference_mean": 363.917150539822,
+            "region_mean": 180.75154694926985,
+            "reference_sd": 105.40583366232806,
+            "wasserstein_distance": 183.16560359055222,
+            "n_reference": 144,
+            "n_region": 196,
+            "shared_range": [
+              143.1739746093749,
+              397.8216674804688
+            ]
+          }
+        ]
+      },
+      "sensitivity": {
+        "block_side_m": 2000,
+        "similarity_percent": 28.340856835899896,
+        "features": [
+          {
+            "variable": "mean_slope_deg",
+            "label": "Pendiente",
+            "unit": "°",
+            "similarity_percent": 19.45370367387121,
+            "weight": 0.5,
+            "reference_mean": 25.23919583374357,
+            "region_mean": 10.996276602907521,
+            "reference_sd": 3.439978531671897,
+            "wasserstein_distance": 14.242919230836044,
+            "n_reference": 35,
+            "n_region": 36,
+            "shared_range": [
+              16.636985993385316,
+              20.36266411781311
+            ]
+          },
+          {
+            "variable": "local_relief_m",
+            "label": "Relieve local",
+            "unit": "m",
+            "similarity_percent": 37.22800999792858,
+            "weight": 0.5,
+            "reference_mean": 626.3986022949217,
+            "region_mean": 337.58515603807234,
+            "reference_sd": 171.28578948080818,
+            "wasserstein_distance": 288.8134462568495,
+            "n_reference": 35,
+            "n_region": 36,
+            "shared_range": [
+              362.24755859375,
+              716.3783081054687
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "region": "marte_cerberus",
+      "name": "Marte: Cerberus Tholi",
+      "body": "MARS",
+      "primary": {
+        "block_side_m": 1000,
+        "similarity_percent": 20.016388394207077,
+        "features": [
+          {
+            "variable": "mean_slope_deg",
+            "label": "Pendiente",
+            "unit": "°",
+            "similarity_percent": 17.233570584057343,
+            "weight": 0.5,
+            "reference_mean": 24.410877467832634,
+            "region_mean": 0.6003218543625697,
+            "reference_sd": 4.957817966849711,
+            "wasserstein_distance": 23.810555613470054,
+            "n_reference": 144,
+            "n_region": 48,
+            "shared_range": null
+          },
+          {
+            "variable": "local_relief_m",
+            "label": "Relieve local",
+            "unit": "m",
+            "similarity_percent": 22.79920620435681,
+            "weight": 0.5,
+            "reference_mean": 363.917150539822,
+            "region_mean": 7.000600179036458,
+            "reference_sd": 105.40583366232806,
+            "wasserstein_distance": 356.91655036078566,
+            "n_reference": 144,
+            "n_region": 48,
+            "shared_range": null
+          }
+        ]
+      },
+      "sensitivity": {
+        "block_side_m": 2000,
+        "similarity_percent": 17.037011114533435,
+        "features": [
+          {
+            "variable": "mean_slope_deg",
+            "label": "Pendiente",
+            "unit": "°",
+            "similarity_percent": 12.264637978449338,
+            "weight": 0.5,
+            "reference_mean": 25.23919583374357,
+            "region_mean": 0.6312324879918095,
+            "reference_sd": 3.439978531671897,
+            "wasserstein_distance": 24.607963345751752,
+            "n_reference": 35,
+            "n_region": 9,
+            "shared_range": null
+          },
+          {
+            "variable": "local_relief_m",
+            "label": "Relieve local",
+            "unit": "m",
+            "similarity_percent": 21.80938425061753,
+            "weight": 0.5,
+            "reference_mean": 626.3986022949217,
+            "region_mean": 12.307842339409742,
+            "reference_sd": 171.28578948080818,
+            "wasserstein_distance": 614.0907599555119,
+            "n_reference": 35,
+            "n_region": 9,
+            "shared_range": null
+          }
+        ]
+      }
+    },
+    {
+      "region": "luna_site04",
+      "name": "Luna: borde de Shackleton",
+      "body": "MOON",
+      "primary": {
+        "block_side_m": 1000,
+        "similarity_percent": 53.3023661191139,
+        "features": [
+          {
+            "variable": "mean_slope_deg",
+            "label": "Pendiente",
+            "unit": "°",
+            "similarity_percent": 50.288474098535275,
+            "weight": 0.5,
+            "reference_mean": 24.410877467832634,
+            "region_mean": 21.349263295872632,
+            "reference_sd": 4.957817966849711,
+            "wasserstein_distance": 4.9009380517468335,
+            "n_reference": 144,
+            "n_region": 196,
+            "shared_range": [
+              12.55223323583603,
+              33.869148635864256
+            ]
+          },
+          {
+            "variable": "local_relief_m",
+            "label": "Relieve local",
+            "unit": "m",
+            "similarity_percent": 56.316258139692515,
+            "weight": 0.5,
+            "reference_mean": 363.917150539822,
+            "region_mean": 367.38015376116545,
+            "reference_sd": 105.40583366232806,
+            "wasserstein_distance": 81.7618460525934,
+            "n_reference": 144,
+            "n_region": 196,
+            "shared_range": [
+              143.1739746093749,
+              607.0373413085936
+            ]
+          }
+        ]
+      },
+      "sensitivity": {
+        "block_side_m": 2000,
+        "similarity_percent": 43.73321587245188,
+        "features": [
+          {
+            "variable": "mean_slope_deg",
+            "label": "Pendiente",
+            "unit": "°",
+            "similarity_percent": 41.62712708526369,
+            "weight": 0.5,
+            "reference_mean": 25.23919583374357,
+            "region_mean": 22.658429001054415,
+            "reference_sd": 3.439978531671897,
+            "wasserstein_distance": 4.823811867857441,
+            "n_reference": 35,
+            "n_region": 36,
+            "shared_range": [
+              16.636985993385316,
+              31.66720564842224
+            ]
+          },
+          {
+            "variable": "local_relief_m",
+            "label": "Relieve local",
+            "unit": "m",
+            "similarity_percent": 45.83930465964007,
+            "weight": 0.5,
+            "reference_mean": 626.3986022949217,
+            "region_mean": 775.7880992889402,
+            "reference_sd": 171.28578948080818,
+            "wasserstein_distance": 202.37997781783807,
+            "n_reference": 35,
+            "n_region": 36,
+            "shared_range": [
+              362.24755859375,
+              1037.2256469726562
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

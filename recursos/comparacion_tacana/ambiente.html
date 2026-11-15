@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ambiente y radiación | Tacaná</title><link rel="stylesheet" href="../catalogo_regiones/catalogo.css"><style>section{margin-block:32px}h2{font-size:1.3rem}.table-wrapper{max-block-size:none}th,td{white-space:normal;min-inline-size:100px}td{font-variant-numeric:tabular-nums}nav a[aria-current=page]{color:#ffe16a}summary{cursor:pointer;padding-block:12px}[hidden]{display:none!important}</style></head>
+<body>
+<header><a href="../../index.html">Volver al mapa</a><nav aria-label="Cuerpo celeste"><a href="?body=MOON" data-body="MOON">Luna</a><a href="?body=MARS" data-body="MARS">Marte</a></nav></header>
+<main>
+  <h1 id="title">Ambiente y radiación</h1><p id="status" role="status">Cargando datos ambientales…</p>
+  <button id="retry" type="button" hidden>Reintentar</button>
+  <div id="content" hidden>
+    <p class="note" id="scope"></p>
+    <section><h2>Temperatura superficial</h2><p class="note">Tacaná: MODIS, 24–31 octubre 2011. Luna: Diviner, producto acumulado 2009–2015. Marte: MCS, 31 octubre 2011. Día: 12–14 h; noche: 1–2 h, hora solar local. Los sensores miden temperaturas con definiciones espectrales diferentes.</p><div id="thermal"></div></section>
+    <section><h2>Meteorología y radiación en Tacaná</h2><p class="note" id="power-scope"></p><div id="power"></div><p class="note">Sin series regionales equivalentes de radiación superficial, humedad, viento y precipitación para Luna y Marte en los archivos disponibles.</p><a id="power-source" target="_blank" rel="noopener">Fuente NASA POWER</a></section>
+    <section><h2>Presión atmosférica</h2><p class="note">Tacaná: promedio diario de la celda POWER. Marte: rango de recuperaciones MCS en el sector de 30° × 60°, con distintas horas locales; no son mediciones de la misma extensión.</p><div id="pressure"></div></section>
+    <section><h2>Temperatura atmosférica marciana a 106 Pa</h2><p class="note">Nivel de presión de la atmósfera; no corresponde a temperatura del suelo ni del aire a 2 m.</p><div id="air"></div></section>
+    <section><h2>Radiación solar de referencia</h2><p class="note">Irradiancia fuera de la atmósfera, perpendicular a los rayos solares. No es la energía solar diaria que llega al suelo.</p><div id="solar"></div><a id="solar-source" target="_blank" rel="noopener">Ficha oficial NASA</a></section>
+    <section><h2>Composición atmosférica de referencia</h2><div id="composition"></div><a id="composition-source" target="_blank" rel="noopener">Fuente NASA</a></section>
+    <details><summary>Análisis estadístico y cobertura</summary><p id="analysis"></p><p>Los resultados térmicos son exploratorios: las fechas, horas, sensores y superficies de muestreo difieren. Las variables ambientales no se suman al índice de pendiente y relieve y no tienen un porcentaje global de similitud.</p><p><a href="./temperatura_anova.json">ANOVA térmico existente</a> · <a href="./temperatura_comparaciones.json">Comparaciones térmicas por sector</a> · <a href="./temperatura_metodologia.json">Limitaciones del análisis térmico</a> · <a href="../../ecuaciones.md">Método completo</a></p></details>
+    <p><a href="./ambiente_integrado.json" download>Descargar datos ambientales para Python (JSON)</a> · <a href="../datos/tacana_ambiente/power_daily.json" download>NASA POWER original</a></p>
+  </div>
+  <noscript>Consulta los <a href="./ambiente_integrado.json">datos ambientales JSON</a>.</noscript>
+</main><script type="module" src="./ambiente.js"></script>
+</body></html>
