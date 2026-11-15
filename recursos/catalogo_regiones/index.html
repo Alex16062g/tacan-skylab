@@ -1,34 +1,35 @@
-<!doctype html>
-<html lang="es">
+<!DOCTYPE html>
+
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Catálogo de regiones | Tacaná skylab</title>
-  <link rel="stylesheet" href="./catalogo.css">
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title data-i18n="catalogo_de_regiones_tacana_skylab">Region catalog | Tacaná skylab</title>
+<link href="./catalogo.css" rel="stylesheet"/>
+<link href="../../idiomas/idiomas.css" rel="stylesheet"/><script src="../../idiomas/i18n.js" type="module"></script></head>
 <body>
-  <header><a href="../../index.html">← Volver al mapa</a><nav aria-label="Cuerpo celeste"><a href="?body=MOON">Luna</a><a href="?body=MARS">Marte</a></nav></header>
-  <main>
-    <p>Condiciones ambientales y terreno · Fuentes NASA / IAU / USGS</p>
-    <h1 id="title">Catálogo de regiones</h1>
-    <p>Incluye cráteres, montañas, valles y otros accidentes con nombre oficial, también los más pequeños.</p>
-    <form id="search-form" role="search">
-      <label for="query">Buscar por nombre o tipo</label>
-      <div class="search-row"><input id="query" name="query" type="search" placeholder="Por ejemplo: Olympus o crater"><button type="submit" id="search-button" disabled>Buscar</button></div>
-    </form>
-    <p id="status" role="status">Cargando catálogo…</p>
-    <p class="note">Condiciones por lugar, ordenadas por nombre. Temperatura y presión: contexto de sectores de 30° × 60°, no mediciones del accidente. Gravedad, irradiancia y duración del día: referencias del cuerpo. El índice de relieve no representa similitud ambiental.</p>
-    <div class="table-wrapper" tabindex="0" role="region" aria-labelledby="caption">
-      <table><caption id="caption">Condiciones disponibles y contexto del terreno</caption>
-        <thead><tr><th scope="col">Nombre / condiciones</th><th scope="col">Temp. diurna del sector (°C)</th><th scope="col">Temp. nocturna del sector (°C)</th><th scope="col">Presión del sector (kPa, 31 oct. 2011)</th><th scope="col">Gravedad del cuerpo (m/s²)</th><th scope="col">Irradiancia extraterrestre (W/m²)</th><th scope="col">Día solar (h)</th><th scope="col">Cobertura del sector (tipos / 4)</th><th scope="col">Índice de relieve (0–100)</th><th scope="col">Tipo oficial</th><th scope="col">Latitud (°)</th><th scope="col">Longitud E (°)</th><th scope="col">Elevación (m)</th><th scope="col">Pendiente a 10 km (°)</th></tr></thead>
-        <tbody id="rows"></tbody>
-      </table>
-    </div>
-    <nav class="pagination" aria-label="Páginas del catálogo"><button type="button" id="previous" disabled>Anterior</button><span id="page-number"></span><button type="button" id="next" disabled>Siguiente</button></nav>
-    <p><a id="scores" download>Descargar comparaciones completas</a> · <a id="download" download>Descargar todos los datos JSON</a> · <a href="./regiones.geojson" download>Descargar coordenadas GeoJSON</a> · <a href="./resumen.json">Fuentes y cobertura</a> · <a id="conditions-download" download>Condiciones ambientales JSON</a> · <a href="../comparacion_tacana/similitud_catalogo_resumen.json">Método y resultados</a></p>
-    <p><a href="https://planetarynames.wr.usgs.gov/GIS_Downloads">Catálogo oficial IAU / USGS</a></p>
-    <noscript>Activa JavaScript para explorar el catálogo. También puedes descargar <a href="./moon.json">Luna</a> o <a href="./mars.json">Marte</a>.</noscript>
-  </main>
-  <script type="module" src="./catalogo.js"></script>
+<header><a data-i18n="volver_al_mapa200" href="../../index.html">← Back to map</a><nav aria-label="Celestial body" data-i18n-attrs="aria-label:cuerpo_celeste"><a data-i18n="luna" href="?body=MOON">Moon</a><a data-i18n="marte" href="?body=MARS">Mars</a></nav><div aria-label="Language" class="language-switch" data-i18n-attrs="aria-label:idioma" role="group"><button aria-pressed="true" data-language="en" lang="en" type="button">English</button><button aria-pressed="false" data-language="es" lang="es" type="button">Español</button></div></header>
+<main>
+<p data-i18n="condiciones_ambientales_y_terreno_fuentes_nasa_iau_usgs">Environmental conditions and terrain · NASA / IAU / USGS sources</p>
+<h1 data-i18n="catalogo_de_regiones" id="title">Region catalog</h1>
+<p data-i18n="incluye_crateres_montanas_valles_y_otros_accidentes_con_nombre_oficial_t">Includes officially named craters, mountains, valleys and other features, including small features.</p>
+<form id="search-form" role="search">
+<label data-i18n="buscar_por_nombre_o_tipo" for="query">Search by name or type</label>
+<div class="search-row"><input data-i18n-attrs="placeholder:por_ejemplo_olympus_o_crater" id="query" name="query" placeholder="For example: Olympus or crater" type="search"/><button data-i18n="buscar" disabled="" id="search-button" type="submit">Search</button></div>
+</form>
+<p data-i18n="cargando_catalogo" id="status" role="status">Loading catalog…</p>
+<p class="note" data-i18n="condiciones_por_lugar_ordenadas_por_nombre_temperatura_y_presion_context">Conditions by location, ordered by name. Temperature and pressure: context of 30° × 60° sectors, not measurements of the feature. Gravity, irradiance and day length: body references. The terrain index does not represent environmental similarity.</p>
+<div aria-labelledby="caption" class="table-wrapper" role="region" tabindex="0">
+<table><caption data-i18n="condiciones_disponibles_y_contexto_del_terreno" id="caption">Available conditions and terrain context</caption>
+<thead><tr><th data-i18n="nombre_condiciones" scope="col">Name / conditions</th><th data-i18n="temp_diurna_del_sector_c" scope="col">Sector daytime temperature (°C)</th><th data-i18n="temp_nocturna_del_sector_c" scope="col">Sector nighttime temperature (°C)</th><th data-i18n="presion_del_sector_kpa_31_oct_2011" scope="col">Sector pressure (kPa, Oct 31, 2011)</th><th data-i18n="gravedad_del_cuerpo_m_s2" scope="col">Body gravity (m/s²)</th><th data-i18n="irradiancia_extraterrestre_w_m2" scope="col">Extraterrestrial irradiance (W/m²)</th><th data-i18n="dia_solar_h" scope="col">Solar day (h)</th><th data-i18n="cobertura_del_sector_tipos_4" scope="col">Sector coverage (types / 4)</th><th data-i18n="indice_de_relieve_0100" scope="col">Terrain index (0–100)</th><th data-i18n="tipo_oficial" scope="col">Official type</th><th data-i18n="latitud" scope="col">Latitude (°)</th><th data-i18n="longitud_e" scope="col">Longitude E (°)</th><th data-i18n="elevacion_m" scope="col">Elevation (m)</th><th data-i18n="pendiente_a_10_km" scope="col">Slope at 10 km (°)</th></tr></thead>
+<tbody id="rows"></tbody>
+</table>
+</div>
+<nav aria-label="Catalog pages" class="pagination" data-i18n-attrs="aria-label:paginas_del_catalogo"><button data-i18n="anterior" disabled="" id="previous" type="button">Previous</button><span id="page-number"></span><button data-i18n="siguiente" disabled="" id="next" type="button">Next</button></nav>
+<p><a data-i18n="descargar_comparaciones_completas" download="" id="scores">Download full comparisons</a> · <a data-i18n="descargar_todos_los_datos_json" download="" id="download">Download all JSON data</a> · <a data-i18n="descargar_coordenadas_geojson" download="" href="./regiones.geojson">Download GeoJSON coordinates</a> · <a data-i18n="fuentes_y_cobertura" href="./resumen.json">Sources and coverage</a> · <a data-i18n="condiciones_ambientales_json" download="" id="conditions-download">Environmental conditions JSON</a> · <a data-i18n="metodo_y_resultados" href="../comparacion_tacana/similitud_catalogo_resumen.json">Method and results</a></p>
+<p><a data-i18n="catalogo_oficial_iau_usgs" href="https://planetarynames.wr.usgs.gov/GIS_Downloads">Official IAU / USGS catalog</a></p>
+<noscript><span data-i18n="activa_javascript_para_explorar_el_catalogo_tambien_puedes_descargar">Enable JavaScript to explore the catalog. You can also download</span> <a data-i18n="luna" href="./moon.json">Moon</a> <span data-i18n="o">or</span> <a data-i18n="marte" href="./mars.json">Mars</a>.</noscript>
+</main>
+<script src="./catalogo.js" type="module"></script>
 </body>
 </html>

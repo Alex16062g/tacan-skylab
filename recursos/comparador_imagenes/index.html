@@ -1,30 +1,31 @@
-<!doctype html>
-<html lang="es">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Comparador de imágenes | Tacaná</title><link rel="stylesheet" href="./style.css"></head>
+<!DOCTYPE html>
+
+<html lang="en">
+<head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><title data-i18n="comparador_de_imagenes_tacana">Image comparison | Tacaná</title><link href="./style.css" rel="stylesheet"/><link href="../../idiomas/idiomas.css" rel="stylesheet"/><script src="../../idiomas/i18n.js" type="module"></script></head>
 <body>
-  <header><a href="../../index.html">Volver al mapa</a><nav aria-label="Comparación"><a href="?body=MOON" data-body="MOON">Luna</a><a href="?body=MARS" data-body="MARS">Marte</a></nav></header>
-  <main>
-    <h1 id="title">Comparador de imágenes</h1>
-    <p id="status" role="status">Cargando imágenes…</p><button id="retry" type="button" hidden>Reintentar</button>
-    <section id="comparison" hidden>
-      <div class="summary"><span>12 × 12 km aprox. · Norte arriba</span><span id="score"></span></div>
-      <figure>
-        <div class="stage" id="stage">
-          <img id="planet" width="1024" height="1024" src="./moon.png" alt="Imagen orbital de la región lunar" draggable="false">
-          <img id="earth" class="earth" width="1024" height="1024" src="./tacana.jpg" alt="Vista satelital del entorno del volcán Tacaná" draggable="false">
-          <div class="divider" aria-hidden="true"><span class="handle"><svg viewBox="0 0 32 20" width="32" height="20"><path d="M11 4 5 10l6 6M21 4l6 6-6 6"/></svg></span></div>
-          <span class="tag left" id="earth-tag">Tierra · Tacaná</span><span class="tag right" id="planet-tag"></span>
-          <span class="scale" aria-hidden="true">2 km aprox.</span>
-          <input id="swipe" type="range" min="0" max="100" step="1" value="50" aria-labelledby="slider-label" aria-describedby="imagery-note">
-        </div>
-        <figcaption><label for="swipe" id="slider-label">Comparar imágenes</label><output id="position" for="swipe">Tacaná 50 % · Región 50 %</output></figcaption>
-      </figure>
-      <p id="imagery-note">Nota: Aunque las imágenes se vean diferentes, las regiones pueden compartir características del relieve, como la pendiente y el desnivel. La similitud se calcula a partir de esas medidas, no del parecido visual.</p>
-      <div class="sources"><p><a id="earth-source" target="_blank" rel="noopener"></a></p><p><a id="planet-source" target="_blank" rel="noopener"></a></p></div>
-      <p class="resolution" id="resolution"></p>
-      <details><summary>Datos de las imágenes</summary><p id="coordinates"></p><p>La división revela las dos imágenes completas sin estirarlas, girarlas ni alinear artificialmente sus formas. Las fechas de adquisición de estos recortes de mosaicos no están determinadas.</p><p><a href="./fuentes.json">Fuentes, coordenadas y archivos originales</a> · <a id="terrain-link">Ver modelos de relieve en 3D</a></p></details>
-    </section>
-    <noscript>Este comparador necesita JavaScript para cargar la región y mover la división. <a href="./fuentes.json">Consultar fuentes</a>.</noscript>
-  </main><script type="module" src="./viewer.js"></script>
+<header><a data-i18n="volver_al_mapa" href="../../index.html">Back to map</a><nav aria-label="Comparison" data-i18n-attrs="aria-label:comparacion"><a data-body="MOON" data-i18n="luna" href="?body=MOON">Moon</a><a data-body="MARS" data-i18n="marte" href="?body=MARS">Mars</a></nav><div aria-label="Language" class="language-switch" data-i18n-attrs="aria-label:idioma" role="group"><button aria-pressed="true" data-language="en" lang="en" type="button">English</button><button aria-pressed="false" data-language="es" lang="es" type="button">Español</button></div></header>
+<main>
+<h1 data-i18n="comparador_de_imagenes" id="title">Image comparison</h1>
+<p data-i18n="cargando_imagenes" id="status" role="status">Loading images…</p><button data-i18n="reintentar" hidden="" id="retry" type="button">Retry</button>
+<section hidden="" id="comparison">
+<div class="summary"><span data-i18n="12_12_km_aprox_norte_arriba">Approx. 12 × 12 km · North up</span><span id="score"></span></div>
+<figure>
+<div class="stage" id="stage">
+<img alt="Orbital image of the lunar region" data-i18n-attrs="alt:imagen_orbital_de_la_region_lunar" draggable="false" height="1024" id="planet" src="./moon.png" width="1024"/>
+<img alt="Satellite view around Tacaná volcano" class="earth" data-i18n-attrs="alt:vista_satelital_del_entorno_del_volcan_tacana" draggable="false" height="1024" id="earth" src="./tacana.jpg" width="1024"/>
+<div aria-hidden="true" class="divider"><span class="handle"><svg height="20" viewbox="0 0 32 20" width="32"><path d="M11 4 5 10l6 6M21 4l6 6-6 6"></path></svg></span></div>
+<span class="tag left" data-i18n="tierra_tacana" id="earth-tag">Earth · Tacaná</span><span class="tag right" id="planet-tag"></span>
+<span aria-hidden="true" class="scale" data-i18n="2_km_aprox">Approx. 2 km</span>
+<input aria-describedby="imagery-note" aria-labelledby="slider-label" id="swipe" max="100" min="0" step="1" type="range" value="50"/>
+</div>
+<figcaption><label data-i18n="comparar_imagenes" for="swipe" id="slider-label">Compare images</label><output data-i18n="tacana_50_region_50" for="swipe" id="position">Tacaná 50 % · Region 50 %</output></figcaption>
+</figure>
+<p data-i18n="nota_aunque_las_imagenes_se_vean_diferentes_las_regiones_pueden_comparti" id="imagery-note">Note: Although the images may look different, the regions can share terrain characteristics such as slope and relief. Similarity is calculated from these measurements, not visual resemblance.</p>
+<div class="sources"><p><a id="earth-source" rel="noopener" target="_blank"></a></p><p><a id="planet-source" rel="noopener" target="_blank"></a></p></div>
+<p class="resolution" id="resolution"></p>
+<details><summary data-i18n="datos_de_las_imagenes">Image data</summary><p id="coordinates"></p><p data-i18n="la_division_revela_las_dos_imagenes_completas_sin_estirarlas_girarlas_ni">The divider reveals both complete images without stretching, rotating or artificially aligning their shapes. Acquisition dates for these mosaic crops have not been determined.</p><p><a data-i18n="fuentes_coordenadas_y_archivos_originales" href="./fuentes.json">Sources, coordinates and original files</a> · <a data-i18n="ver_modelos_de_relieve_en_3d" id="terrain-link">View 3D terrain models</a></p></details>
+</section>
+<noscript><span data-i18n="este_comparador_necesita_javascript_para_cargar_la_region_y_mover_la_div">This comparison requires JavaScript to load the region and move the divider.</span> <a data-i18n="consultar_fuentes" href="./fuentes.json">View sources</a>.</noscript>
+</main><script src="./viewer.js" type="module"></script>
 </body>
 </html>

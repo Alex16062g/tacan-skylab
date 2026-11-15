@@ -5,16 +5,17 @@ from PIL import Image
 from imagenes_catalogo import ROOT,OUT,LEGACY_OUT,catalog
 
 DEST=ROOT/'recursos/github-pages'
-STATIC_ADAPTER='''export async function imagenRegional(body, id) {
+STATIC_ADAPTER='''import * as i18n from '../../idiomas/i18n.js';
+export async function imagenRegional(body, id) {
   const base = new URL('./', import.meta.url);
   const response = await fetch(new URL('regiones_manifest.json', base));
-  if (!response.ok) throw new Error('No se pudo cargar el catálogo de imágenes.');
+  if (!response.ok) throw new Error(i18n.t('no_se_pudo_cargar_el_catalogo_de_imagenes'));
   const manifest = await response.json();
   const entry = manifest.regions[id];
-  if (!entry || entry.body !== body) throw new Error('Región no encontrada.');
-  if (!entry.metadata) throw new Error(entry.message || 'La fuente no ofrece una imagen disponible de esta región.');
+  if (!entry || entry.body !== body) throw new Error(i18n.t('region_no_encontrada_punto'));
+  if (!entry.metadata) throw new Error(i18n.t(entry.status === 'unavailable' ? 'imagen_no_disponible_edicion' : 'imagen_pendiente'));
   const metadata = await fetch(new URL(entry.metadata, base));
-  if (!metadata.ok) throw new Error('No se pudo cargar la imagen de esta región.');
+  if (!metadata.ok) throw new Error(i18n.t('no_se_pudo_cargar_la_imagen_de_esta_region'));
   const data = await metadata.json();
   data.file = new URL(data.file, base).href;
   return data;
@@ -31,7 +32,7 @@ def main():
     parser=argparse.ArgumentParser();parser.add_argument('--allow-incomplete',action='store_true',help='Local preview only; final package requires every region processed.')
     args=parser.parse_args();DEST.mkdir(parents=True,exist_ok=True)
     for name in ['index.html','style.css','mapa.js','resultados-python.js','ecuaciones.md','REFERENCIAS.md']:copy(name)
-    for folder in ['img','datos','recursos/catalogo_regiones','recursos/comparacion_tacana','recursos/comparador_3d','recursos/sismos']:
+    for folder in ['idiomas','img','datos','recursos/catalogo_regiones','recursos/comparacion_tacana','recursos/comparador_3d','recursos/sismos']:
         for source in (ROOT/folder).rglob('*'):
             if folder=='datos' and source.suffix=='.csv':continue
             if source.is_file() and (source.suffix in ['.html','.js','.css','.json','.geojson','.md','.csv','.txt'] or source.name in ['LICENSE','COPYING','NOTICE'] or folder=='img'):

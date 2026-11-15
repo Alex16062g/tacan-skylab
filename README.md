@@ -22,6 +22,12 @@ Su objetivo es identificar regiones con características cuantitativas comparabl
 | Condiciones ambientales | MODIS, Diviner, Mars Climate Sounder y NASA POWER | Análisis y contextualización de temperatura, presión y otras condiciones, según su disponibilidad |
 | Sismicidad | Servicio Sismológico Nacional, UNAM | Selección de epicentros dentro del área de estudio del Tacaná |
 
+## Idiomas de la aplicación
+
+La interfaz se inicia en inglés y permite cambiar a español desde el selector superior. La selección se conserva en el navegador y se aplica a los mapas, las comparaciones, los catálogos y los mensajes de estado.
+
+Los textos se mantienen en `idiomas/en.js` e `idiomas/es.js`, con las mismas claves en ambos archivos. Los marcadores `{0}`, `{1}` y siguientes representan valores insertados por la aplicación y deben conservarse al editar una traducción. `idiomas/i18n.js` actualiza los textos sin recargar la página; `idiomas/idiomas.css` define el selector.
+
 ## Ecuaciones
 
 ### Preparación y alcance

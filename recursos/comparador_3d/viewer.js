@@ -1,7 +1,8 @@
+import * as i18n from '../../idiomas/i18n.js';
 const body = new URLSearchParams(location.search).get('body') === 'MARS' ? 'MARS' : 'MOON';
-const bodyName = body === 'MOON' ? 'Luna' : 'Marte';
-const number = (value, digits = 2) => value.toLocaleString('es-MX', { maximumFractionDigits: digits });
-const percent = value => value.toLocaleString('es-MX', { minimumFractionDigits: 6, maximumFractionDigits: 6 });
+const bodyName = body === 'MOON' ? i18n.t("luna") : i18n.t("marte");
+const number = (value, digits = 2) => value.toLocaleString(i18n.locale(), { maximumFractionDigits: digits });
+const percent = value => value.toLocaleString(i18n.locale(), { minimumFractionDigits: 6, maximumFractionDigits: 6 });
 const $ = id => document.getElementById(id);
 document.querySelector(`[data-body="${body}"]`).setAttribute('aria-current', 'page');
 $('retry').addEventListener('click', () => location.reload());
@@ -91,9 +92,9 @@ function build(host, model, low, high) {
   const canvas = renderer.domElement;
   canvas.tabIndex = 0;
   canvas.setAttribute('role','img');
-  canvas.setAttribute('aria-label', `Terreno 3D de ${model.name}. Altura relativa, escala vertical uno a uno.`);
+  i18n.attr(canvas, 'aria-label', () => i18n.t("terreno_3d_de_0_altura_relativa_escala_vertical_uno_a_uno", [model.name]));
   canvas.setAttribute('aria-describedby','controls-help');
-  canvas.textContent = `Modelo de elevación de ${model.name}. Los datos están disponibles en el enlace de descarga.`;
+  i18n.text(canvas, () => i18n.t("modelo_de_elevacion_de_0_los_datos_estan_disponibles_en_el_enlace_de_des", [model.name]));
   host.append(canvas);
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(42,1,.1,100);
@@ -132,40 +133,40 @@ function build(host, model, low, high) {
   const view={renderer,scene,camera,wire,host}; views.push(view);
   controls(canvas);
   canvas.addEventListener('webglcontextlost', event => {
-    event.preventDefault(); $('status').textContent='La vista 3D se ha interrumpido. Recarga el comparador.'; $('status').hidden=false; $('retry').hidden=false;
+    event.preventDefault(); i18n.text($('status'), () => i18n.t("la_vista_3d_se_ha_interrumpido_recarga_el_comparador")); $('status').hidden=false; $('retry').hidden=false;
   });
   return view;
 }
 
 async function init() {
   const response = await fetch(`./${body.toLowerCase()}.json`, {cache:'no-store'});
-  if (!response.ok) throw new Error('No se pudieron cargar los terrenos.');
+  if (!response.ok) throw new Error(i18n.t("no_se_pudieron_cargar_los_terrenos"));
   const data = await response.json();
   for (const model of [data.reference,data.comparison]) {
-    if (model.heights_m?.length!==7 || model.heights_m.some(row=>row.length!==7 || !row.every(Number.isFinite)) || !Number.isFinite(model.median_m)) throw new Error('Los datos del terreno no tienen el formato esperado.');
+    if (model.heights_m?.length!==7 || model.heights_m.some(row=>row.length!==7 || !row.every(Number.isFinite)) || !Number.isFinite(model.median_m)) throw new Error(i18n.t("los_datos_del_terreno_no_tienen_el_formato_esperado"));
   }
-  $('title').textContent=`Tacaná y ${data.comparison.name} · ${bodyName}`;
-  document.title=`${data.comparison.name} en 3D | Tacaná`;
-  $('region-name').textContent=data.comparison.name;
-  $('score').textContent=`${percent(data.similarity.similarity_percent)} %`;
+  i18n.text($('title'), () => i18n.t("tacana_y_0_1", [data.comparison.name, bodyName]));
+  i18n.title(() => i18n.t("0_en_3d_tacana", [data.comparison.name]));
+  i18n.text($('region-name'), () => data.comparison.name);
+  i18n.text($('score'), () => `${percent(data.similarity.similarity_percent)} %`);
   $('download').href=`./${body.toLowerCase()}.json`;
   const relative = model => model.heights_m.flat().map(h=>(h-model.median_m)/1000);
   const all=[...relative(data.reference),...relative(data.comparison)];
   const low=Math.min(...all),high=Math.max(...all);
-  $('color-min').textContent=`${number(low*1000)} m`; $('color-max').textContent=`${number(high*1000)} m`;
+  i18n.text($('color-min'), () => `${number(low*1000)} m`); i18n.text($('color-max'), () => `${number(high*1000)} m`);
   for (const [model,prefix] of [[data.reference,'reference'],[data.comparison,'region']]) {
-    $(`${prefix}-coordinates`).textContent=`${number(model.center[1],4)}° lat. · ${number(model.center[0],4)}° lon.`;
+    i18n.text($(`${prefix}-coordinates`), () => `${number(model.center[1],4)}° lat. · ${number(model.center[0],4)}° lon.`);
     const values=relative(model);
-    $(`${prefix}-range`).textContent=`Altura relativa: ${number(Math.min(...values)*1000)} a ${number(Math.max(...values)*1000)} m`;
+    i18n.text($(`${prefix}-range`), () => i18n.t("altura_relativa_0_a_1_m", [number(Math.min(...values)*1000), number(Math.max(...values)*1000)]));
   }
   for (const feature of data.similarity.features) {
-    const row=document.createElement('tr'), th=document.createElement('th'); th.scope='row'; th.textContent=feature.label; row.append(th);
+    const row=document.createElement('tr'), th=document.createElement('th'); th.scope='row'; i18n.text(th, () => feature.label); row.append(th);
     for (const text of [percent(feature.similarity_percent),`${number(feature.weight*100)} %`]) {
-      const td=document.createElement('td');td.textContent=text;row.append(td);
+      const td=document.createElement('td');i18n.text(td, () => text);row.append(td);
     }
     $('metrics').append(row);
   }
-  $('sensitivity').textContent=`Sensibilidad a escala de 3 km: ${percent(data.sensitivity.similarity_percent)} %.`;
+  i18n.text($('sensitivity'), () => i18n.t("sensibilidad_a_escala_de_3_km_0", [percent(data.sensitivity.similarity_percent)]));
   $('content').hidden=false;
   THREE = await import('./vendor/three.module.js');
   build($('reference'),data.reference,low,high);
@@ -179,7 +180,7 @@ async function init() {
 init().catch(error=>{
   console.error(error);
   $('status').hidden=false;
-  $('status').textContent='No se pudo abrir la vista 3D. Comprueba los archivos y que WebGL esté disponible en tu navegador.';
+  i18n.text($('status'), () => i18n.t("no_se_pudo_abrir_la_vista_3d_comprueba_los_archivos_y_que_webgl_este_dis"));
   $('retry').hidden=false;
   document.querySelectorAll('.controls button').forEach(button=>button.disabled=true);
 });

@@ -1,3 +1,4 @@
+import * as i18n from '../../idiomas/i18n.js';
 // Local development adapter. The static exporter replaces this module.
 export async function imagenRegional(body, id, view) {
   // Prefer the exported local assets: viewing an existing crop must not
@@ -26,7 +27,8 @@ export async function imagenRegional(body, id, view) {
   endpoint.search = new URLSearchParams({ body, region: id, view });
   const response = await fetch(endpoint);
   const data = await response.json();
-  if (!response.ok) throw new Error(data.error || 'No se pudo obtener el recorte.');
+  if (response.status === 429 && Number.isFinite(data.retry_after_seconds)) throw new Error(i18n.t('pds_limite', [Math.ceil(data.retry_after_seconds / 60)]));
+  if (!response.ok) throw new Error(i18n.t('no_se_pudo_obtener_el_recorte'));
   data.file = new URL(`/recursos/comparador_imagenes/${data.file}`, service).href;
   return data;
 }
