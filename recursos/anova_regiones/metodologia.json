@@ -1,0 +1,60 @@
+{
+  "seed": 20261114,
+  "sample_count": 5760,
+  "sectors_per_body": 36,
+  "latitude_coverage": [
+    -85,
+    85
+  ],
+  "longitude_coverage": [
+    0,
+    360
+  ],
+  "sources": [
+    {
+      "body": "luna",
+      "group": "global",
+      "file": "luna/global/ldem_16.tif",
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/ldem_16.tif",
+      "purpose": "Elevación LOLA global; float32 km; 16 px/grado; referencia 1737.4 km",
+      "status": "downloaded",
+      "bytes": 66378634,
+      "sha256": "1ea42bf44f7e9d694f79c3afa7145f97fbf06cc67372067d9fe73dce43bad796",
+      "retrieved_utc": "2026-11-14T22:57:55.546578+00:00"
+    },
+    {
+      "body": "marte",
+      "group": "global",
+      "file": "marte/global/megt90n000fb.img",
+      "url": "https://pds-geosciences.wustl.edu/mgs/urn-nasa-pds-mgs_mola_topography_derived/meg032/megt90n000fb.img",
+      "purpose": "Elevación MOLA global; 32 px/grado; metros respecto al areoide GMM3",
+      "status": "downloaded",
+      "error": "ConnectionError: HTTPSConnectionPool(host='pds-geosciences.wustl.edu', port=443): Read timed out.",
+      "bytes": 132710400,
+      "sha256": "09ae1c0956afcdc869bd82c55993849f67c16ef0efe73f38cb1ea204c186ad8b",
+      "retrieved_utc": "2026-11-14T23:04:37.020056+00:00"
+    }
+  ],
+  "additional_region": {
+    "region": "Shackleton rim / Site04",
+    "shape": [
+      3200,
+      3200
+    ],
+    "pixel_spacing_m": 5,
+    "elevation_min_m": -2847.877197265625,
+    "elevation_max_m": 1805.0726318359375,
+    "elevation_mean_m": 245.34379158594027,
+    "included_in_anova": false
+  },
+  "method": "Uniform-area random sampling within 30-degree latitude x 60-degree longitude sectors. Bilinear DEM interpolation. Slope: central differences with offsets of 10 km. Relief: P95-P05 of a 5x5 grid spaced by 10 km in a local tangent approximation. ANOVA separately within each body.",
+  "limitations": [
+    "Exploratory only: spatial independence is not established; p values are conditional and not confirmatory evidence.",
+    "Sectors are analytical bins, not official geological regions. Polar caps beyond 85 degrees are excluded.",
+    "Random samples may have overlapping neighborhoods; spatial autocorrelation needs explicit modelling or block resampling before inference.",
+    "DEM interpolation and native instrument resolution differ. Same derivative baseline does not imply identical effective resolution.",
+    "Elevation references differ by body; absolute elevations are never pooled across bodies.",
+    "No temperature, regional gravity, composition or thermal inertia has been added; those require separate products and processing.",
+    "P values reported as zero indicate numerical underflow, not exact probability zero."
+  ]
+}

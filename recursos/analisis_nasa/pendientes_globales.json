@@ -1,0 +1,32 @@
+{
+  "luna": {
+    "file": "D:\\space\\analisis_nasa\\luna_pendiente_global_grados.npy",
+    "shape": [
+      2880,
+      5760
+    ],
+    "dtype": "float32",
+    "unit": "degrees",
+    "source_ppd": 16,
+    "equatorial_spacing_m": 1895.2094015093426,
+    "sphere_radius_m": 1737400.0,
+    "polar_exclusion": "|latitud| >=85 grados: NaN; usar DEM polar para pendientes polares",
+    "method": "Gradientes centrales, dx=R*cos(lat)*dlongitud, dy=R*dlatitud; longitud periódica; atan(hypot). Latitudes en centro de celda. Incluye celdas interpoladas del DEM.",
+    "status": "Derivado local, no pendiente publicada por NASA"
+  },
+  "marte": {
+    "file": "D:\\space\\analisis_nasa\\marte_pendiente_global_grados.npy",
+    "shape": [
+      5760,
+      11520
+    ],
+    "dtype": "float32",
+    "unit": "degrees",
+    "source_ppd": 32,
+    "equatorial_spacing_m": 1852.2306686789823,
+    "sphere_radius_m": 3396000.0,
+    "polar_exclusion": "|latitud| >=85 grados: NaN; usar DEM polar para pendientes polares",
+    "method": "Gradientes centrales, dx=R*cos(lat)*dlongitud, dy=R*dlatitud; longitud periódica; atan(hypot). Latitudes en centro de celda. Incluye celdas interpoladas del DEM.",
+    "status": "Derivado local, no pendiente publicada por NASA"
+  }
+}

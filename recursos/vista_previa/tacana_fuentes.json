@@ -1,0 +1,46 @@
+{
+  "name": "Volcán Tacaná",
+  "location": "Frontera Chiapas, México / Guatemala",
+  "catalog_position": {
+    "latitude": 15.132,
+    "longitude": -92.109,
+    "elevation_m": 4064,
+    "source": "https://volcano.si.edu/volcano.cfm?vn=341130"
+  },
+  "dataset": "Copernicus DEM GLO-30 (DSM)",
+  "provider": "Microsoft Planetary Computer / Azure",
+  "item_id": "Copernicus_DSM_COG_10_N15_00_W093_00_DEM",
+  "item_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/cop-dem-glo-30/items/Copernicus_DSM_COG_10_N15_00_W093_00_DEM",
+  "dataset_url": "https://planetarycomputer.microsoft.com/dataset/cop-dem-glo-30",
+  "documentation": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+  "source_file": "tacana_copernicus_glo30.tif",
+  "sha256": "7d3123ba2f81af1c1620645184a479ebb2513a9e3247392d4d08d941449ec84c",
+  "processed_utc": "2026-11-14T22:17:03.946096+00:00",
+  "horizontal_crs": "WGS84 EPSG:4326",
+  "vertical_reference": "EGM2008; metros (documentación Copernicus)",
+  "native_spacing_arcseconds": [
+    1.0,
+    1.0
+  ],
+  "local_spacing_m": [
+    29.856729877028556,
+    30.736106038814796
+  ],
+  "sample_bounds_wsen": [
+    -92.17388888888888,
+    15.069166666666664,
+    -92.04416666666667,
+    15.194999999999999
+  ],
+  "raster_shape": [
+    454,
+    468
+  ],
+  "elevation_range_m": [
+    869.2000732421875,
+    4085.37255859375
+  ],
+  "processing": "Recorte sin remuestreo. Un vértice por muestra original. X este, Z sur; aproximación métrica local WGS84. Elevación centrada visualmente; escala vertical 1× por defecto.",
+  "limitations": "DSM de superficie, incluye vegetación e infraestructura; no equivale a terreno desnudo ni a medición topográfica de la cumbre. Colores por elevación, no imagen satelital.",
+  "attribution": "produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved"
+}

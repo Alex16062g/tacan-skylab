@@ -1,0 +1,25 @@
+body,variable,minimum_difference,reference_sd,target_power,alpha,comparison_plan,approx_independent_units_per_group,status
+MOON,slope_deg,0.5,2.531366282917932,0.8,0.05,single_prespecified_pair,403,Normal-approximation planning scenario; not achieved power or number of pixels required
+MOON,slope_deg,0.5,2.531366282917932,0.8,1.3227513227513228e-05,conservative_all_pairs,1386,Normal-approximation planning scenario; not achieved power or number of pixels required
+MOON,slope_deg,1.0,2.531366282917932,0.8,0.05,single_prespecified_pair,101,Normal-approximation planning scenario; not achieved power or number of pixels required
+MOON,slope_deg,1.0,2.531366282917932,0.8,1.3227513227513228e-05,conservative_all_pairs,347,Normal-approximation planning scenario; not achieved power or number of pixels required
+MOON,slope_deg,2.0,2.531366282917932,0.8,0.05,single_prespecified_pair,26,Normal-approximation planning scenario; not achieved power or number of pixels required
+MOON,slope_deg,2.0,2.531366282917932,0.8,1.3227513227513228e-05,conservative_all_pairs,87,Normal-approximation planning scenario; not achieved power or number of pixels required
+MOON,relief_p95_p05_m,100.0,1185.6771314908053,0.8,0.05,single_prespecified_pair,2207,Normal-approximation planning scenario; not achieved power or number of pixels required
+MOON,relief_p95_p05_m,100.0,1185.6771314908053,0.8,1.3227513227513228e-05,conservative_all_pairs,7597,Normal-approximation planning scenario; not achieved power or number of pixels required
+MOON,relief_p95_p05_m,250.0,1185.6771314908053,0.8,0.05,single_prespecified_pair,354,Normal-approximation planning scenario; not achieved power or number of pixels required
+MOON,relief_p95_p05_m,250.0,1185.6771314908053,0.8,1.3227513227513228e-05,conservative_all_pairs,1216,Normal-approximation planning scenario; not achieved power or number of pixels required
+MOON,relief_p95_p05_m,500.0,1185.6771314908053,0.8,0.05,single_prespecified_pair,89,Normal-approximation planning scenario; not achieved power or number of pixels required
+MOON,relief_p95_p05_m,500.0,1185.6771314908053,0.8,1.3227513227513228e-05,conservative_all_pairs,304,Normal-approximation planning scenario; not achieved power or number of pixels required
+MARS,slope_deg,0.5,2.4929469666663673,0.8,0.05,single_prespecified_pair,391,Normal-approximation planning scenario; not achieved power or number of pixels required
+MARS,slope_deg,0.5,2.4929469666663673,0.8,1.3227513227513228e-05,conservative_all_pairs,1344,Normal-approximation planning scenario; not achieved power or number of pixels required
+MARS,slope_deg,1.0,2.4929469666663673,0.8,0.05,single_prespecified_pair,98,Normal-approximation planning scenario; not achieved power or number of pixels required
+MARS,slope_deg,1.0,2.4929469666663673,0.8,1.3227513227513228e-05,conservative_all_pairs,336,Normal-approximation planning scenario; not achieved power or number of pixels required
+MARS,slope_deg,2.0,2.4929469666663673,0.8,0.05,single_prespecified_pair,25,Normal-approximation planning scenario; not achieved power or number of pixels required
+MARS,slope_deg,2.0,2.4929469666663673,0.8,1.3227513227513228e-05,conservative_all_pairs,84,Normal-approximation planning scenario; not achieved power or number of pixels required
+MARS,relief_p95_p05_m,100.0,1743.9691526841618,0.8,0.05,single_prespecified_pair,4775,Normal-approximation planning scenario; not achieved power or number of pixels required
+MARS,relief_p95_p05_m,100.0,1743.9691526841618,0.8,1.3227513227513228e-05,conservative_all_pairs,16435,Normal-approximation planning scenario; not achieved power or number of pixels required
+MARS,relief_p95_p05_m,250.0,1743.9691526841618,0.8,0.05,single_prespecified_pair,764,Normal-approximation planning scenario; not achieved power or number of pixels required
+MARS,relief_p95_p05_m,250.0,1743.9691526841618,0.8,1.3227513227513228e-05,conservative_all_pairs,2630,Normal-approximation planning scenario; not achieved power or number of pixels required
+MARS,relief_p95_p05_m,500.0,1743.9691526841618,0.8,0.05,single_prespecified_pair,191,Normal-approximation planning scenario; not achieved power or number of pixels required
+MARS,relief_p95_p05_m,500.0,1743.9691526841618,0.8,1.3227513227513228e-05,conservative_all_pairs,658,Normal-approximation planning scenario; not achieved power or number of pixels required

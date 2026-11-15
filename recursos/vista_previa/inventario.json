@@ -1,0 +1,142 @@
+[
+  {
+    "archivo": "ldac_50s_3000m.jp2",
+    "cuerpo": "Luna",
+    "dimensiones": [
+      844,
+      844
+    ],
+    "modo": "I;16",
+    "bytes": 580468,
+    "sha256": "a15688554df062d03d30cbfa02c43ccbba94831ee8117120d6a1ca0f4c501458",
+    "crs": "Moon2000_spole|GCS Name = GCS_Moon|Datum = Moon_2000|Ellipsoid = Moon_2000_IAU_IAG|Primem = Reference_Meridian||",
+    "escala_m_por_pixel": [
+      3000.0,
+      3000.0
+    ],
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      -1266000.0,
+      1266000.0,
+      0.0
+    ],
+    "evidencia": "GeoTIFF incrustado: GCS_Moon / Moon_2000 / Moon2000_spole.",
+    "min_max_completo": [
+      32768,
+      35565
+    ],
+    "escala_preview": {
+      "min": 32768.0,
+      "max": 32927.0,
+      "metodo": "log(1+valor−mínimo), saturación en percentil 99 de la muestra; contraste visual, no calibración física."
+    },
+    "tipo": "Capa auxiliar de albedo (LDAC)",
+    "cobertura": "Polo sur",
+    "unidades": "Valores almacenados; falta etiqueta PDS .LBL para validar escala y NoData",
+    "preview": "ldac_50s_3000m.png"
+  },
+  {
+    "archivo": "ldec_80s_80m.jp2",
+    "cuerpo": "Luna",
+    "dimensiones": [
+      7600,
+      7600
+    ],
+    "modo": "I;16",
+    "bytes": 30425213,
+    "sha256": "ba02c3cf7b8a584da07daba02f98dccd539d70289c526d73c3fc606aa9a82782",
+    "crs": "Moon2000_spole|GCS Name = GCS_Moon|Datum = Moon_2000|Ellipsoid = Moon_2000_IAU_IAG|Primem = Reference_Meridian||",
+    "escala_m_por_pixel": [
+      80.0,
+      80.0
+    ],
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      -304000.0,
+      304000.0,
+      0.0
+    ],
+    "evidencia": "GeoTIFF incrustado: GCS_Moon / Moon_2000 / Moon2000_spole.",
+    "min_max_completo": [
+      32768,
+      33040
+    ],
+    "escala_preview": {
+      "min": 32768.0,
+      "max": 32808.0,
+      "metodo": "log(1+valor−mínimo), saturación en percentil 99 de la muestra; contraste visual, no calibración física."
+    },
+    "tipo": "Conteo de altimetría",
+    "cobertura": "Polo sur",
+    "unidades": "Valores almacenados; falta etiqueta PDS .LBL para validar escala y NoData",
+    "preview": "ldec_80s_80m.png"
+  },
+  {
+    "archivo": "ldem_64.tif",
+    "cuerpo": "Luna",
+    "dimensiones": [
+      23040,
+      11520
+    ],
+    "modo": "F",
+    "bytes": 1061775722,
+    "sha256": "af55ea2ed9173d1744b98ac4205501bd0bb0dcfc6ac49a11473a411dc64afd90",
+    "tipo": "Elevación",
+    "evidencia": "Nombre, dimensiones y formato coinciden con NASA CGI Moon Kit; TIFF sin CRS incrustado.",
+    "unidades": "km (según producto NASA)",
+    "resolucion": "64 píxeles/grado",
+    "cobertura": "Global",
+    "min_max_completo": [
+      -9.114500045776367,
+      10.757000923156738
+    ],
+    "escala_preview": {
+      "min": -9,
+      "max": 11,
+      "unidad": "km",
+      "metodo": "Submuestreo cada 16 píxeles; color terrain; límites fijos."
+    },
+    "preview": "ldem_64.png"
+  },
+  {
+    "archivo": "ldec_80s_80m (1).jp2",
+    "cuerpo": "Luna",
+    "dimensiones": [
+      7600,
+      7600
+    ],
+    "modo": "I;16",
+    "bytes": 30425213,
+    "sha256": "ba02c3cf7b8a584da07daba02f98dccd539d70289c526d73c3fc606aa9a82782",
+    "duplicado_de": "ldec_80s_80m.jp2",
+    "preview": "ldec_80s_80m.png",
+    "tipo": "Conteo de altimetría"
+  },
+  {
+    "archivo": "trekOBJ.zip",
+    "cuerpo": "Marte",
+    "tipo": "Malla 3D + material + textura",
+    "bytes": 10043021,
+    "vertices": 969570,
+    "caras": 323190,
+    "uv": 955206,
+    "limites": [
+      [
+        0.0,
+        0.0,
+        -10.092656
+      ],
+      [
+        399.0,
+        399.0,
+        10.348464
+      ]
+    ],
+    "preview": "modelo.png",
+    "evidencia": "Procedencia marciana confirmada explícitamente por el usuario. Coordenadas locales; región y unidades físicas no especificadas."
+  }
+]

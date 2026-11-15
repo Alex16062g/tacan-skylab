@@ -1,0 +1,135 @@
+{
+  "retrieved_utc": "2026-11-15T15:14:56.057275+00:00",
+  "images": {
+    "EARTH": {
+      "file": "tacana.jpg",
+      "center": [
+        -92.109,
+        15.132
+      ],
+      "bounds_wsen": [
+        -92.16489735140748,
+        15.078040778176527,
+        -92.05310264859251,
+        15.185959221823472
+      ],
+      "credit": "USGS / NASA, Landsat 8 OLI",
+      "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_021050_20251126_02_T1",
+      "product_id": "LC08_L2SP_021050_20251126_02_T1",
+      "native_resolution_m": 30,
+      "acquisition_date": "2025-11-26T16:30:36.104249Z",
+      "license": "Public domain (U.S. Government work)",
+      "license_url": "https://www.usgs.gov/faqs/are-there-any-restrictions-use-or-redistribution-landsat-data",
+      "processing": "RGB B4/B3/B2 surface reflectance; scale 0.0000275, offset -0.2; fixed stretch 0–0.35 and gamma 2.2; bilinear display resampling; no generated pixels or cloud replacement.",
+      "qa_flagged_fraction": 0.0032491683959960938,
+      "sha256": "b456d76d505784df03602e4bcfc92c713d531865af192d41b3488a9fb60fe2b7",
+      "raw_crops": [
+        "recursos\\datos\\imagenes_abiertas\\landsat_blue.tif",
+        "recursos\\datos\\imagenes_abiertas\\landsat_green.tif",
+        "recursos\\datos\\imagenes_abiertas\\landsat_qa_pixel.tif",
+        "recursos\\datos\\imagenes_abiertas\\landsat_red.tif"
+      ]
+    },
+    "MOON": {
+      "file": "moon.png",
+      "center": [
+        35.94579999999999,
+        -28.6676
+      ],
+      "bounds_wsen": [
+        35.72028899926771,
+        -28.865467317300848,
+        36.171311000732274,
+        -28.469732682699153
+      ],
+      "credit": "NASA/GSFC/Arizona State University; LROC PDS",
+      "source_url": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/BDR/WAC_GLOBAL/WAC_GLOBAL_E300S0450_100M.IMG",
+      "native_resolution_m": 100,
+      "acquisition_date": null,
+      "product_id": "WAC_GLOBAL_E300S0450_100M",
+      "product_version": "v1.3",
+      "license": "Public domain (LROC PDS product)",
+      "license_url": "https://www.lroc.im-ldi.com/about/terms",
+      "processing": "PDS float32 pixels; byte-range crop; display stretch P1–P99; bilinear resampling. No generated detail.",
+      "source_byte_range": [
+        942412812,
+        955621655
+      ],
+      "source_rows_sha256": "c8e0bd661e6bd7bb0c2e63f3a634bbb89f72f15295a09b1e11adc54a65db501e",
+      "sha256": "97d87202168f6e1a8c7cae6b510e912d7d7aa2120aaae3f278b59b7a53e51bfe"
+    },
+    "MARS": {
+      "file": "mars.png",
+      "center": [
+        -55.040099999999995,
+        -9.886
+      ],
+      "bounds_wsen": [
+        -55.14284932229649,
+        -9.98722362914869,
+        -54.9373506777035,
+        -9.784776370851308
+      ],
+      "tiles": [
+        {
+          "url": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX1/MapServer/tile/11/1135/1420",
+          "sha256": "dbc33c24029f6fc2e25d28c79ebc024d982ea70fac2636c7bb6b003b21967423"
+        },
+        {
+          "url": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX1/MapServer/tile/11/1135/1421",
+          "sha256": "2ec2dac19230a3f6ab6b0818d08888d632e590734f847fb1fc6507e60b607b4b"
+        },
+        {
+          "url": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX1/MapServer/tile/11/1135/1422",
+          "sha256": "9603c69db6866e9804e3fdfebddbf07392487871f976b235039d686957c36db9"
+        },
+        {
+          "url": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX1/MapServer/tile/11/1136/1420",
+          "sha256": "e5f0eebb02d605af5f54fff6bd60fb9371e8724f698ffb86d726487ebbf335f6"
+        },
+        {
+          "url": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX1/MapServer/tile/11/1136/1421",
+          "sha256": "353d8ce2bed5a8dff7f33f9ea251721ef71a99ef19984fad0aedfd4028a79987"
+        },
+        {
+          "url": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX1/MapServer/tile/11/1136/1422",
+          "sha256": "b12caf289c8400ec3e9445f7e3c7a32c49f164df1eaa81c0bdfe61ad8f8d95da"
+        },
+        {
+          "url": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX1/MapServer/tile/11/1137/1420",
+          "sha256": "a455a1b82b175bcf23ce8f51b6f7d5f58aa9b6b9e8e41d900e25d97867efc6e8"
+        },
+        {
+          "url": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX1/MapServer/tile/11/1137/1421",
+          "sha256": "e845ca907c91247600a9e816816c7cd3d4e69a8d6fc0bbad13c4322850c03953"
+        },
+        {
+          "url": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX1/MapServer/tile/11/1137/1422",
+          "sha256": "d83651a30abbe66167c26c2b528bb2d50569286d8221bf1420ef965764c0a013"
+        }
+      ],
+      "credit": "NASA/JPL/MSSS/The Murray Lab; distributed by Esri",
+      "source_url": "https://murray-lab.caltech.edu/CTX/",
+      "native_resolution_m": 5,
+      "served_pixel_latitude_m": 10.175176195330733,
+      "sha256": "04d3e750bdb31cb1c4e2827fefbb2282924a5f43686337e4df81a4412d517d18",
+      "acquisition_date": null,
+      "license": "Free use for all purposes; credit NASA/JPL/MSSS/The Murray Lab",
+      "license_url": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX1/MapServer",
+      "product_version": "Beta01 (as identified by the imagery service)"
+    }
+  },
+  "window_side_approx_km": 12,
+  "north_up": true,
+  "selected_regions": {
+    "MOON": "MOON:11549",
+    "MARS": "MARS:4475"
+  },
+  "limitations": [
+    "Different dates, sensors, illumination, atmospheric conditions and resolution.",
+    "Approximate 12 km geographic windows; longitude scale adjusted at center latitude.",
+    "Swipe does not register matching features or measure photographic similarity.",
+    "The terrain index is calculated separately from elevation models.",
+    "Acquisition dates for these mosaic extracts have not been determined."
+  ]
+}

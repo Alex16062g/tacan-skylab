@@ -1,0 +1,14 @@
+{
+  "description": "Miniaturas de relieve derivadas; colores y sombreado ilustrativos, no fotografías ni mapas para medición.",
+  "projection": "Equirectangular, norte arriba, longitudes -180 a 180 E",
+  "moon": {
+    "source": "NASA LOLA / NASA SVS",
+    "url": "https://svs.gsfc.nasa.gov/4720/",
+    "file": "ldem_16.tif"
+  },
+  "mars": {
+    "source": "NASA MOLA / PDS",
+    "url": "https://pds-geosciences.wustl.edu/missions/mgs/megdr.html",
+    "file": "megt90n000fb.img"
+  }
+}

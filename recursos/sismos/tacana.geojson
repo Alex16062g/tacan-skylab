@@ -1,0 +1,913 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "source": "Servicio Sismológico Nacional (SSN), UNAM",
+    "source_url": "https://doi.org/10.21766/SSNMX/EC/MX",
+    "source_file": "datos\\SSNMX_catalogo_20200101_20261114.csv",
+    "source_sha256": "8c59a4bd9ad13d6f4b13399d25ac2e368b477eabb9a9fda333f37ce957a7045a",
+    "national_events": 221217,
+    "selected_events": 42,
+    "period": [
+      "2020-01-01",
+      "2026-11-14"
+    ],
+    "filter": {
+      "method": "epicentre inside displayed Tacana rectangle; inclusive boundaries",
+      "bounds_wsen": [
+        -92.17388888888888,
+        15.069166666666664,
+        -92.04416666666667,
+        15.194999999999999
+      ],
+      "depth_filter": null,
+      "magnitude_filter": null
+    },
+    "time_basis": "Date and time as published: central Mexico local time; UTC values retained separately",
+    "interpretation": "Geographical selection only. Does not establish volcanic origin or a geological boundary of the volcano.",
+    "use_conditions": "SSN catalogue states: non-commercial reproduction with attribution; other use requires prior written permission."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ssn-14985",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1155,
+          15.0987
+        ]
+      },
+      "properties": {
+        "date": "2020-05-22",
+        "time": "04:53:10",
+        "magnitude": 3.5,
+        "depth_km": 145.9,
+        "date_utc": "2020-05-22",
+        "time_utc": "09:53:10",
+        "status": "revisado",
+        "source_row": 14985
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-24140",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1238,
+          15.1655
+        ]
+      },
+      "properties": {
+        "date": "2020-10-07",
+        "time": "14:48:10",
+        "magnitude": 3.8,
+        "depth_km": 178.5,
+        "date_utc": "2020-10-07",
+        "time_utc": "19:48:10",
+        "status": "revisado",
+        "source_row": 24140
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-30279",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0487,
+          15.105
+        ]
+      },
+      "properties": {
+        "date": "2021-01-02",
+        "time": "17:52:16",
+        "magnitude": 3.8,
+        "depth_km": 153.7,
+        "date_utc": "2021-01-02",
+        "time_utc": "23:52:16",
+        "status": "revisado",
+        "source_row": 30279
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-30345",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1595,
+          15.1683
+        ]
+      },
+      "properties": {
+        "date": "2021-01-03",
+        "time": "15:56:46",
+        "magnitude": 4.1,
+        "depth_km": 152.4,
+        "date_utc": "2021-01-03",
+        "time_utc": "21:56:46",
+        "status": "revisado",
+        "source_row": 30345
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-36998",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0525,
+          15.1387
+        ]
+      },
+      "properties": {
+        "date": "2021-03-30",
+        "time": "00:33:53",
+        "magnitude": 3.9,
+        "depth_km": 6.6,
+        "date_utc": "2021-03-30",
+        "time_utc": "06:33:53",
+        "status": "revisado",
+        "source_row": 36998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-37007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0708,
+          15.118
+        ]
+      },
+      "properties": {
+        "date": "2021-03-30",
+        "time": "03:08:01",
+        "magnitude": 3.8,
+        "depth_km": 7.2,
+        "date_utc": "2021-03-30",
+        "time_utc": "09:08:01",
+        "status": "revisado",
+        "source_row": 37007
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-37385",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.157,
+          15.1838
+        ]
+      },
+      "properties": {
+        "date": "2021-04-04",
+        "time": "22:43:21",
+        "magnitude": 3.8,
+        "depth_km": 161.6,
+        "date_utc": "2021-04-05",
+        "time_utc": "03:43:21",
+        "status": "revisado",
+        "source_row": 37385
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-39882",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1385,
+          15.0868
+        ]
+      },
+      "properties": {
+        "date": "2021-05-14",
+        "time": "02:58:41",
+        "magnitude": 2.5,
+        "depth_km": 7.2,
+        "date_utc": "2021-05-14",
+        "time_utc": "07:58:41",
+        "status": "revisado",
+        "source_row": 39882
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-40389",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1178,
+          15.1225
+        ]
+      },
+      "properties": {
+        "date": "2021-05-23",
+        "time": "22:46:14",
+        "magnitude": 2.4,
+        "depth_km": 6.4,
+        "date_utc": "2021-05-24",
+        "time_utc": "03:46:14",
+        "status": "revisado",
+        "source_row": 40389
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-41523",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1173,
+          15.118
+        ]
+      },
+      "properties": {
+        "date": "2021-06-06",
+        "time": "13:42:48",
+        "magnitude": 2.2,
+        "depth_km": 7.0,
+        "date_utc": "2021-06-06",
+        "time_utc": "18:42:48",
+        "status": "revisado",
+        "source_row": 41523
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-46644",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1687,
+          15.117
+        ]
+      },
+      "properties": {
+        "date": "2021-08-13",
+        "time": "23:51:49",
+        "magnitude": 3.5,
+        "depth_km": 160.0,
+        "date_utc": "2021-08-14",
+        "time_utc": "04:51:49",
+        "status": "revisado",
+        "source_row": 46644
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-47898",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1235,
+          15.1503
+        ]
+      },
+      "properties": {
+        "date": "2021-09-02",
+        "time": "02:30:59",
+        "magnitude": 2.1,
+        "depth_km": 7.7,
+        "date_utc": "2021-09-02",
+        "time_utc": "07:30:59",
+        "status": "revisado",
+        "source_row": 47898
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-54877",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1395,
+          15.0873
+        ]
+      },
+      "properties": {
+        "date": "2021-11-17",
+        "time": "16:57:25",
+        "magnitude": 2.5,
+        "depth_km": 6.8,
+        "date_utc": "2021-11-17",
+        "time_utc": "22:57:25",
+        "status": "revisado",
+        "source_row": 54877
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-56719",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1563,
+          15.0768
+        ]
+      },
+      "properties": {
+        "date": "2021-12-07",
+        "time": "00:50:00",
+        "magnitude": 2.6,
+        "depth_km": 4.9,
+        "date_utc": "2021-12-07",
+        "time_utc": "06:50:00",
+        "status": "revisado",
+        "source_row": 56719
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-62779",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0922,
+          15.1602
+        ]
+      },
+      "properties": {
+        "date": "2022-02-14",
+        "time": "21:06:12",
+        "magnitude": 4.1,
+        "depth_km": 154.6,
+        "date_utc": "2022-02-15",
+        "time_utc": "03:06:12",
+        "status": "revisado",
+        "source_row": 62779
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-62938",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1395,
+          15.1645
+        ]
+      },
+      "properties": {
+        "date": "2022-02-16",
+        "time": "22:22:45",
+        "magnitude": 3.7,
+        "depth_km": 153.4,
+        "date_utc": "2022-02-17",
+        "time_utc": "04:22:45",
+        "status": "revisado",
+        "source_row": 62938
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-68387",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1045,
+          15.1282
+        ]
+      },
+      "properties": {
+        "date": "2022-04-28",
+        "time": "21:24:50",
+        "magnitude": 3.8,
+        "depth_km": 187.7,
+        "date_utc": "2022-04-29",
+        "time_utc": "02:24:50",
+        "status": "revisado",
+        "source_row": 68387
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-73767",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1142,
+          15.1223
+        ]
+      },
+      "properties": {
+        "date": "2022-07-09",
+        "time": "11:37:10",
+        "magnitude": 2.8,
+        "depth_km": 6.4,
+        "date_utc": "2022-07-09",
+        "time_utc": "16:37:10",
+        "status": "revisado",
+        "source_row": 73767
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-74250",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1413,
+          15.0803
+        ]
+      },
+      "properties": {
+        "date": "2022-07-16",
+        "time": "11:28:47",
+        "magnitude": 2.2,
+        "depth_km": 7.0,
+        "date_utc": "2022-07-16",
+        "time_utc": "16:28:47",
+        "status": "revisado",
+        "source_row": 74250
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-76373",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1678,
+          15.0945
+        ]
+      },
+      "properties": {
+        "date": "2022-08-16",
+        "time": "17:25:07",
+        "magnitude": 1.7,
+        "depth_km": 4.9,
+        "date_utc": "2022-08-16",
+        "time_utc": "22:25:07",
+        "status": "revisado",
+        "source_row": 76373
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-82745",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1128,
+          15.1395
+        ]
+      },
+      "properties": {
+        "date": "2022-11-01",
+        "time": "00:08:03",
+        "magnitude": 3.1,
+        "depth_km": 12.0,
+        "date_utc": "2022-11-01",
+        "time_utc": "06:08:03",
+        "status": "revisado",
+        "source_row": 82745
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-85861",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.051,
+          15.1747
+        ]
+      },
+      "properties": {
+        "date": "2022-11-30",
+        "time": "10:40:24",
+        "magnitude": 3.5,
+        "depth_km": 173.2,
+        "date_utc": "2022-11-30",
+        "time_utc": "16:40:24",
+        "status": "revisado",
+        "source_row": 85861
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-97907",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1602,
+          15.0873
+        ]
+      },
+      "properties": {
+        "date": "2023-05-09",
+        "time": "05:51:37",
+        "magnitude": 1.6,
+        "depth_km": 4.5,
+        "date_utc": "2023-05-09",
+        "time_utc": "11:51:37",
+        "status": "revisado",
+        "source_row": 97907
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-98781",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0972,
+          15.1203
+        ]
+      },
+      "properties": {
+        "date": "2023-05-21",
+        "time": "16:32:22",
+        "magnitude": 2.8,
+        "depth_km": 9.4,
+        "date_utc": "2023-05-21",
+        "time_utc": "22:32:22",
+        "status": "revisado",
+        "source_row": 98781
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-100347",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1195,
+          15.1258
+        ]
+      },
+      "properties": {
+        "date": "2023-06-15",
+        "time": "04:37:04",
+        "magnitude": 2.7,
+        "depth_km": 4.4,
+        "date_utc": "2023-06-15",
+        "time_utc": "10:37:04",
+        "status": "revisado",
+        "source_row": 100347
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-100614",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1217,
+          15.1088
+        ]
+      },
+      "properties": {
+        "date": "2023-06-19",
+        "time": "02:32:52",
+        "magnitude": 3.6,
+        "depth_km": 152.8,
+        "date_utc": "2023-06-19",
+        "time_utc": "08:32:52",
+        "status": "revisado",
+        "source_row": 100614
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-111224",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1167,
+          15.1218
+        ]
+      },
+      "properties": {
+        "date": "2023-12-05",
+        "time": "07:20:54",
+        "magnitude": 2.7,
+        "depth_km": 5.7,
+        "date_utc": "2023-12-05",
+        "time_utc": "13:20:54",
+        "status": "revisado",
+        "source_row": 111224
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-113923",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0718,
+          15.1225
+        ]
+      },
+      "properties": {
+        "date": "2024-01-11",
+        "time": "01:42:07",
+        "magnitude": 4.0,
+        "depth_km": 173.3,
+        "date_utc": "2024-01-11",
+        "time_utc": "07:42:07",
+        "status": "revisado",
+        "source_row": 113923
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-114307",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1153,
+          15.1227
+        ]
+      },
+      "properties": {
+        "date": "2024-01-16",
+        "time": "12:59:07",
+        "magnitude": 2.1,
+        "depth_km": 6.8,
+        "date_utc": "2024-01-16",
+        "time_utc": "18:59:07",
+        "status": "revisado",
+        "source_row": 114307
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-116220",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0882,
+          15.1028
+        ]
+      },
+      "properties": {
+        "date": "2024-02-10",
+        "time": "14:44:10",
+        "magnitude": 3.8,
+        "depth_km": 10.0,
+        "date_utc": "2024-02-10",
+        "time_utc": "20:44:10",
+        "status": "revisado",
+        "source_row": 116220
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-117611",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1172,
+          15.131
+        ]
+      },
+      "properties": {
+        "date": "2024-02-25",
+        "time": "23:11:26",
+        "magnitude": 3.0,
+        "depth_km": 4.2,
+        "date_utc": "2024-02-26",
+        "time_utc": "05:11:26",
+        "status": "revisado",
+        "source_row": 117611
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-124046",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.057,
+          15.1132
+        ]
+      },
+      "properties": {
+        "date": "2024-05-27",
+        "time": "15:54:17",
+        "magnitude": 3.5,
+        "depth_km": 140.3,
+        "date_utc": "2024-05-27",
+        "time_utc": "21:54:17",
+        "status": "revisado",
+        "source_row": 124046
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-142992",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0567,
+          15.115
+        ]
+      },
+      "properties": {
+        "date": "2024-12-02",
+        "time": "01:03:12",
+        "magnitude": 3.6,
+        "depth_km": 10.0,
+        "date_utc": "2024-12-02",
+        "time_utc": "07:03:12",
+        "status": "revisado",
+        "source_row": 142992
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-155830",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1618,
+          15.0938
+        ]
+      },
+      "properties": {
+        "date": "2025-04-16",
+        "time": "04:23:51",
+        "magnitude": 4.1,
+        "depth_km": 151.2,
+        "date_utc": "2025-04-16",
+        "time_utc": "10:23:51",
+        "status": "revisado",
+        "source_row": 155830
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-157407",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1068,
+          15.1377
+        ]
+      },
+      "properties": {
+        "date": "2025-05-02",
+        "time": "06:43:31",
+        "magnitude": 2.5,
+        "depth_km": 7.2,
+        "date_utc": "2025-05-02",
+        "time_utc": "12:43:31",
+        "status": "revisado",
+        "source_row": 157407
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-158637",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1347,
+          15.0867
+        ]
+      },
+      "properties": {
+        "date": "2025-05-17",
+        "time": "00:17:12",
+        "magnitude": 2.3,
+        "depth_km": 2.0,
+        "date_utc": "2025-05-17",
+        "time_utc": "06:17:12",
+        "status": "revisado",
+        "source_row": 158637
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-179530",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.141,
+          15.124
+        ]
+      },
+      "properties": {
+        "date": "2025-11-04",
+        "time": "14:15:44",
+        "magnitude": 3.8,
+        "depth_km": 168.5,
+        "date_utc": "2025-11-04",
+        "time_utc": "20:15:44",
+        "status": "verificado",
+        "source_row": 179530
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-186334",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.137,
+          15.126
+        ]
+      },
+      "properties": {
+        "date": "2026-01-03",
+        "time": "01:51:41",
+        "magnitude": 3.6,
+        "depth_km": 152.1,
+        "date_utc": "2026-01-03",
+        "time_utc": "07:51:41",
+        "status": "verificado",
+        "source_row": 186334
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-192221",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.093,
+          15.121
+        ]
+      },
+      "properties": {
+        "date": "2026-02-15",
+        "time": "19:24:10",
+        "magnitude": 3.7,
+        "depth_km": 170.0,
+        "date_utc": "2026-02-16",
+        "time_utc": "01:24:10",
+        "status": "verificado",
+        "source_row": 192221
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-204604",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.062,
+          15.138
+        ]
+      },
+      "properties": {
+        "date": "2026-06-09",
+        "time": "21:41:04",
+        "magnitude": 3.9,
+        "depth_km": 158.1,
+        "date_utc": "2026-06-10",
+        "time_utc": "03:41:04",
+        "status": "verificado",
+        "source_row": 204604
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-214991",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.084,
+          15.077
+        ]
+      },
+      "properties": {
+        "date": "2026-09-13",
+        "time": "09:28:51",
+        "magnitude": 3.7,
+        "depth_km": 15.9,
+        "date_utc": "2026-09-13",
+        "time_utc": "15:28:51",
+        "status": "verificado",
+        "source_row": 214991
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ssn-215813",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.05,
+          15.161
+        ]
+      },
+      "properties": {
+        "date": "2026-09-20",
+        "time": "18:34:12",
+        "magnitude": 3.7,
+        "depth_km": 164.2,
+        "date_utc": "2026-09-21",
+        "time_utc": "00:34:12",
+        "status": "verificado",
+        "source_row": 215813
+      }
+    }
+  ]
+}

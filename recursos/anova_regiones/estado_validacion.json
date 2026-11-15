@@ -1,0 +1,18 @@
+{
+  "original_samples": 5760,
+  "tests": 18,
+  "pairwise_comparisons": 3780,
+  "spatial_diagnostics_significant_holm": 35,
+  "sufficient_for": "Reproducible exploratory terrain comparison and spatial sensitivity assessment",
+  "sufficient_for_confirmatory_anova": false,
+  "reason": "More pixels cannot establish independence. Spatial models and a predefined effect/power target are required for confirmatory claims.",
+  "estimand": "Equal-weight mean of occupied Cartesian block means within each sector; not an area-weighted global mean.",
+  "limits": [
+    "Blocks can remain correlated and can cross sector boundaries; blocks are split by sector, so adjacent split pieces are not independent.",
+    "Block sizes 100/200/400 km are sensitivity scenarios, not estimated decorrelation ranges.",
+    "Bootstrap intervals and Welch tests assume independent blocks; diagnostics do not prove independence when nonsignificant.",
+    "Moran diagnostic uses chord distances, symmetric binary weights, and 4999 within-sector permutations; smallest attainable p is 0.0002.",
+    "No measurements of temperature/composition/gravity were synthesized. Native data coverage and interpolation limitations remain.",
+    "Sector definitions and latitude exclusion remain unchanged. No test pools absolute elevations across bodies."
+  ]
+}

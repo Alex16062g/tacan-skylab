@@ -1,0 +1,3162 @@
+[
+  {
+    "phase": "day",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.13027207243096,
+    "temperature_C": 17.650000000000034,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.1216371530746,
+    "temperature_C": 17.57000000000005,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.11300223371826,
+    "temperature_C": 17.430000000000007,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.10436731436191,
+    "temperature_C": 17.27000000000004,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.09573239500558,
+    "temperature_C": 17.170000000000016,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.08709747564924,
+    "temperature_C": 17.170000000000016,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.0784625562929,
+    "temperature_C": 14.670000000000016,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.06982763693657,
+    "temperature_C": 15.590000000000032,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.06119271758023,
+    "temperature_C": 16.03000000000003,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.05255779822389,
+    "temperature_C": 18.390000000000043,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.1266356830189,
+    "temperature_C": 17.210000000000036,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.11800110448354,
+    "temperature_C": 17.05000000000001,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.10936652594818,
+    "temperature_C": 16.970000000000027,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.10073194741281,
+    "temperature_C": 16.99000000000001,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.09209736887745,
+    "temperature_C": 17.310000000000002,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.0834627903421,
+    "temperature_C": 14.430000000000007,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.07482821180673,
+    "temperature_C": 14.970000000000027,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.06619363327135,
+    "temperature_C": 16.370000000000005,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.057559054736,
+    "temperature_C": 16.710000000000036,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.04892447620063,
+    "temperature_C": 16.370000000000005,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.12300152934463,
+    "temperature_C": 17.79000000000002,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.1143672914207,
+    "temperature_C": 18.190000000000055,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.10573305349676,
+    "temperature_C": 18.53000000000003,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.09709881557283,
+    "temperature_C": 18.690000000000055,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.08846457764889,
+    "temperature_C": 18.690000000000055,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.07983033972498,
+    "temperature_C": 15.610000000000014,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.07119610180104,
+    "temperature_C": 15.990000000000009,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.06256186387711,
+    "temperature_C": 17.49000000000001,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.05392762595318,
+    "temperature_C": 16.53000000000003,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.04529338802924,
+    "temperature_C": 16.03000000000003,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.11936961098975,
+    "temperature_C": 18.690000000000055,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.11073571346775,
+    "temperature_C": 14.270000000000039,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.10210181594574,
+    "temperature_C": 15.150000000000034,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.09346791842373,
+    "temperature_C": 15.07000000000005,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.08483402090172,
+    "temperature_C": 17.730000000000018,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.07620012337973,
+    "temperature_C": 14.850000000000023,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.06756622585773,
+    "temperature_C": 14.250000000000057,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.05893232833571,
+    "temperature_C": 15.29000000000002,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.05029843081371,
+    "temperature_C": 15.210000000000036,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.11573992753632,
+    "temperature_C": 13.610000000000014,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.10710637020676,
+    "temperature_C": 13.29000000000002,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.09847281287722,
+    "temperature_C": 14.130000000000052,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.08983925554767,
+    "temperature_C": 14.170000000000016,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.08120569821813,
+    "temperature_C": 16.390000000000043,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.0725721408886,
+    "temperature_C": 15.910000000000025,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.06393858355905,
+    "temperature_C": 15.210000000000036,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.0553050262295,
+    "temperature_C": 15.53000000000003,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.04667146889996,
+    "temperature_C": 16.07000000000005,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.11211247856657,
+    "temperature_C": 13.110000000000014,
+    "local_time_h": 13.0,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.10347926122006,
+    "temperature_C": 16.310000000000002,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.09484604387353,
+    "temperature_C": 15.850000000000023,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.08621282652702,
+    "temperature_C": 15.310000000000002,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.0775796091805,
+    "temperature_C": 14.750000000000057,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.068946391834,
+    "temperature_C": 16.150000000000034,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.06031317448749,
+    "temperature_C": 17.83000000000004,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.05167995714099,
+    "temperature_C": 17.890000000000043,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.14301877395455,
+    "temperature_C": 12.590000000000032,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.13438589638169,
+    "temperature_C": 12.590000000000032,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.12575301880882,
+    "temperature_C": 12.590000000000032,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.11712014123594,
+    "temperature_C": 12.590000000000032,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.1084872636631,
+    "temperature_C": 12.590000000000032,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.09985438609021,
+    "temperature_C": 13.470000000000027,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.09122150851735,
+    "temperature_C": 13.670000000000016,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.08258863094449,
+    "temperature_C": 13.670000000000016,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.07395575337162,
+    "temperature_C": 13.670000000000016,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.06532287579876,
+    "temperature_C": 17.430000000000007,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.05668999822589,
+    "temperature_C": 17.27000000000004,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.04805712065301,
+    "temperature_C": 16.07000000000005,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.14802697245158,
+    "temperature_C": 12.590000000000032,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.139394434443,
+    "temperature_C": 12.590000000000032,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.13076189643442,
+    "temperature_C": 12.590000000000032,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.12212935842585,
+    "temperature_C": 12.590000000000032,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.11349682041728,
+    "temperature_C": 12.590000000000032,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.10486428240873,
+    "temperature_C": 12.590000000000032,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.09623174440016,
+    "temperature_C": 13.610000000000014,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.08759920639159,
+    "temperature_C": 13.670000000000016,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.078966668383,
+    "temperature_C": 13.670000000000016,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.07033413037443,
+    "temperature_C": 12.930000000000007,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.06170159236588,
+    "temperature_C": 11.970000000000027,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.05306905435731,
+    "temperature_C": 11.79000000000002,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.04443651634872,
+    "temperature_C": 11.79000000000002,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.14440452765461,
+    "temperature_C": 12.590000000000032,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.13577232900101,
+    "temperature_C": 12.590000000000032,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.12714013034743,
+    "temperature_C": 12.590000000000032,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.11850793169383,
+    "temperature_C": 12.590000000000032,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.10987573304024,
+    "temperature_C": 12.590000000000032,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.06671473977234,
+    "temperature_C": 11.79000000000002,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.05808254111875,
+    "temperature_C": 11.79000000000002,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.04945034246516,
+    "temperature_C": 11.79000000000002,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.112500000001882,
+    "longitude_east_deg": -92.07172944065675,
+    "temperature_C": 11.79000000000002,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "day",
+    "latitude_deg": 15.112500000001882,
+    "longitude_east_deg": -92.06309758114888,
+    "temperature_C": 11.79000000000002,
+    "local_time_h": 12.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.17344666921265,
+    "temperature_C": 14.390000000000043,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.16481174985631,
+    "temperature_C": 14.690000000000055,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.15617683049996,
+    "temperature_C": 14.510000000000048,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.14754191114362,
+    "temperature_C": 14.03000000000003,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.13890699178727,
+    "temperature_C": 12.810000000000002,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.13027207243096,
+    "temperature_C": 10.770000000000039,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.1216371530746,
+    "temperature_C": 10.190000000000055,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.11300223371826,
+    "temperature_C": 9.870000000000005,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.10436731436191,
+    "temperature_C": 9.090000000000032,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.09573239500558,
+    "temperature_C": 7.7900000000000205,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.08709747564924,
+    "temperature_C": 6.8700000000000045,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.0784625562929,
+    "temperature_C": 6.210000000000036,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.06982763693657,
+    "temperature_C": 5.810000000000002,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.06119271758023,
+    "temperature_C": 5.410000000000025,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.187500000001847,
+    "longitude_east_deg": -92.05255779822389,
+    "temperature_C": 5.110000000000014,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.16980857569573,
+    "temperature_C": 15.350000000000023,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.16117399716035,
+    "temperature_C": 15.270000000000039,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.152539418625,
+    "temperature_C": 14.930000000000007,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.14390484008963,
+    "temperature_C": 14.230000000000018,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.13527026155425,
+    "temperature_C": 12.870000000000005,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.1266356830189,
+    "temperature_C": 11.150000000000034,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.11800110448354,
+    "temperature_C": 10.750000000000057,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.10936652594818,
+    "temperature_C": 10.230000000000018,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.10073194741281,
+    "temperature_C": 9.350000000000023,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.09209736887745,
+    "temperature_C": 8.550000000000011,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.0834627903421,
+    "temperature_C": 7.53000000000003,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.07482821180673,
+    "temperature_C": 6.57000000000005,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.06619363327135,
+    "temperature_C": 6.010000000000048,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.057559054736,
+    "temperature_C": 5.310000000000002,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.179166666668516,
+    "longitude_east_deg": -92.04892447620063,
+    "temperature_C": 5.210000000000036,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.16617271896428,
+    "temperature_C": 15.650000000000034,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.15753848104035,
+    "temperature_C": 15.450000000000045,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.14890424311642,
+    "temperature_C": 14.850000000000023,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.14027000519248,
+    "temperature_C": 13.810000000000002,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.13163576726855,
+    "temperature_C": 11.930000000000007,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.12300152934463,
+    "temperature_C": 11.590000000000032,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.1143672914207,
+    "temperature_C": 11.010000000000048,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.10573305349676,
+    "temperature_C": 10.130000000000052,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.09709881557283,
+    "temperature_C": 9.010000000000048,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.08846457764889,
+    "temperature_C": 8.590000000000032,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.07983033972498,
+    "temperature_C": 7.8700000000000045,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.07119610180104,
+    "temperature_C": 7.270000000000039,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.06256186387711,
+    "temperature_C": 6.310000000000002,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.05392762595318,
+    "temperature_C": 6.010000000000048,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.170833333335189,
+    "longitude_east_deg": -92.04529338802924,
+    "temperature_C": 6.190000000000055,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.17117299612178,
+    "temperature_C": 15.750000000000057,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.16253909859977,
+    "temperature_C": 15.490000000000009,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.15390520107778,
+    "temperature_C": 15.090000000000032,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.14527130355576,
+    "temperature_C": 14.110000000000014,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.13663740603376,
+    "temperature_C": 11.870000000000005,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.12800350851175,
+    "temperature_C": 11.390000000000043,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.11936961098975,
+    "temperature_C": 11.03000000000003,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.11073571346775,
+    "temperature_C": 10.110000000000014,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.10210181594574,
+    "temperature_C": 8.830000000000041,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.09346791842373,
+    "temperature_C": 8.050000000000011,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.08483402090172,
+    "temperature_C": 7.7900000000000205,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.07620012337973,
+    "temperature_C": 7.830000000000041,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.06756622585773,
+    "temperature_C": 7.470000000000027,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.05893232833571,
+    "temperature_C": 7.010000000000048,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.16250000000186,
+    "longitude_east_deg": -92.05029843081371,
+    "temperature_C": 7.110000000000014,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.16754127151358,
+    "temperature_C": 15.690000000000055,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.15890771418404,
+    "temperature_C": 15.250000000000057,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.1502741568545,
+    "temperature_C": 14.430000000000007,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.14164059952495,
+    "temperature_C": 12.990000000000009,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.13300704219539,
+    "temperature_C": 11.230000000000018,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.12437348486586,
+    "temperature_C": 10.79000000000002,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.11573992753632,
+    "temperature_C": 10.130000000000052,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.10710637020676,
+    "temperature_C": 8.750000000000057,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.09847281287722,
+    "temperature_C": 7.590000000000032,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.08983925554767,
+    "temperature_C": 7.190000000000055,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.08120569821813,
+    "temperature_C": 7.150000000000034,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.0725721408886,
+    "temperature_C": 7.270000000000039,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.06393858355905,
+    "temperature_C": 7.210000000000036,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.0553050262295,
+    "temperature_C": 7.210000000000036,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.154166666668532,
+    "longitude_east_deg": -92.04667146889996,
+    "temperature_C": 7.310000000000002,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.17254499999214,
+    "temperature_C": 16.150000000000034,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.16391178264564,
+    "temperature_C": 15.650000000000034,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.15527856529913,
+    "temperature_C": 14.890000000000043,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.14664534795261,
+    "temperature_C": 13.610000000000014,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.1380121306061,
+    "temperature_C": 11.870000000000005,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.12937891325959,
+    "temperature_C": 11.110000000000014,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.12074569591306,
+    "temperature_C": 9.970000000000027,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.11211247856657,
+    "temperature_C": 8.610000000000014,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.10347926122006,
+    "temperature_C": 7.270000000000039,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.09484604387353,
+    "temperature_C": 6.590000000000032,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.08621282652702,
+    "temperature_C": 6.270000000000039,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.0775796091805,
+    "temperature_C": 6.470000000000027,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.068946391834,
+    "temperature_C": 6.7900000000000205,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.06031317448749,
+    "temperature_C": 6.9500000000000455,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.1458333333352,
+    "longitude_east_deg": -92.05167995714099,
+    "temperature_C": 7.2900000000000205,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.16891740667315,
+    "temperature_C": 15.690000000000055,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.1602845291003,
+    "temperature_C": 15.190000000000055,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.15165165152742,
+    "temperature_C": 14.010000000000048,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.14301877395455,
+    "temperature_C": 12.410000000000025,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.13438589638169,
+    "temperature_C": 10.710000000000036,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.12575301880882,
+    "temperature_C": 9.79000000000002,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.11712014123594,
+    "temperature_C": 8.29000000000002,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.1084872636631,
+    "temperature_C": 6.890000000000043,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.09985438609021,
+    "temperature_C": 5.890000000000043,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.09122150851735,
+    "temperature_C": 5.490000000000009,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.08258863094449,
+    "temperature_C": 5.650000000000034,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.07395575337162,
+    "temperature_C": 6.270000000000039,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.06532287579876,
+    "temperature_C": 6.930000000000007,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.05668999822589,
+    "temperature_C": 7.170000000000016,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.137500000001873,
+    "longitude_east_deg": -92.04805712065301,
+    "temperature_C": 7.810000000000002,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.1652920484687,
+    "temperature_C": 14.990000000000009,
+    "local_time_h": 1.7000000000000002,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.15665951046014,
+    "temperature_C": 14.230000000000018,
+    "local_time_h": 1.7000000000000002,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.14802697245158,
+    "temperature_C": 13.170000000000016,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.139394434443,
+    "temperature_C": 11.750000000000057,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.13076189643442,
+    "temperature_C": 10.270000000000039,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.12212935842585,
+    "temperature_C": 8.79000000000002,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.11349682041728,
+    "temperature_C": 7.210000000000036,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.10486428240873,
+    "temperature_C": 6.230000000000018,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.09623174440016,
+    "temperature_C": 5.57000000000005,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.08759920639159,
+    "temperature_C": 5.53000000000003,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.078966668383,
+    "temperature_C": 6.2900000000000205,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.07033413037443,
+    "temperature_C": 7.350000000000023,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.06170159236588,
+    "temperature_C": 7.7900000000000205,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.05306905435731,
+    "temperature_C": 8.190000000000055,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.129166666668539,
+    "longitude_east_deg": -92.04443651634872,
+    "temperature_C": 8.57000000000005,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.17030112361535,
+    "temperature_C": 15.370000000000005,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.16166892496176,
+    "temperature_C": 14.770000000000039,
+    "local_time_h": 1.7000000000000002,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.1530367263082,
+    "temperature_C": 13.950000000000045,
+    "local_time_h": 1.7000000000000002,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.14440452765461,
+    "temperature_C": 12.730000000000018,
+    "local_time_h": 1.7000000000000002,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.13577232900101,
+    "temperature_C": 11.370000000000005,
+    "local_time_h": 1.7000000000000002,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.12714013034743,
+    "temperature_C": 10.79000000000002,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.11850793169383,
+    "temperature_C": 9.090000000000032,
+    "local_time_h": 1.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.10987573304024,
+    "temperature_C": 8.190000000000055,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.10124353438668,
+    "temperature_C": 7.550000000000011,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.0926113357331,
+    "temperature_C": 7.170000000000016,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.08397913707951,
+    "temperature_C": 7.250000000000057,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.07534693842592,
+    "temperature_C": 7.610000000000014,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.06671473977234,
+    "temperature_C": 8.29000000000002,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.05808254111875,
+    "temperature_C": 8.830000000000041,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.120833333335211,
+    "longitude_east_deg": -92.04945034246516,
+    "temperature_C": 9.210000000000036,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.112500000001882,
+    "longitude_east_deg": -92.16667989524332,
+    "temperature_C": 15.79000000000002,
+    "local_time_h": 1.7000000000000002,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.112500000001882,
+    "longitude_east_deg": -92.15804803573546,
+    "temperature_C": 15.150000000000034,
+    "local_time_h": 1.7000000000000002,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.112500000001882,
+    "longitude_east_deg": -92.1494161762276,
+    "temperature_C": 14.29000000000002,
+    "local_time_h": 1.7000000000000002,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.112500000001882,
+    "longitude_east_deg": -92.14078431671973,
+    "temperature_C": 12.890000000000043,
+    "local_time_h": 1.7000000000000002,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.112500000001882,
+    "longitude_east_deg": -92.13215245721186,
+    "temperature_C": 12.050000000000011,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.112500000001882,
+    "longitude_east_deg": -92.12352059770397,
+    "temperature_C": 10.770000000000039,
+    "local_time_h": 1.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.112500000001882,
+    "longitude_east_deg": -92.1148887381961,
+    "temperature_C": 10.010000000000048,
+    "local_time_h": 1.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.112500000001882,
+    "longitude_east_deg": -92.10625687868824,
+    "temperature_C": 9.130000000000052,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.112500000001882,
+    "longitude_east_deg": -92.09762501918038,
+    "temperature_C": 8.710000000000036,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.112500000001882,
+    "longitude_east_deg": -92.08899315967251,
+    "temperature_C": 8.590000000000032,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.112500000001882,
+    "longitude_east_deg": -92.08036130016463,
+    "temperature_C": 9.230000000000018,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.112500000001882,
+    "longitude_east_deg": -92.07172944065675,
+    "temperature_C": 9.650000000000034,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.112500000001882,
+    "longitude_east_deg": -92.06309758114888,
+    "temperature_C": 10.450000000000045,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.112500000001882,
+    "longitude_east_deg": -92.05446572164104,
+    "temperature_C": 10.750000000000057,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.112500000001882,
+    "longitude_east_deg": -92.04583386213316,
+    "temperature_C": 10.970000000000027,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.104166666668554,
+    "longitude_east_deg": -92.17169242151607,
+    "temperature_C": 16.210000000000036,
+    "local_time_h": 1.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.104166666668554,
+    "longitude_east_deg": -92.16306090094467,
+    "temperature_C": 15.590000000000032,
+    "local_time_h": 1.7000000000000002,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.104166666668554,
+    "longitude_east_deg": -92.15442938037329,
+    "temperature_C": 15.190000000000055,
+    "local_time_h": 1.7000000000000002,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.104166666668554,
+    "longitude_east_deg": -92.14579785980192,
+    "temperature_C": 14.630000000000052,
+    "local_time_h": 1.7000000000000002,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.104166666668554,
+    "longitude_east_deg": -92.13716633923053,
+    "temperature_C": 14.270000000000039,
+    "local_time_h": 1.7000000000000002,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.104166666668554,
+    "longitude_east_deg": -92.12853481865913,
+    "temperature_C": 13.170000000000016,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.104166666668554,
+    "longitude_east_deg": -92.11990329808775,
+    "temperature_C": 12.07000000000005,
+    "local_time_h": 1.8,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.104166666668554,
+    "longitude_east_deg": -92.11127177751636,
+    "temperature_C": 11.490000000000009,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.104166666668554,
+    "longitude_east_deg": -92.10264025694497,
+    "temperature_C": 10.950000000000045,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.104166666668554,
+    "longitude_east_deg": -92.0940087363736,
+    "temperature_C": 10.490000000000009,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.104166666668554,
+    "longitude_east_deg": -92.08537721580221,
+    "temperature_C": 10.470000000000027,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.104166666668554,
+    "longitude_east_deg": -92.07674569523083,
+    "temperature_C": 11.29000000000002,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.104166666668554,
+    "longitude_east_deg": -92.06811417465943,
+    "temperature_C": 11.830000000000041,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.104166666668554,
+    "longitude_east_deg": -92.05948265408804,
+    "temperature_C": 12.110000000000014,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.104166666668554,
+    "longitude_east_deg": -92.05085113351666,
+    "temperature_C": 12.270000000000039,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.095833333335223,
+    "longitude_east_deg": -92.16807532214725,
+    "temperature_C": 16.49000000000001,
+    "local_time_h": 1.7000000000000002,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.095833333335223,
+    "longitude_east_deg": -92.15944414030314,
+    "temperature_C": 16.05000000000001,
+    "local_time_h": 1.7000000000000002,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.095833333335223,
+    "longitude_east_deg": -92.15081295845904,
+    "temperature_C": 15.710000000000036,
+    "local_time_h": 1.7000000000000002,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.095833333335223,
+    "longitude_east_deg": -92.14218177661496,
+    "temperature_C": 15.510000000000048,
+    "local_time_h": 1.7000000000000002,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.095833333335223,
+    "longitude_east_deg": -92.13355059477087,
+    "temperature_C": 15.410000000000025,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.095833333335223,
+    "longitude_east_deg": -92.12491941292676,
+    "temperature_C": 14.07000000000005,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.095833333335223,
+    "longitude_east_deg": -92.11628823108266,
+    "temperature_C": 13.730000000000018,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.095833333335223,
+    "longitude_east_deg": -92.10765704923857,
+    "temperature_C": 13.250000000000057,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.095833333335223,
+    "longitude_east_deg": -92.09902586739446,
+    "temperature_C": 12.670000000000016,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.095833333335223,
+    "longitude_east_deg": -92.09039468555038,
+    "temperature_C": 11.750000000000057,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.095833333335223,
+    "longitude_east_deg": -92.08176350370627,
+    "temperature_C": 11.850000000000023,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.095833333335223,
+    "longitude_east_deg": -92.07313232186218,
+    "temperature_C": 12.970000000000027,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.095833333335223,
+    "longitude_east_deg": -92.06450114001808,
+    "temperature_C": 13.210000000000036,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.095833333335223,
+    "longitude_east_deg": -92.05586995817399,
+    "temperature_C": 13.510000000000048,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.095833333335223,
+    "longitude_east_deg": -92.04723877632989,
+    "temperature_C": 13.590000000000032,
+    "local_time_h": 1.8,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.087500000001896,
+    "longitude_east_deg": -92.17309129955467,
+    "temperature_C": 17.29000000000002,
+    "local_time_h": 1.6,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.087500000001896,
+    "longitude_east_deg": -92.16446045622871,
+    "temperature_C": 16.910000000000025,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.087500000001896,
+    "longitude_east_deg": -92.15582961290274,
+    "temperature_C": 16.710000000000036,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.087500000001896,
+    "longitude_east_deg": -92.14719876957678,
+    "temperature_C": 16.510000000000048,
+    "local_time_h": 1.5,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.087500000001896,
+    "longitude_east_deg": -92.13856792625083,
+    "temperature_C": 16.410000000000025,
+    "local_time_h": 1.5,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.087500000001896,
+    "longitude_east_deg": -92.12993708292485,
+    "temperature_C": 14.910000000000025,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.087500000001896,
+    "longitude_east_deg": -92.1213062395989,
+    "temperature_C": 14.770000000000039,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.087500000001896,
+    "longitude_east_deg": -92.11267539627295,
+    "temperature_C": 14.730000000000018,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.087500000001896,
+    "longitude_east_deg": -92.10404455294697,
+    "temperature_C": 14.510000000000048,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.087500000001896,
+    "longitude_east_deg": -92.09541370962101,
+    "temperature_C": 14.230000000000018,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.087500000001896,
+    "longitude_east_deg": -92.08678286629507,
+    "temperature_C": 14.130000000000052,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.087500000001896,
+    "longitude_east_deg": -92.0781520229691,
+    "temperature_C": 14.03000000000003,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.087500000001896,
+    "longitude_east_deg": -92.06952117964313,
+    "temperature_C": 14.090000000000032,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.087500000001896,
+    "longitude_east_deg": -92.06089033631717,
+    "temperature_C": 14.210000000000036,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.087500000001896,
+    "longitude_east_deg": -92.05225949299121,
+    "temperature_C": 14.29000000000002,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.079166666668565,
+    "longitude_east_deg": -92.1694783283617,
+    "temperature_C": 17.730000000000018,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.079166666668565,
+    "longitude_east_deg": -92.16084782334475,
+    "temperature_C": 17.510000000000048,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.079166666668565,
+    "longitude_east_deg": -92.1522173183278,
+    "temperature_C": 17.010000000000048,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.079166666668565,
+    "longitude_east_deg": -92.14358681331088,
+    "temperature_C": 16.910000000000025,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.079166666668565,
+    "longitude_east_deg": -92.13495630829395,
+    "temperature_C": 16.99000000000001,
+    "local_time_h": 1.5,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.079166666668565,
+    "longitude_east_deg": -92.126325803277,
+    "temperature_C": 16.870000000000005,
+    "local_time_h": 1.5,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.079166666668565,
+    "longitude_east_deg": -92.11769529826007,
+    "temperature_C": 15.810000000000002,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.079166666668565,
+    "longitude_east_deg": -92.10906479324312,
+    "temperature_C": 15.490000000000009,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.079166666668565,
+    "longitude_east_deg": -92.10043428822617,
+    "temperature_C": 15.210000000000036,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.079166666668565,
+    "longitude_east_deg": -92.09180378320924,
+    "temperature_C": 14.79000000000002,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.079166666668565,
+    "longitude_east_deg": -92.08317327819232,
+    "temperature_C": 14.590000000000032,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.079166666668565,
+    "longitude_east_deg": -92.07454277317537,
+    "temperature_C": 14.53000000000003,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.079166666668565,
+    "longitude_east_deg": -92.06591226815843,
+    "temperature_C": 14.450000000000045,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.079166666668565,
+    "longitude_east_deg": -92.05728176314149,
+    "temperature_C": 14.390000000000043,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.079166666668565,
+    "longitude_east_deg": -92.04865125812454,
+    "temperature_C": 14.410000000000025,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.070833333335237,
+    "longitude_east_deg": -92.16586758999698,
+    "temperature_C": 18.110000000000014,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.070833333335237,
+    "longitude_east_deg": -92.15723742307998,
+    "temperature_C": 17.850000000000023,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.070833333335237,
+    "longitude_east_deg": -92.14860725616298,
+    "temperature_C": 17.57000000000005,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.070833333335237,
+    "longitude_east_deg": -92.13997708924597,
+    "temperature_C": 17.170000000000016,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.070833333335237,
+    "longitude_east_deg": -92.131346922329,
+    "temperature_C": 16.79000000000002,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.070833333335237,
+    "longitude_east_deg": -92.122716755412,
+    "temperature_C": 16.590000000000032,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.070833333335237,
+    "longitude_east_deg": -92.11408658849501,
+    "temperature_C": 16.310000000000002,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.070833333335237,
+    "longitude_east_deg": -92.10545642157801,
+    "temperature_C": 16.110000000000014,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.070833333335237,
+    "longitude_east_deg": -92.09682625466101,
+    "temperature_C": 15.770000000000039,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.070833333335237,
+    "longitude_east_deg": -92.08819608774401,
+    "temperature_C": 15.610000000000014,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.070833333335237,
+    "longitude_east_deg": -92.07956592082704,
+    "temperature_C": 15.550000000000011,
+    "local_time_h": 1.6,
+    "qc": 65,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.070833333335237,
+    "longitude_east_deg": -92.07093575391004,
+    "temperature_C": 15.310000000000002,
+    "local_time_h": 1.6,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.070833333335237,
+    "longitude_east_deg": -92.06230558699305,
+    "temperature_C": 15.07000000000005,
+    "local_time_h": 1.6,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.070833333335237,
+    "longitude_east_deg": -92.05367542007605,
+    "temperature_C": 14.730000000000018,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  },
+  {
+    "phase": "night",
+    "latitude_deg": 15.070833333335237,
+    "longitude_east_deg": -92.04504525315905,
+    "temperature_C": 14.630000000000052,
+    "local_time_h": 1.7000000000000002,
+    "qc": 0,
+    "period": "2011-10-24/2011-10-31",
+    "source": "MYD11A2.A2011297.h09v07.061.2021203214519"
+  }
+]

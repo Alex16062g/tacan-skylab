@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+recursos/github-pages/
+recursos/datos/
+recursos/comparador_imagenes/regiones_catalogo/
+*.log
+Thumbs.db
+.DS_Store

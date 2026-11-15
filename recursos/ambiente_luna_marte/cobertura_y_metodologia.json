@@ -1,0 +1,25 @@
+{
+  "moon_valid_local_time_bins": 283181,
+  "moon_spatial_cells_by_phase": 7569,
+  "mars_spatial_cells_by_phase": 11604,
+  "total_profiles": 15405,
+  "accepted_temperature_profiles": 2377,
+  "rejected_temperature_profiles": 13028,
+  "accepted_pressure_profiles": 8127,
+  "accepted_atmospheric_temperature_profiles": 11982,
+  "downloaded_files": 272,
+  "pending_files": [],
+  "temperature_units": "Kelvin and Celsius; C = K - 273.15",
+  "moon_definition": "Bolometric brightness temperature, not air temperature",
+  "mars_definition": "Surface brightness temperatures where reported; separate atmospheric temperatures at approximately 106 Pa. Never pool temperature_type values.",
+  "moon_sampling": "12 longitude strips at 30-degree intervals, 0.5-degree latitude cells, 96 local-time bins; not an exhaustive lunar map",
+  "mars_sampling": "Selected days in July 2025 and October 2011; consult downloaded files and per-row periods. Not all seasons or complete spatial coverage.",
+  "comparison_limits": [
+    "Do not pool Moon and Mars temperatures as equivalent observations: different epochs, spectral definitions and sampling.",
+    "A spatial cell has one mean per selected phase; lunar missing bins excluded, at least two valid bins required.",
+    "Mars pressure rows exclude P_QUAL=9 (climatological pressure); retained P_QUAL=0 only.",
+    "Raw temperature flags and uncertainties are retained; additional instrument-specific screening may be required.",
+    "Regional oxygen measurements are unavailable in these downloads. A fixed oxygen reference cannot support regional ANOVA.",
+    "No confirmatory ANOVA claim: spatial correlation and season/local-time confounding remain."
+  ]
+}

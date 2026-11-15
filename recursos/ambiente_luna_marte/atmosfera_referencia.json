@@ -1,0 +1,19 @@
+{
+  "MOON": {
+    "Atmosphere Type": "Exosphere",
+    "Breathable Atmosphere": false,
+    "Regional Oxygen Measurements Available In This Download": false,
+    "Source": "https://science.nasa.gov/moon/lunar-atmosphere/"
+  },
+  "MARS": {
+    "Breathable Atmosphere": false,
+    "Oxygen By Volume (%)": 0.16,
+    "Carbon Dioxide By Volume (%)": 95,
+    "Nitrogen By Volume (%)": 2.6,
+    "Argon By Volume (%)": 1.9,
+    "Scope": "Rounded atmospheric composition reported from Curiosity SAM at Gale; not a regional map or constant over time",
+    "Source": "https://www.nasa.gov/missions/with-mars-methane-mystery-unsolved-curiosity-serves-scientists-a-new-one-oxygen/"
+  },
+  "ANOVA Eligible": false,
+  "Reason": "Contextual references, not independent regional oxygen observations. No synthetic zero oxygen samples."
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comparador 3D | Tacaná</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header><a href="../../index.html">Volver al mapa</a><nav aria-label="Comparación"><a href="?body=MOON" data-body="MOON">Luna</a><a href="?body=MARS" data-body="MARS">Marte</a></nav></header>
+  <main>
+    <h1 id="title">Comparador de terrenos 3D</h1>
+    <p id="status" role="status">Cargando terrenos…</p>
+    <button id="retry" hidden type="button">Reintentar</button>
+    <div id="content" hidden>
+      <div class="summary"><p><strong id="score"></strong> de similitud estimada en pendiente y relieve</p><p>12 × 12 km · Escala de análisis: 2 km · Altura ×1</p></div>
+      <div class="controls" aria-label="Controles de ambos terrenos">
+        <button type="button" data-action="left">Girar izquierda</button><button type="button" data-action="right">Girar derecha</button>
+        <button type="button" data-action="up">Inclinar arriba</button><button type="button" data-action="down">Inclinar abajo</button>
+        <button type="button" data-action="in">Acercar</button><button type="button" data-action="out">Alejar</button>
+        <button type="button" data-action="top">Vista superior</button><button type="button" data-action="reset">Restablecer</button>
+        <button type="button" id="wire" aria-pressed="false">Mostrar malla</button>
+      </div>
+      <p class="hint" id="controls-help">Giro y zoom sincronizados. Arrastra para girar; usa la rueda para acercar. Con teclado: flechas, + y −.</p>
+      <div class="terrains">
+        <figure><figcaption><h2>Tacaná</h2><p id="reference-coordinates"></p></figcaption><div class="viewport" id="reference"></div><p id="reference-range" class="range"></p></figure>
+        <figure><figcaption><h2 id="region-name"></h2><p id="region-coordinates"></p></figcaption><div class="viewport" id="comparison"></div><p id="region-range" class="range"></p></figure>
+      </div>
+      <p class="legend">Color y altura: elevación respecto de la mediana de cada entorno. Misma escala, orientación e iluminación en ambos terrenos.</p>
+      <div class="color-scale" aria-hidden="true"></div><div class="color-labels"><span id="color-min"></span><span id="color-max"></span></div>
+      <details><summary>Valores de similitud y datos de origen</summary>
+        <div class="table-wrap" tabindex="0" role="region" aria-label="Datos de similitud"><table><caption>Índices calculados; seis decimales de visualización, no de precisión física</caption><thead><tr><th scope="col">Característica</th><th scope="col">Similitud (%)</th><th scope="col">Peso en el total</th></tr></thead><tbody id="metrics"></tbody></table></div>
+        <p id="sensitivity"></p>
+        <p>Superficies interpoladas a partir de la malla usada en el análisis. El detalle real de los modelos planetarios es de aproximadamente 2 km. El porcentaje es descriptivo; no expresa equivalencia exacta.</p>
+        <p><a id="download" download>Descargar terrenos y resultados JSON</a> · <a href="../../ecuaciones.md">Método y fuentes</a> · <a href="../comparacion_tacana/similitud_catalogo_resumen.json">Procedencia de los cálculos</a></p>
+      </details>
+    </div>
+    <noscript>El comparador 3D necesita JavaScript. Puedes consultar los <a href="../comparacion_tacana/similitud_catalogo_resumen.json">resultados numéricos</a>.</noscript>
+  </main>
+  <script type="module" src="./viewer.js"></script>
+</body>
+</html>

@@ -1,0 +1,715 @@
+{
+  "scope": "Numerical audit of stored full-catalogue scores, local and thermal Welch ANOVA, pairwise p-values and confidence intervals, Holm corrections and synthetic terrain operators. Not an end-to-end reprocessing.",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "numpy": "2.5.1",
+  "scipy": "1.18.0",
+  "checks": [
+    {
+      "name": "affinity known cases",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "affinity extreme finite inputs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "invalid affinity rejected -1 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "invalid affinity rejected 1 0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "invalid affinity rejected nan 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "invalid affinity rejected 1 inf",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "longitude seam periodic",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "pole clamp no north south wrap",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "flat terrain 2000",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "analytic plane slope 2000",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "analytic plane TPI 2000",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "analytic plane Riley TRI 2000",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "vertical datum shift invariant 2000",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "missing terrain rejected 2000",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "flat terrain 3000",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "analytic plane slope 3000",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "analytic plane TPI 3000",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "analytic plane Riley TRI 3000",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "vertical datum shift invariant 3000",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "missing terrain rejected 3000",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Holm known case",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "MOON winner agrees with summary",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "MARS winner agrees with summary",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all stored catalogue distances, dispersions and scores",
+      "passed": true,
+      "details": {
+        "counts": {
+          "MOON": 9087,
+          "MARS": 2054
+        },
+        "failures": []
+      }
+    },
+    {
+      "name": "local Welch 1000 mean_slope_deg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "local Welch 1000 local_relief_m",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "local Welch 2000 mean_slope_deg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "local Welch 2000 local_relief_m",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "terrain pair luna_site01 1000 mean_slope_deg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "terrain pair marte_cerberus 1000 mean_slope_deg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "terrain pair luna_site04 1000 mean_slope_deg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "terrain pair luna_site01 1000 local_relief_m",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "terrain pair marte_cerberus 1000 local_relief_m",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "terrain pair luna_site04 1000 local_relief_m",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "terrain pair luna_site01 2000 mean_slope_deg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "terrain pair marte_cerberus 2000 mean_slope_deg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "terrain pair luna_site04 2000 mean_slope_deg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "terrain pair luna_site01 2000 local_relief_m",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "terrain pair marte_cerberus 2000 local_relief_m",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "terrain pair luna_site04 2000 local_relief_m",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal Welch MOON day",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal Welch MARS day",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal Welch MOON night",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal Welch MARS night",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_0_30_lon_180_240",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_0_30_lon_240_300",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_0_30_lon_300_360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_0_30_lon_0_60",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_0_30_lon_60_120",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_0_30_lon_120_180",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_-30_0_lon_180_240",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_-30_0_lon_240_300",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_-30_0_lon_300_360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_-30_0_lon_0_60",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_-30_0_lon_60_120",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_-30_0_lon_120_180",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_30_60_lon_180_240",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_30_60_lon_240_300",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_30_60_lon_300_360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_30_60_lon_0_60",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_30_60_lon_60_120",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_30_60_lon_120_180",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_-60_-30_lon_180_240",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_-60_-30_lon_240_300",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_-60_-30_lon_300_360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_-60_-30_lon_0_60",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_-60_-30_lon_60_120",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_-60_-30_lon_120_180",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_60_90_lon_180_240",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_60_90_lon_240_300",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_60_90_lon_300_360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_60_90_lon_0_60",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_60_90_lon_60_120",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_60_90_lon_120_180",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_-90_-60_lon_180_240",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_-90_-60_lon_240_300",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_-90_-60_lon_300_360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_-90_-60_lon_0_60",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_-90_-60_lon_60_120",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON day lat_-90_-60_lon_120_180",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MARS day lat_60_90_lon_0_60",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MARS day lat_60_90_lon_300_360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MARS day lat_60_90_lon_240_300",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MARS day lat_60_90_lon_180_240",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MARS day lat_60_90_lon_120_180",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MARS day lat_60_90_lon_60_120",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_0_30_lon_180_240",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_0_30_lon_240_300",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_0_30_lon_300_360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_0_30_lon_0_60",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_0_30_lon_60_120",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_0_30_lon_120_180",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_-30_0_lon_180_240",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_-30_0_lon_240_300",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_-30_0_lon_300_360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_-30_0_lon_0_60",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_-30_0_lon_60_120",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_-30_0_lon_120_180",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_30_60_lon_180_240",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_30_60_lon_240_300",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_30_60_lon_300_360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_30_60_lon_0_60",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_30_60_lon_60_120",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_30_60_lon_120_180",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_-60_-30_lon_180_240",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_-60_-30_lon_240_300",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_-60_-30_lon_300_360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_-60_-30_lon_0_60",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_-60_-30_lon_60_120",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_-60_-30_lon_120_180",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_60_90_lon_180_240",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_60_90_lon_240_300",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_60_90_lon_300_360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_60_90_lon_0_60",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_60_90_lon_60_120",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_60_90_lon_120_180",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_-90_-60_lon_180_240",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_-90_-60_lon_240_300",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_-90_-60_lon_300_360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_-90_-60_lon_0_60",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_-90_-60_lon_60_120",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MOON night lat_-90_-60_lon_120_180",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MARS night lat_-90_-60_lon_180_240",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MARS night lat_-90_-60_lon_120_180",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MARS night lat_-90_-60_lon_60_120",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MARS night lat_-90_-60_lon_0_60",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MARS night lat_-90_-60_lon_300_360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "thermal pair MARS night lat_-90_-60_lon_240_300",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "persisted Holm anova",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "persisted Holm comparaciones",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "persisted Holm temperatura_anova",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "persisted Holm temperatura_comparaciones",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "MOON source hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "MARS source hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Tacana source hash",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "sensitivity": {
+    "MOON": {
+      "primary_winner": "Neander C",
+      "secondary_winner": "Lacroix J",
+      "median_absolute_change": 2.4984989150164054,
+      "maximum_absolute_change": 27.822387622640008,
+      "above80_primary": 195,
+      "above80_secondary": 82
+    },
+    "MARS": {
+      "primary_winner": "Ophir Cavus",
+      "secondary_winner": "Tithonium Chasma",
+      "median_absolute_change": 2.1367473498782186,
+      "maximum_absolute_change": 23.658051732845408,
+      "above80_primary": 1,
+      "above80_secondary": 0
+    }
+  },
+  "passed": true,
+  "limitations": [
+    "Spatial independence not demonstrated",
+    "Index has no external calibration; 80 is a project threshold",
+    "Thermal measurements differ in physical definition and temporal support",
+    "No uncertainty propagation or equivalence margins validated",
+    "Source hashes demonstrate consistency, not original acquisition correctness"
+  ]
+}

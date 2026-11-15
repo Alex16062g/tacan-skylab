@@ -1,0 +1,38 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #111c26; color: #f8fafc; font: 1rem/1.5 system-ui,sans-serif; }
+header, main { max-inline-size: 1600px; margin: auto; padding: 20px clamp(16px,3vw,40px); }
+header { display: flex; justify-content: space-between; border-block-end: 1px solid #31414f; gap: 20px; }
+nav { display: flex; gap: 24px; }
+a { color: #a6dce5; text-underline-offset: .2em; }
+nav a[aria-current="page"] { color: #ffe16a; font-weight: 700; }
+h1 { font-size: clamp(1.6rem,3vw,2.4rem); margin: 0; }
+h2 { font-size: 1.25rem; margin: 0; }
+p { margin-block: 8px; }
+.summary { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-block: 16px; }
+.summary strong { font-size: 1.35rem; color: #a6dce5; font-variant-numeric: tabular-nums; }
+.controls { display: flex; gap: 8px; flex-wrap: wrap; }
+button { background: #203440; color: #f8fafc; font: inherit; border: 1px solid #829ba9; border-radius: 4px; padding: 8px 12px; min-block-size: 44px; cursor: pointer; }
+button:hover { background: #314a5a; }
+button[aria-pressed="true"] { border-color: #ffe16a; color: #ffe16a; }
+:focus-visible { outline: 3px solid #ffe16a; outline-offset: 3px; }
+.hint, .legend, figcaption p, .range { color: #c6dce7; font-size: .85rem; }
+.terrains { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px; margin-block: 20px; }
+figure { margin: 0; min-inline-size: 0; border: 1px solid #31414f; border-radius: 12px; overflow: hidden; }
+figcaption { padding: 14px 16px 0; }
+.viewport { block-size: clamp(300px,43vw,520px); position: relative; }
+canvas { display: block; inline-size: 100%; block-size: 100%; touch-action: none; cursor: grab; }
+canvas:active { cursor: grabbing; }
+.range { padding: 8px 16px; font-variant-numeric: tabular-nums; }
+.color-scale { block-size: 12px; background: linear-gradient(to right,#21475a,#a6dce5); max-inline-size: 460px; }
+.color-labels { display: flex; justify-content: space-between; max-inline-size: 460px; font-size: .85rem; }
+details { margin-block: 24px; border-block-start: 1px solid #31414f; padding-block: 16px; }
+summary { cursor: pointer; padding-block: 8px; }
+details p { max-inline-size: 75ch; }
+.table-wrap { overflow: auto; }
+table { inline-size: 100%; border-collapse: separate; border-spacing: 0; font-variant-numeric: tabular-nums; }
+caption { text-align: start; padding-block: 16px; }
+th,td { text-align: start; padding: 12px; border-block-end: 1px solid #31414f; }
+thead th { position: sticky; inset-block-start: 0; background: #203440; }
+[hidden] { display: none !important; }
+::selection { background: #a6dce5; color: #111c26; }
+@media (max-width: 700px) { .terrains { grid-template-columns: 1fr; } .viewport { block-size: 340px; } .controls button { flex: 1 1 135px; } }

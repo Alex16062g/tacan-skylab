@@ -1,0 +1,1154 @@
+[
+  {
+    "body": "MOON",
+    "region": "lat_-90_-60_lon_0_60",
+    "n": 80,
+    "latitude_limits": [
+      -85,
+      -60
+    ],
+    "longitude_limits": [
+      0,
+      60
+    ],
+    "elevation_m_mean": 620.8113000313554,
+    "slope_deg_mean": 4.235405797879055,
+    "relief_p95_p05_m_mean": 2940.808033842507
+  },
+  {
+    "body": "MOON",
+    "region": "lat_-90_-60_lon_60_120",
+    "n": 80,
+    "latitude_limits": [
+      -85,
+      -60
+    ],
+    "longitude_limits": [
+      60,
+      120
+    ],
+    "elevation_m_mean": -665.1855561303946,
+    "slope_deg_mean": 3.773508455782891,
+    "relief_p95_p05_m_mean": 2637.2299438547357
+  },
+  {
+    "body": "MOON",
+    "region": "lat_-90_-60_lon_120_180",
+    "n": 80,
+    "latitude_limits": [
+      -85,
+      -60
+    ],
+    "longitude_limits": [
+      120,
+      180
+    ],
+    "elevation_m_mean": -2458.2695558678533,
+    "slope_deg_mean": 3.4268725565312486,
+    "relief_p95_p05_m_mean": 2126.979623145589
+  },
+  {
+    "body": "MOON",
+    "region": "lat_-90_-60_lon_180_240",
+    "n": 80,
+    "latitude_limits": [
+      -85,
+      -60
+    ],
+    "longitude_limits": [
+      180,
+      240
+    ],
+    "elevation_m_mean": -4539.142939924691,
+    "slope_deg_mean": 3.0243633024256993,
+    "relief_p95_p05_m_mean": 2042.3834683184207
+  },
+  {
+    "body": "MOON",
+    "region": "lat_-90_-60_lon_240_300",
+    "n": 80,
+    "latitude_limits": [
+      -85,
+      -60
+    ],
+    "longitude_limits": [
+      240,
+      300
+    ],
+    "elevation_m_mean": 51.74728470321973,
+    "slope_deg_mean": 4.051670007401597,
+    "relief_p95_p05_m_mean": 2737.745019662161
+  },
+  {
+    "body": "MOON",
+    "region": "lat_-90_-60_lon_300_360",
+    "n": 80,
+    "latitude_limits": [
+      -85,
+      -60
+    ],
+    "longitude_limits": [
+      300,
+      360
+    ],
+    "elevation_m_mean": -345.699596882923,
+    "slope_deg_mean": 4.243768718653657,
+    "relief_p95_p05_m_mean": 2723.2446093290937
+  },
+  {
+    "body": "MOON",
+    "region": "lat_-60_-30_lon_0_60",
+    "n": 80,
+    "latitude_limits": [
+      -60,
+      -30
+    ],
+    "longitude_limits": [
+      0,
+      60
+    ],
+    "elevation_m_mean": -999.9404355244181,
+    "slope_deg_mean": 3.2424452909298944,
+    "relief_p95_p05_m_mean": 2118.7528715317276
+  },
+  {
+    "body": "MOON",
+    "region": "lat_-60_-30_lon_60_120",
+    "n": 80,
+    "latitude_limits": [
+      -60,
+      -30
+    ],
+    "longitude_limits": [
+      60,
+      120
+    ],
+    "elevation_m_mean": -1045.6953741519253,
+    "slope_deg_mean": 3.54712666237385,
+    "relief_p95_p05_m_mean": 2082.7134579945778
+  },
+  {
+    "body": "MOON",
+    "region": "lat_-60_-30_lon_120_180",
+    "n": 80,
+    "latitude_limits": [
+      -60,
+      -30
+    ],
+    "longitude_limits": [
+      120,
+      180
+    ],
+    "elevation_m_mean": -2137.924563871549,
+    "slope_deg_mean": 3.7447781165857834,
+    "relief_p95_p05_m_mean": 2231.061755237918
+  },
+  {
+    "body": "MOON",
+    "region": "lat_-60_-30_lon_180_240",
+    "n": 80,
+    "latitude_limits": [
+      -60,
+      -30
+    ],
+    "longitude_limits": [
+      180,
+      240
+    ],
+    "elevation_m_mean": -2655.0392600846426,
+    "slope_deg_mean": 2.9877373637948685,
+    "relief_p95_p05_m_mean": 2020.1048298080545
+  },
+  {
+    "body": "MOON",
+    "region": "lat_-60_-30_lon_240_300",
+    "n": 80,
+    "latitude_limits": [
+      -60,
+      -30
+    ],
+    "longitude_limits": [
+      240,
+      300
+    ],
+    "elevation_m_mean": 1107.436206561837,
+    "slope_deg_mean": 2.9037679778809156,
+    "relief_p95_p05_m_mean": 1840.3600315879685
+  },
+  {
+    "body": "MOON",
+    "region": "lat_-60_-30_lon_300_360",
+    "n": 80,
+    "latitude_limits": [
+      -60,
+      -30
+    ],
+    "longitude_limits": [
+      300,
+      360
+    ],
+    "elevation_m_mean": -495.3341403254344,
+    "slope_deg_mean": 2.720010901410782,
+    "relief_p95_p05_m_mean": 1677.2963567002364
+  },
+  {
+    "body": "MOON",
+    "region": "lat_-30_0_lon_0_60",
+    "n": 80,
+    "latitude_limits": [
+      -30,
+      0
+    ],
+    "longitude_limits": [
+      0,
+      60
+    ],
+    "elevation_m_mean": -843.7457652124798,
+    "slope_deg_mean": 2.0197401233360885,
+    "relief_p95_p05_m_mean": 1359.732139990607
+  },
+  {
+    "body": "MOON",
+    "region": "lat_-30_0_lon_60_120",
+    "n": 80,
+    "latitude_limits": [
+      -30,
+      0
+    ],
+    "longitude_limits": [
+      60,
+      120
+    ],
+    "elevation_m_mean": -591.6511433950603,
+    "slope_deg_mean": 3.017965557020099,
+    "relief_p95_p05_m_mean": 1904.1085770553066
+  },
+  {
+    "body": "MOON",
+    "region": "lat_-30_0_lon_120_180",
+    "n": 80,
+    "latitude_limits": [
+      -30,
+      0
+    ],
+    "longitude_limits": [
+      120,
+      180
+    ],
+    "elevation_m_mean": 1151.08012018135,
+    "slope_deg_mean": 4.172107102287555,
+    "relief_p95_p05_m_mean": 2648.3376148604852
+  },
+  {
+    "body": "MOON",
+    "region": "lat_-30_0_lon_180_240",
+    "n": 80,
+    "latitude_limits": [
+      -30,
+      0
+    ],
+    "longitude_limits": [
+      180,
+      240
+    ],
+    "elevation_m_mean": 3239.2984684784838,
+    "slope_deg_mean": 3.859526678665253,
+    "relief_p95_p05_m_mean": 2572.92105695216
+  },
+  {
+    "body": "MOON",
+    "region": "lat_-30_0_lon_240_300",
+    "n": 80,
+    "latitude_limits": [
+      -30,
+      0
+    ],
+    "longitude_limits": [
+      240,
+      300
+    ],
+    "elevation_m_mean": 806.6836932889839,
+    "slope_deg_mean": 3.3398789056492264,
+    "relief_p95_p05_m_mean": 1969.2658453717413
+  },
+  {
+    "body": "MOON",
+    "region": "lat_-30_0_lon_300_360",
+    "n": 80,
+    "latitude_limits": [
+      -30,
+      0
+    ],
+    "longitude_limits": [
+      300,
+      360
+    ],
+    "elevation_m_mean": -1561.355760954243,
+    "slope_deg_mean": 0.9402156693510252,
+    "relief_p95_p05_m_mean": 574.8435017110169
+  },
+  {
+    "body": "MOON",
+    "region": "lat_0_30_lon_0_60",
+    "n": 80,
+    "latitude_limits": [
+      0,
+      30
+    ],
+    "longitude_limits": [
+      0,
+      60
+    ],
+    "elevation_m_mean": -1478.9452095232705,
+    "slope_deg_mean": 1.2442470269475152,
+    "relief_p95_p05_m_mean": 811.6950018330551
+  },
+  {
+    "body": "MOON",
+    "region": "lat_0_30_lon_60_120",
+    "n": 80,
+    "latitude_limits": [
+      0,
+      30
+    ],
+    "longitude_limits": [
+      60,
+      120
+    ],
+    "elevation_m_mean": -885.0834725961624,
+    "slope_deg_mean": 2.7844084592051206,
+    "relief_p95_p05_m_mean": 1806.6741756616811
+  },
+  {
+    "body": "MOON",
+    "region": "lat_0_30_lon_120_180",
+    "n": 80,
+    "latitude_limits": [
+      0,
+      30
+    ],
+    "longitude_limits": [
+      120,
+      180
+    ],
+    "elevation_m_mean": 1332.47011930446,
+    "slope_deg_mean": 3.6680276982486246,
+    "relief_p95_p05_m_mean": 2351.3319455592423
+  },
+  {
+    "body": "MOON",
+    "region": "lat_0_30_lon_180_240",
+    "n": 80,
+    "latitude_limits": [
+      0,
+      30
+    ],
+    "longitude_limits": [
+      180,
+      240
+    ],
+    "elevation_m_mean": 4010.7327243075415,
+    "slope_deg_mean": 4.127251616154899,
+    "relief_p95_p05_m_mean": 2495.416119588842
+  },
+  {
+    "body": "MOON",
+    "region": "lat_0_30_lon_240_300",
+    "n": 80,
+    "latitude_limits": [
+      0,
+      30
+    ],
+    "longitude_limits": [
+      240,
+      300
+    ],
+    "elevation_m_mean": -50.32246437572353,
+    "slope_deg_mean": 2.459374543183187,
+    "relief_p95_p05_m_mean": 1486.572650372414
+  },
+  {
+    "body": "MOON",
+    "region": "lat_0_30_lon_300_360",
+    "n": 80,
+    "latitude_limits": [
+      0,
+      30
+    ],
+    "longitude_limits": [
+      300,
+      360
+    ],
+    "elevation_m_mean": -1294.8094563383215,
+    "slope_deg_mean": 0.5495503561940236,
+    "relief_p95_p05_m_mean": 349.88915211190476
+  },
+  {
+    "body": "MOON",
+    "region": "lat_30_60_lon_0_60",
+    "n": 80,
+    "latitude_limits": [
+      30,
+      60
+    ],
+    "longitude_limits": [
+      0,
+      60
+    ],
+    "elevation_m_mean": -1837.4177773214694,
+    "slope_deg_mean": 1.3731883162532834,
+    "relief_p95_p05_m_mean": 939.2820065828568
+  },
+  {
+    "body": "MOON",
+    "region": "lat_30_60_lon_60_120",
+    "n": 80,
+    "latitude_limits": [
+      30,
+      60
+    ],
+    "longitude_limits": [
+      60,
+      120
+    ],
+    "elevation_m_mean": -1113.4711802689715,
+    "slope_deg_mean": 2.4386845057700306,
+    "relief_p95_p05_m_mean": 1756.2536552668855
+  },
+  {
+    "body": "MOON",
+    "region": "lat_30_60_lon_120_180",
+    "n": 80,
+    "latitude_limits": [
+      30,
+      60
+    ],
+    "longitude_limits": [
+      120,
+      180
+    ],
+    "elevation_m_mean": 1150.231541295286,
+    "slope_deg_mean": 3.629955061092782,
+    "relief_p95_p05_m_mean": 2325.671884813196
+  },
+  {
+    "body": "MOON",
+    "region": "lat_30_60_lon_180_240",
+    "n": 80,
+    "latitude_limits": [
+      30,
+      60
+    ],
+    "longitude_limits": [
+      180,
+      240
+    ],
+    "elevation_m_mean": 2125.052465238014,
+    "slope_deg_mean": 3.9863525220841907,
+    "relief_p95_p05_m_mean": 2563.0238108220037
+  },
+  {
+    "body": "MOON",
+    "region": "lat_30_60_lon_240_300",
+    "n": 80,
+    "latitude_limits": [
+      30,
+      60
+    ],
+    "longitude_limits": [
+      240,
+      300
+    ],
+    "elevation_m_mean": -968.7250853612131,
+    "slope_deg_mean": 1.8465211445729353,
+    "relief_p95_p05_m_mean": 1251.656728627049
+  },
+  {
+    "body": "MOON",
+    "region": "lat_30_60_lon_300_360",
+    "n": 80,
+    "latitude_limits": [
+      30,
+      60
+    ],
+    "longitude_limits": [
+      300,
+      360
+    ],
+    "elevation_m_mean": -2274.082428065435,
+    "slope_deg_mean": 0.6035456611936796,
+    "relief_p95_p05_m_mean": 507.98994374029223
+  },
+  {
+    "body": "MOON",
+    "region": "lat_60_90_lon_0_60",
+    "n": 80,
+    "latitude_limits": [
+      60,
+      85
+    ],
+    "longitude_limits": [
+      0,
+      60
+    ],
+    "elevation_m_mean": -1069.0745255894326,
+    "slope_deg_mean": 2.0096843565236755,
+    "relief_p95_p05_m_mean": 1257.9412664704419
+  },
+  {
+    "body": "MOON",
+    "region": "lat_60_90_lon_60_120",
+    "n": 80,
+    "latitude_limits": [
+      60,
+      85
+    ],
+    "longitude_limits": [
+      60,
+      120
+    ],
+    "elevation_m_mean": -1720.5125263803966,
+    "slope_deg_mean": 2.9549530374888247,
+    "relief_p95_p05_m_mean": 1905.228799905437
+  },
+  {
+    "body": "MOON",
+    "region": "lat_60_90_lon_120_180",
+    "n": 80,
+    "latitude_limits": [
+      60,
+      85
+    ],
+    "longitude_limits": [
+      120,
+      180
+    ],
+    "elevation_m_mean": -457.3403136635635,
+    "slope_deg_mean": 3.868901322337954,
+    "relief_p95_p05_m_mean": 2402.9740139560827
+  },
+  {
+    "body": "MOON",
+    "region": "lat_60_90_lon_180_240",
+    "n": 80,
+    "latitude_limits": [
+      60,
+      85
+    ],
+    "longitude_limits": [
+      180,
+      240
+    ],
+    "elevation_m_mean": 170.78362138767383,
+    "slope_deg_mean": 4.530273591789493,
+    "relief_p95_p05_m_mean": 2461.0206785153932
+  },
+  {
+    "body": "MOON",
+    "region": "lat_60_90_lon_240_300",
+    "n": 80,
+    "latitude_limits": [
+      60,
+      85
+    ],
+    "longitude_limits": [
+      240,
+      300
+    ],
+    "elevation_m_mean": -716.5915657304071,
+    "slope_deg_mean": 3.1014154284621585,
+    "relief_p95_p05_m_mean": 2026.6764954842752
+  },
+  {
+    "body": "MOON",
+    "region": "lat_60_90_lon_300_360",
+    "n": 80,
+    "latitude_limits": [
+      60,
+      85
+    ],
+    "longitude_limits": [
+      300,
+      360
+    ],
+    "elevation_m_mean": -1299.6185110773597,
+    "slope_deg_mean": 1.5903513955566289,
+    "relief_p95_p05_m_mean": 1041.808887649346
+  },
+  {
+    "body": "MARS",
+    "region": "lat_-90_-60_lon_0_60",
+    "n": 80,
+    "latitude_limits": [
+      -85,
+      -60
+    ],
+    "longitude_limits": [
+      0,
+      60
+    ],
+    "elevation_m_mean": 1352.821533203125,
+    "slope_deg_mean": 0.7281652688980103,
+    "relief_p95_p05_m_mean": 435.62603759765625
+  },
+  {
+    "body": "MARS",
+    "region": "lat_-90_-60_lon_60_120",
+    "n": 80,
+    "latitude_limits": [
+      -85,
+      -60
+    ],
+    "longitude_limits": [
+      60,
+      120
+    ],
+    "elevation_m_mean": 1461.5513916015625,
+    "slope_deg_mean": 1.4103697538375854,
+    "relief_p95_p05_m_mean": 833.5003662109375
+  },
+  {
+    "body": "MARS",
+    "region": "lat_-90_-60_lon_120_180",
+    "n": 80,
+    "latitude_limits": [
+      -85,
+      -60
+    ],
+    "longitude_limits": [
+      120,
+      180
+    ],
+    "elevation_m_mean": 1684.3209228515625,
+    "slope_deg_mean": 0.9028253555297852,
+    "relief_p95_p05_m_mean": 645.18212890625
+  },
+  {
+    "body": "MARS",
+    "region": "lat_-90_-60_lon_180_240",
+    "n": 80,
+    "latitude_limits": [
+      -85,
+      -60
+    ],
+    "longitude_limits": [
+      180,
+      240
+    ],
+    "elevation_m_mean": 1645.1029052734375,
+    "slope_deg_mean": 0.8230673670768738,
+    "relief_p95_p05_m_mean": 523.1740112304688
+  },
+  {
+    "body": "MARS",
+    "region": "lat_-90_-60_lon_240_300",
+    "n": 80,
+    "latitude_limits": [
+      -85,
+      -60
+    ],
+    "longitude_limits": [
+      240,
+      300
+    ],
+    "elevation_m_mean": 1514.6802978515625,
+    "slope_deg_mean": 0.7179425358772278,
+    "relief_p95_p05_m_mean": 433.2412109375
+  },
+  {
+    "body": "MARS",
+    "region": "lat_-90_-60_lon_300_360",
+    "n": 80,
+    "latitude_limits": [
+      -85,
+      -60
+    ],
+    "longitude_limits": [
+      300,
+      360
+    ],
+    "elevation_m_mean": 1343.10498046875,
+    "slope_deg_mean": 0.8440078496932983,
+    "relief_p95_p05_m_mean": 615.242431640625
+  },
+  {
+    "body": "MARS",
+    "region": "lat_-60_-30_lon_0_60",
+    "n": 80,
+    "latitude_limits": [
+      -60,
+      -30
+    ],
+    "longitude_limits": [
+      0,
+      60
+    ],
+    "elevation_m_mean": -492.05767822265625,
+    "slope_deg_mean": 1.2823139429092407,
+    "relief_p95_p05_m_mean": 806.888427734375
+  },
+  {
+    "body": "MARS",
+    "region": "lat_-60_-30_lon_60_120",
+    "n": 80,
+    "latitude_limits": [
+      -60,
+      -30
+    ],
+    "longitude_limits": [
+      60,
+      120
+    ],
+    "elevation_m_mean": -2285.61865234375,
+    "slope_deg_mean": 1.101532220840454,
+    "relief_p95_p05_m_mean": 749.7342529296875
+  },
+  {
+    "body": "MARS",
+    "region": "lat_-60_-30_lon_120_180",
+    "n": 80,
+    "latitude_limits": [
+      -60,
+      -30
+    ],
+    "longitude_limits": [
+      120,
+      180
+    ],
+    "elevation_m_mean": 1384.1546630859375,
+    "slope_deg_mean": 0.9279449582099915,
+    "relief_p95_p05_m_mean": 592.6383666992188
+  },
+  {
+    "body": "MARS",
+    "region": "lat_-60_-30_lon_180_240",
+    "n": 80,
+    "latitude_limits": [
+      -60,
+      -30
+    ],
+    "longitude_limits": [
+      180,
+      240
+    ],
+    "elevation_m_mean": 1785.72265625,
+    "slope_deg_mean": 1.1739606857299805,
+    "relief_p95_p05_m_mean": 632.58349609375
+  },
+  {
+    "body": "MARS",
+    "region": "lat_-60_-30_lon_240_300",
+    "n": 80,
+    "latitude_limits": [
+      -60,
+      -30
+    ],
+    "longitude_limits": [
+      240,
+      300
+    ],
+    "elevation_m_mean": 2558.4736328125,
+    "slope_deg_mean": 0.9000989198684692,
+    "relief_p95_p05_m_mean": 652.7980346679688
+  },
+  {
+    "body": "MARS",
+    "region": "lat_-60_-30_lon_300_360",
+    "n": 80,
+    "latitude_limits": [
+      -60,
+      -30
+    ],
+    "longitude_limits": [
+      300,
+      360
+    ],
+    "elevation_m_mean": 485.56951904296875,
+    "slope_deg_mean": 1.5971510410308838,
+    "relief_p95_p05_m_mean": 918.2440185546875
+  },
+  {
+    "body": "MARS",
+    "region": "lat_-30_0_lon_0_60",
+    "n": 80,
+    "latitude_limits": [
+      -30,
+      0
+    ],
+    "longitude_limits": [
+      0,
+      60
+    ],
+    "elevation_m_mean": 1336.7828369140625,
+    "slope_deg_mean": 1.1242107152938843,
+    "relief_p95_p05_m_mean": 688.0947875976562
+  },
+  {
+    "body": "MARS",
+    "region": "lat_-30_0_lon_60_120",
+    "n": 80,
+    "latitude_limits": [
+      -30,
+      0
+    ],
+    "longitude_limits": [
+      60,
+      120
+    ],
+    "elevation_m_mean": 1001.109375,
+    "slope_deg_mean": 1.2188743352890015,
+    "relief_p95_p05_m_mean": 781.2059936523438
+  },
+  {
+    "body": "MARS",
+    "region": "lat_-30_0_lon_120_180",
+    "n": 80,
+    "latitude_limits": [
+      -30,
+      0
+    ],
+    "longitude_limits": [
+      120,
+      180
+    ],
+    "elevation_m_mean": 320.2466735839844,
+    "slope_deg_mean": 1.1702114343643188,
+    "relief_p95_p05_m_mean": 695.962158203125
+  },
+  {
+    "body": "MARS",
+    "region": "lat_-30_0_lon_180_240",
+    "n": 80,
+    "latitude_limits": [
+      -30,
+      0
+    ],
+    "longitude_limits": [
+      180,
+      240
+    ],
+    "elevation_m_mean": 1425.4931640625,
+    "slope_deg_mean": 0.7018387317657471,
+    "relief_p95_p05_m_mean": 512.7276611328125
+  },
+  {
+    "body": "MARS",
+    "region": "lat_-30_0_lon_240_300",
+    "n": 80,
+    "latitude_limits": [
+      -30,
+      0
+    ],
+    "longitude_limits": [
+      240,
+      300
+    ],
+    "elevation_m_mean": 4584.9296875,
+    "slope_deg_mean": 1.3018211126327515,
+    "relief_p95_p05_m_mean": 948.8029174804688
+  },
+  {
+    "body": "MARS",
+    "region": "lat_-30_0_lon_300_360",
+    "n": 80,
+    "latitude_limits": [
+      -30,
+      0
+    ],
+    "longitude_limits": [
+      300,
+      360
+    ],
+    "elevation_m_mean": -351.05352783203125,
+    "slope_deg_mean": 1.2582694292068481,
+    "relief_p95_p05_m_mean": 789.9397583007812
+  },
+  {
+    "body": "MARS",
+    "region": "lat_0_30_lon_0_60",
+    "n": 80,
+    "latitude_limits": [
+      0,
+      30
+    ],
+    "longitude_limits": [
+      0,
+      60
+    ],
+    "elevation_m_mean": -205.1328125,
+    "slope_deg_mean": 0.8037235140800476,
+    "relief_p95_p05_m_mean": 591.8434448242188
+  },
+  {
+    "body": "MARS",
+    "region": "lat_0_30_lon_60_120",
+    "n": 80,
+    "latitude_limits": [
+      0,
+      30
+    ],
+    "longitude_limits": [
+      60,
+      120
+    ],
+    "elevation_m_mean": -1157.465576171875,
+    "slope_deg_mean": 0.767782986164093,
+    "relief_p95_p05_m_mean": 561.4407958984375
+  },
+  {
+    "body": "MARS",
+    "region": "lat_0_30_lon_120_180",
+    "n": 80,
+    "latitude_limits": [
+      0,
+      30
+    ],
+    "longitude_limits": [
+      120,
+      180
+    ],
+    "elevation_m_mean": -2453.08837890625,
+    "slope_deg_mean": 0.2640630304813385,
+    "relief_p95_p05_m_mean": 226.4084014892578
+  },
+  {
+    "body": "MARS",
+    "region": "lat_0_30_lon_180_240",
+    "n": 80,
+    "latitude_limits": [
+      0,
+      30
+    ],
+    "longitude_limits": [
+      180,
+      240
+    ],
+    "elevation_m_mean": -986.7532348632812,
+    "slope_deg_mean": 0.8222399950027466,
+    "relief_p95_p05_m_mean": 533.6231689453125
+  },
+  {
+    "body": "MARS",
+    "region": "lat_0_30_lon_240_300",
+    "n": 80,
+    "latitude_limits": [
+      0,
+      30
+    ],
+    "longitude_limits": [
+      240,
+      300
+    ],
+    "elevation_m_mean": 1969.5667724609375,
+    "slope_deg_mean": 0.8874809145927429,
+    "relief_p95_p05_m_mean": 721.46728515625
+  },
+  {
+    "body": "MARS",
+    "region": "lat_0_30_lon_300_360",
+    "n": 80,
+    "latitude_limits": [
+      0,
+      30
+    ],
+    "longitude_limits": [
+      300,
+      360
+    ],
+    "elevation_m_mean": -2427.59765625,
+    "slope_deg_mean": 1.0514098405838013,
+    "relief_p95_p05_m_mean": 582.1592407226562
+  },
+  {
+    "body": "MARS",
+    "region": "lat_30_60_lon_0_60",
+    "n": 80,
+    "latitude_limits": [
+      30,
+      60
+    ],
+    "longitude_limits": [
+      0,
+      60
+    ],
+    "elevation_m_mean": -2724.282470703125,
+    "slope_deg_mean": 0.9333492517471313,
+    "relief_p95_p05_m_mean": 546.8880004882812
+  },
+  {
+    "body": "MARS",
+    "region": "lat_30_60_lon_60_120",
+    "n": 80,
+    "latitude_limits": [
+      30,
+      60
+    ],
+    "longitude_limits": [
+      60,
+      120
+    ],
+    "elevation_m_mean": -3834.36865234375,
+    "slope_deg_mean": 0.4539952278137207,
+    "relief_p95_p05_m_mean": 233.75765991210938
+  },
+  {
+    "body": "MARS",
+    "region": "lat_30_60_lon_120_180",
+    "n": 80,
+    "latitude_limits": [
+      30,
+      60
+    ],
+    "longitude_limits": [
+      120,
+      180
+    ],
+    "elevation_m_mean": -3951.893798828125,
+    "slope_deg_mean": 0.24975533783435822,
+    "relief_p95_p05_m_mean": 156.79031372070312
+  },
+  {
+    "body": "MARS",
+    "region": "lat_30_60_lon_180_240",
+    "n": 80,
+    "latitude_limits": [
+      30,
+      60
+    ],
+    "longitude_limits": [
+      180,
+      240
+    ],
+    "elevation_m_mean": -3037.71044921875,
+    "slope_deg_mean": 0.21985682845115662,
+    "relief_p95_p05_m_mean": 162.7218017578125
+  },
+  {
+    "body": "MARS",
+    "region": "lat_30_60_lon_240_300",
+    "n": 80,
+    "latitude_limits": [
+      30,
+      60
+    ],
+    "longitude_limits": [
+      240,
+      300
+    ],
+    "elevation_m_mean": 63.30670166015625,
+    "slope_deg_mean": 0.5845929980278015,
+    "relief_p95_p05_m_mean": 440.11114501953125
+  },
+  {
+    "body": "MARS",
+    "region": "lat_30_60_lon_300_360",
+    "n": 80,
+    "latitude_limits": [
+      30,
+      60
+    ],
+    "longitude_limits": [
+      300,
+      360
+    ],
+    "elevation_m_mean": -4003.412841796875,
+    "slope_deg_mean": 0.2772851884365082,
+    "relief_p95_p05_m_mean": 199.33331298828125
+  },
+  {
+    "body": "MARS",
+    "region": "lat_60_90_lon_0_60",
+    "n": 80,
+    "latitude_limits": [
+      60,
+      85
+    ],
+    "longitude_limits": [
+      0,
+      60
+    ],
+    "elevation_m_mean": -4329.4384765625,
+    "slope_deg_mean": 0.2548080086708069,
+    "relief_p95_p05_m_mean": 155.24945068359375
+  },
+  {
+    "body": "MARS",
+    "region": "lat_60_90_lon_60_120",
+    "n": 80,
+    "latitude_limits": [
+      60,
+      85
+    ],
+    "longitude_limits": [
+      60,
+      120
+    ],
+    "elevation_m_mean": -4128.7333984375,
+    "slope_deg_mean": 0.15751752257347107,
+    "relief_p95_p05_m_mean": 106.5169906616211
+  },
+  {
+    "body": "MARS",
+    "region": "lat_60_90_lon_120_180",
+    "n": 80,
+    "latitude_limits": [
+      60,
+      85
+    ],
+    "longitude_limits": [
+      120,
+      180
+    ],
+    "elevation_m_mean": -4434.98583984375,
+    "slope_deg_mean": 0.25308793783187866,
+    "relief_p95_p05_m_mean": 128.5631561279297
+  },
+  {
+    "body": "MARS",
+    "region": "lat_60_90_lon_180_240",
+    "n": 80,
+    "latitude_limits": [
+      60,
+      85
+    ],
+    "longitude_limits": [
+      180,
+      240
+    ],
+    "elevation_m_mean": -4259.03759765625,
+    "slope_deg_mean": 0.21714504063129425,
+    "relief_p95_p05_m_mean": 137.2961883544922
+  },
+  {
+    "body": "MARS",
+    "region": "lat_60_90_lon_240_300",
+    "n": 80,
+    "latitude_limits": [
+      60,
+      85
+    ],
+    "longitude_limits": [
+      240,
+      300
+    ],
+    "elevation_m_mean": -4230.3330078125,
+    "slope_deg_mean": 0.18658412992954254,
+    "relief_p95_p05_m_mean": 131.61659240722656
+  },
+  {
+    "body": "MARS",
+    "region": "lat_60_90_lon_300_360",
+    "n": 80,
+    "latitude_limits": [
+      60,
+      85
+    ],
+    "longitude_limits": [
+      300,
+      360
+    ],
+    "elevation_m_mean": -4976.3974609375,
+    "slope_deg_mean": 0.16233745217323303,
+    "relief_p95_p05_m_mean": 127.39457702636719
+  }
+]

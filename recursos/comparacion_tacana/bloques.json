@@ -1,0 +1,7002 @@
+[
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 28.182500114440916,
+    "local_relief_m": 390.5576171875
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 28.594364995956422,
+    "local_relief_m": 482.01693115234366
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 35.436849718093875,
+    "local_relief_m": 586.5619445800783
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 34.949981827735904,
+    "local_relief_m": 381.30255126953125
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 29.621883552074433,
+    "local_relief_m": 315.2377197265623
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 28.211271834373473,
+    "local_relief_m": 507.41707763671866
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 27.495922820568083,
+    "local_relief_m": 397.75721435546893
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 27.566264140605927,
+    "local_relief_m": 364.2311035156249
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 22.51110484600067,
+    "local_relief_m": 207.38345947265634
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 19.319981317520142,
+    "local_relief_m": 300.05889892578125
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 14.502182321548462,
+    "local_relief_m": 201.4000244140625
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 16.904064888954164,
+    "local_relief_m": 228.1230712890624
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 25.266548500061035,
+    "local_relief_m": 259.24821166992183
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 28.966654267311096,
+    "local_relief_m": 443.78497314453125
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.56967162132263,
+    "local_relief_m": 474.1919311523434
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 27.42634696960449,
+    "local_relief_m": 419.6968078613281
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 29.21738396167755,
+    "local_relief_m": 453.55598144531245
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 24.773258085250855,
+    "local_relief_m": 333.38320312500036
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 22.718333401679992,
+    "local_relief_m": 308.59149169921875
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 26.100676860809326,
+    "local_relief_m": 361.8510498046876
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 27.278232612609862,
+    "local_relief_m": 443.1316772460941
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 28.273081464767458,
+    "local_relief_m": 515.9449096679687
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 14.327154941558838,
+    "local_relief_m": 227.80268554687473
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 20.15893710613251,
+    "local_relief_m": 242.28437500000018
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 14.7325252866745,
+    "local_relief_m": 143.1739746093749
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 21.698888330459596,
+    "local_relief_m": 278.0776733398436
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 16.594290614128113,
+    "local_relief_m": 208.40452270507808
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 24.79732976913452,
+    "local_relief_m": 393.62702636718745
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 20.39966094017029,
+    "local_relief_m": 340.0355468749999
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.75321949005127,
+    "local_relief_m": 281.31026611328116
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.329260659217834,
+    "local_relief_m": 278.1592529296877
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 18.545523833036423,
+    "local_relief_m": 196.9204345703124
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.58946346282959,
+    "local_relief_m": 182.35603027343768
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.91499750137329,
+    "local_relief_m": 544.5542846679691
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 24.716480368375777,
+    "local_relief_m": 242.99449462890607
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 27.356996755599976,
+    "local_relief_m": 424.9399658203124
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 25.265026364326477,
+    "local_relief_m": 382.72955322265625
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 19.635740957260133,
+    "local_relief_m": 305.5915588378905
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 16.473364515304567,
+    "local_relief_m": 264.789794921875
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 24.090067768096922,
+    "local_relief_m": 395.2927978515622
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 22.79517315864563,
+    "local_relief_m": 383.4175292968748
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 23.720547676086426,
+    "local_relief_m": 394.1134277343749
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 20.594643659591675,
+    "local_relief_m": 327.71096191406286
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 20.80961354255676,
+    "local_relief_m": 298.8180053710935
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 24.435004568099977,
+    "local_relief_m": 276.8333862304685
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 29.098184089660645,
+    "local_relief_m": 480.780993652344
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 28.783106055259704,
+    "local_relief_m": 327.9450195312502
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 14.922261414527894,
+    "local_relief_m": 212.5269531250001
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.630291137695313,
+    "local_relief_m": 403.0914062500001
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 25.33987479686737,
+    "local_relief_m": 449.6415100097656
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 19.023055201768877,
+    "local_relief_m": 303.4920288085939
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 23.987026529312132,
+    "local_relief_m": 391.8433715820315
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 29.274143791198732,
+    "local_relief_m": 472.5242431640622
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.04573612213135,
+    "local_relief_m": 548.8237548828124
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 24.121464595794677,
+    "local_relief_m": 398.2522460937498
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 23.105830307006837,
+    "local_relief_m": 380.93082275390634
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 22.023553466796876,
+    "local_relief_m": 299.15982666015634
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 26.820009593963622,
+    "local_relief_m": 311.2458740234374
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 25.93432461261749,
+    "local_relief_m": 291.0595703125
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 18.555070662498473,
+    "local_relief_m": 244.18316650390625
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.96352919101715,
+    "local_relief_m": 457.0963623046873
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 28.38655674934387,
+    "local_relief_m": 409.000720214844
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 18.126301221847534,
+    "local_relief_m": 267.99224853515625
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 25.14867473602295,
+    "local_relief_m": 457.85263671874964
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 28.57309497833252,
+    "local_relief_m": 487.1332519531252
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 33.88554063796997,
+    "local_relief_m": 607.0373413085936
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 27.51779908180237,
+    "local_relief_m": 515.8559814453124
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 24.90987717628479,
+    "local_relief_m": 341.4132568359373
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 25.80617238998413,
+    "local_relief_m": 407.255871582031
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 22.13638427734375,
+    "local_relief_m": 323.0833984374999
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 18.072621088027955,
+    "local_relief_m": 271.41239013671884
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.77824730157852,
+    "local_relief_m": 167.9908203125001
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 27.513216395378112,
+    "local_relief_m": 259.4290283203122
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 24.535883145332335,
+    "local_relief_m": 308.9025390625002
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 23.74847514629364,
+    "local_relief_m": 271.4396484375002
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 26.325443201065063,
+    "local_relief_m": 439.1186279296876
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.56631378173828,
+    "local_relief_m": 478.0039550781253
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.97979012489319,
+    "local_relief_m": 511.43599853515616
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.44949676513672,
+    "local_relief_m": 581.1045288085938
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 29.98083706855774,
+    "local_relief_m": 543.7673095703126
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 28.33553135871887,
+    "local_relief_m": 480.7721069335935
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 24.032101488113405,
+    "local_relief_m": 332.61036376953143
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 23.581935267448426,
+    "local_relief_m": 361.50411376953116
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 22.0051580786705,
+    "local_relief_m": 292.62801513671866
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 29.284298038482667,
+    "local_relief_m": 458.1669921875
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 25.940366005897523,
+    "local_relief_m": 357.1551757812499
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 23.78249161720276,
+    "local_relief_m": 351.185302734375
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.62804365158081,
+    "local_relief_m": 550.6660644531248
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 34.684845218658445,
+    "local_relief_m": 597.6706054687497
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 29.439196281433105,
+    "local_relief_m": 504.0850097656248
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 26.142245502471923,
+    "local_relief_m": 410.66066894531286
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 25.512254228591917,
+    "local_relief_m": 437.14144287109366
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 27.690365200042724,
+    "local_relief_m": 384.96014404296875
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 20.068945045471192,
+    "local_relief_m": 296.5970703124999
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 19.720730533599852,
+    "local_relief_m": 244.96712646484366
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 24.587165861129762,
+    "local_relief_m": 286.7897216796873
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 23.162536952495575,
+    "local_relief_m": 258.90133056640616
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 20.515561332702635,
+    "local_relief_m": 281.53885498046884
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 25.73027946472168,
+    "local_relief_m": 365.4123046875002
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.19656711578369,
+    "local_relief_m": 492.76649169921893
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.159366607666016,
+    "local_relief_m": 505.0275390625002
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 28.09636890411377,
+    "local_relief_m": 487.2332763671875
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 28.072191705703734,
+    "local_relief_m": 419.82559814453134
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.459430885314944,
+    "local_relief_m": 591.7688476562503
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 25.8462317276001,
+    "local_relief_m": 385.23624267578134
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 22.870073871612547,
+    "local_relief_m": 440.2273986816408
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 24.864434561729432,
+    "local_relief_m": 419.7901306152344
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 29.027587658166887,
+    "local_relief_m": 365.63165283203125
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 24.63255630493164,
+    "local_relief_m": 374.3711242675781
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 22.71780228614807,
+    "local_relief_m": 390.8222534179688
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 23.5451247215271,
+    "local_relief_m": 326.7582153320311
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 27.938856105804444,
+    "local_relief_m": 450.82293090820326
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 28.856162242889404,
+    "local_relief_m": 427.5610351562502
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.883801069259643,
+    "local_relief_m": 506.00896606445303
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 24.940152311325072,
+    "local_relief_m": 413.8829711914059
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 29.351628494262695,
+    "local_relief_m": 477.2204467773438
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 25.342297163009643,
+    "local_relief_m": 439.8597167968751
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 27.753963227272035,
+    "local_relief_m": 412.15131225585924
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 29.66776599407196,
+    "local_relief_m": 461.21611938476553
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 27.87698426246643,
+    "local_relief_m": 422.37638549804683
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 16.967258989810944,
+    "local_relief_m": 212.05746459960938
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 21.91213788509369,
+    "local_relief_m": 355.88811035156255
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 20.824245469570158,
+    "local_relief_m": 255.19370727539058
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 24.843051748275755,
+    "local_relief_m": 366.51201171875005
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 25.09801070690155,
+    "local_relief_m": 427.47440795898433
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 21.20548860549927,
+    "local_relief_m": 343.2625366210939
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 20.397231746912002,
+    "local_relief_m": 297.1886901855469
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 21.56255853652954,
+    "local_relief_m": 281.7780822753907
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 18.599919877052308,
+    "local_relief_m": 301.46454467773447
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 18.179250178337096,
+    "local_relief_m": 209.9710327148439
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 28.555251290798186,
+    "local_relief_m": 364.6619628906251
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 24.965572023391722,
+    "local_relief_m": 378.33836669921857
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.20488606929779,
+    "local_relief_m": 205.52344970703143
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 20.554613175392152,
+    "local_relief_m": 344.89802246093745
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 16.58182809829712,
+    "local_relief_m": 202.327520751953
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 19.328193640708925,
+    "local_relief_m": 225.45621337890634
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 19.33065622329712,
+    "local_relief_m": 321.32061767578125
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.382205090522767,
+    "local_relief_m": 204.23883056640625
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 22.35640265226364,
+    "local_relief_m": 345.65901489257794
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 24.827683618068694,
+    "local_relief_m": 389.7662231445313
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.65086712360382,
+    "local_relief_m": 213.83916625976576
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 20.85942815542221,
+    "local_relief_m": 209.814825439453
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 12.55223323583603,
+    "local_relief_m": 178.99676513671852
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 18.795324652194978,
+    "local_relief_m": 293.2749389648436
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 19.972390213012694,
+    "local_relief_m": 326.73537292480455
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 23.87694995880127,
+    "local_relief_m": 389.69833984375
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 23.696723842620848,
+    "local_relief_m": 396.5392669677734
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 20.308053798675537,
+    "local_relief_m": 338.90407409667966
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.897669191360473,
+    "local_relief_m": 220.66060180664067
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 7.443257881551981,
+    "local_relief_m": 121.54576416015618
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 4.009915704131126,
+    "local_relief_m": 61.79490661621094
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 3.818711327314377,
+    "local_relief_m": 51.699563598632835
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.216280196905136,
+    "local_relief_m": 88.01521911621091
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 5.9691489684581756,
+    "local_relief_m": 88.39201354980469
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 4.848323847055435,
+    "local_relief_m": 64.73690490722652
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.745238752365113,
+    "local_relief_m": 181.56149291992188
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 14.959219541549682,
+    "local_relief_m": 234.47581787109368
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 16.736996555328368,
+    "local_relief_m": 270.3656311035156
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.405627770423889,
+    "local_relief_m": 233.13652954101576
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.298172130584717,
+    "local_relief_m": 245.2699218749999
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.52926456451416,
+    "local_relief_m": 253.11752319335938
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.345703463554383,
+    "local_relief_m": 164.01836547851576
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 7.051633961200714,
+    "local_relief_m": 104.77222595214846
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 5.446518175601959,
+    "local_relief_m": 85.01853027343748
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 5.132037425041199,
+    "local_relief_m": 69.16246948242178
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 7.363347096443176,
+    "local_relief_m": 90.65556640624993
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 4.126745145320893,
+    "local_relief_m": 50.18951416015625
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.019161494523287,
+    "local_relief_m": 129.09793701171873
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.591214882135391,
+    "local_relief_m": 128.33501586914065
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.744611568450928,
+    "local_relief_m": 170.96615905761723
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.267051448822022,
+    "local_relief_m": 238.63684997558607
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.812144765853883,
+    "local_relief_m": 288.8394653320313
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.996080363988876,
+    "local_relief_m": 144.68018188476572
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.782403065562248,
+    "local_relief_m": 122.84462280273442
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.048757181167602,
+    "local_relief_m": 163.7653686523438
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 12.974684677124024,
+    "local_relief_m": 203.20578002929688
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.617381310462951,
+    "local_relief_m": 92.69256591796864
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 5.744016661643982,
+    "local_relief_m": 94.02399291992185
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 7.22974428653717,
+    "local_relief_m": 111.10299377441402
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.328990256786346,
+    "local_relief_m": 151.24533996582034
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.011142760515213,
+    "local_relief_m": 102.77415161132808
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 4.253242609500885,
+    "local_relief_m": 61.492550659179756
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.595135045051574,
+    "local_relief_m": 178.9587982177735
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.619329833984375,
+    "local_relief_m": 216.42620239257803
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 12.686543083190918,
+    "local_relief_m": 207.58858032226556
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 14.833778705596924,
+    "local_relief_m": 234.23297729492197
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 12.206483432054519,
+    "local_relief_m": 191.0444702148436
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 5.84238635122776,
+    "local_relief_m": 73.3662231445312
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.615565325021743,
+    "local_relief_m": 146.33163452148438
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.803673264980317,
+    "local_relief_m": 156.55120849609375
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 5.516483535766602,
+    "local_relief_m": 79.67816162109364
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.383911180496216,
+    "local_relief_m": 91.98510437011714
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.331644730567932,
+    "local_relief_m": 162.0459228515624
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.922672324180603,
+    "local_relief_m": 186.0149780273439
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.958319988250732,
+    "local_relief_m": 227.19230957031243
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.402600302696229,
+    "local_relief_m": 211.95149536132806
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.377789721488952,
+    "local_relief_m": 208.99796447753897
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 12.805699729919434,
+    "local_relief_m": 193.00328063964844
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 12.721077632904052,
+    "local_relief_m": 202.82880859374995
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.230227479934692,
+    "local_relief_m": 222.5546875
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.956653206348419,
+    "local_relief_m": 130.30671386718768
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 7.694613773822784,
+    "local_relief_m": 114.46969604492188
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.890521416664123,
+    "local_relief_m": 157.72572631835942
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 5.4607666182518,
+    "local_relief_m": 69.49014892578111
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 7.2451515698432924,
+    "local_relief_m": 110.44014892578116
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.61242111682892,
+    "local_relief_m": 229.52310791015634
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.18603635787964,
+    "local_relief_m": 284.18925170898433
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.71897479057312,
+    "local_relief_m": 286.57559814453134
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 19.810982704162598,
+    "local_relief_m": 320.2945373535156
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 19.857908515930177,
+    "local_relief_m": 325.99580078124995
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 18.78609224319458,
+    "local_relief_m": 300.3578796386719
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.494864120483399,
+    "local_relief_m": 258.2996826171875
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.437904324531555,
+    "local_relief_m": 135.1008422851562
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.99149147093296,
+    "local_relief_m": 155.09941406250005
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 16.037130591869353,
+    "local_relief_m": 273.7289733886719
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.100971577167511,
+    "local_relief_m": 133.73513793945312
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 7.705434229373932,
+    "local_relief_m": 119.54786376953143
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 5.966315598487854,
+    "local_relief_m": 95.54932861328143
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.202466387748718,
+    "local_relief_m": 187.71549682617183
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.94377968788147,
+    "local_relief_m": 313.99116210937495
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 18.376968269348144,
+    "local_relief_m": 302.6190490722656
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.076742010116575,
+    "local_relief_m": 267.77933959960933
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 16.950505409240723,
+    "local_relief_m": 280.4001525878907
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.244717487692833,
+    "local_relief_m": 217.61406250000005
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.70551274061203,
+    "local_relief_m": 138.02332153320322
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.491958680152893,
+    "local_relief_m": 148.9132324218749
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.676735767126083,
+    "local_relief_m": 146.39273681640634
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.022821307182312,
+    "local_relief_m": 240.65178222656255
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 14.778022718429565,
+    "local_relief_m": 220.53493652343752
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.709179359525442,
+    "local_relief_m": 87.02031250000005
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.199183861017227,
+    "local_relief_m": 95.1591674804688
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.796050138473511,
+    "local_relief_m": 155.7140869140626
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 16.878192987442016,
+    "local_relief_m": 294.75993041992183
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 18.26835850715637,
+    "local_relief_m": 323.93476562499995
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.905126613378524,
+    "local_relief_m": 193.73731689453143
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 7.114905917048454,
+    "local_relief_m": 88.71814575195299
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.919622306823731,
+    "local_relief_m": 126.5165893554688
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.524877629280091,
+    "local_relief_m": 148.36536865234393
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 3.889496394097805,
+    "local_relief_m": 44.367932128906205
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.45318694114685,
+    "local_relief_m": 178.5324890136717
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.345144266486168,
+    "local_relief_m": 184.73703002929688
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.088370227217673,
+    "local_relief_m": 114.16351928710947
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.369425352811813,
+    "local_relief_m": 106.42288208007812
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.235358076095581,
+    "local_relief_m": 182.98933105468745
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.647728890180588,
+    "local_relief_m": 154.12252807617165
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 16.657851593494414,
+    "local_relief_m": 266.78889770507817
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.230965213775635,
+    "local_relief_m": 270.2301025390625
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.498016772270203,
+    "local_relief_m": 185.82211303710938
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 5.564145461916923,
+    "local_relief_m": 53.151702880859375
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.740024933815002,
+    "local_relief_m": 151.25397949218745
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.245770621299744,
+    "local_relief_m": 165.3197265624999
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.500692572593689,
+    "local_relief_m": 138.50612792968764
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.185282745957375,
+    "local_relief_m": 90.97567749023438
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.197559064626693,
+    "local_relief_m": 153.33115844726558
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.259340705871582,
+    "local_relief_m": 250.18159179687495
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.737645392417908,
+    "local_relief_m": 84.16191406249982
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.147089347839355,
+    "local_relief_m": 173.18637084960926
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 14.297913632392884,
+    "local_relief_m": 244.80592956542966
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 16.190482711791994,
+    "local_relief_m": 263.40631713867197
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.294535100460052,
+    "local_relief_m": 176.32822875976558
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 7.413593534827232,
+    "local_relief_m": 114.30911865234384
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 12.36191586971283,
+    "local_relief_m": 201.1521240234374
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 7.147239894866943,
+    "local_relief_m": 88.27579956054683
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.967541785240174,
+    "local_relief_m": 147.3665771484375
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 7.026527318954468,
+    "local_relief_m": 104.6561279296875
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 5.489642750620842,
+    "local_relief_m": 77.73208618164062
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.307705836296082,
+    "local_relief_m": 150.2270568847655
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.486982765197753,
+    "local_relief_m": 185.56063232421866
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.480418691635132,
+    "local_relief_m": 171.97554931640616
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.2630617544054985,
+    "local_relief_m": 66.30733032226567
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 12.171999139785767,
+    "local_relief_m": 193.72550659179683
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.759465928077697,
+    "local_relief_m": 265.0049102783204
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.545723419189454,
+    "local_relief_m": 245.01813964843745
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.088859605789185,
+    "local_relief_m": 244.27474975585938
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.353049595355987,
+    "local_relief_m": 118.75322265625005
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.196611913442611,
+    "local_relief_m": 152.28302001953125
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.054910976886749,
+    "local_relief_m": 125.22727050781259
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.782846984863282,
+    "local_relief_m": 140.8369384765624
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 4.3278359758853915,
+    "local_relief_m": 65.72580566406236
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 5.538254163265228,
+    "local_relief_m": 82.68196411132817
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.343590502738953,
+    "local_relief_m": 161.18716430664062
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.723804537653923,
+    "local_relief_m": 60.034924316406205
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 7.956825095415115,
+    "local_relief_m": 134.53889160156245
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 7.559029850959778,
+    "local_relief_m": 122.01689453124982
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.95083625793457,
+    "local_relief_m": 290.45567626953124
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 20.433070802688597,
+    "local_relief_m": 366.6477355957031
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 20.228904008865356,
+    "local_relief_m": 338.1053741455079
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.496618518829347,
+    "local_relief_m": 303.18911132812514
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.265208485126495,
+    "local_relief_m": 224.98372192382817
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.886447982788086,
+    "local_relief_m": 137.62896118164053
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.284073090553283,
+    "local_relief_m": 148.7628051757813
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 5.841878428459167,
+    "local_relief_m": 96.80195922851567
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.301322847604752,
+    "local_relief_m": 88.61989746093741
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 5.021051291227341,
+    "local_relief_m": 63.639007568359375
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.418855276107788,
+    "local_relief_m": 145.29680175781232
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 4.412481121420861,
+    "local_relief_m": 56.65157470703116
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 7.276350777149201,
+    "local_relief_m": 116.59637451171875
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.431032803058624,
+    "local_relief_m": 103.36067504882817
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 14.717397468090057,
+    "local_relief_m": 233.822599029541
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 19.572376909255983,
+    "local_relief_m": 349.2957550048827
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 22.046967430114748,
+    "local_relief_m": 397.8216674804688
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 22.07798713684082,
+    "local_relief_m": 381.35780334472645
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.841632194519043,
+    "local_relief_m": 302.21171264648456
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.214839549064637,
+    "local_relief_m": 158.21433715820308
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.429938728809357,
+    "local_relief_m": 86.45198974609366
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.289769635200501,
+    "local_relief_m": 100.5129577636717
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.682758471369743,
+    "local_relief_m": 132.62018432617197
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 7.024352402538061,
+    "local_relief_m": 112.5584533691408
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.290572199821472,
+    "local_relief_m": 129.907598876953
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.216628686189652,
+    "local_relief_m": 95.21444702148438
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 7.2745231246948245,
+    "local_relief_m": 115.3892822265625
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.09598918914795,
+    "local_relief_m": 165.9217834472655
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.582850313782693,
+    "local_relief_m": 134.65830917358397
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.267196559906006,
+    "local_relief_m": 255.75572586059567
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 19.728313083648683,
+    "local_relief_m": 338.9515029907226
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 21.294661464691163,
+    "local_relief_m": 372.37206115722654
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 20.236375675201415,
+    "local_relief_m": 355.445346069336
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.738579697608948,
+    "local_relief_m": 272.31145629882803
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.138313074111938,
+    "local_relief_m": 168.17397460937514
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.061724193096161,
+    "local_relief_m": 141.0909790039061
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.30028118312359,
+    "local_relief_m": 148.81775512695322
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.164859807491302,
+    "local_relief_m": 133.23036499023442
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 7.59818635225296,
+    "local_relief_m": 123.81392822265616
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.290250849723815,
+    "local_relief_m": 133.97136840820326
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.587138001918794,
+    "local_relief_m": 191.5470428466797
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.870700826644898,
+    "local_relief_m": 235.47666625976558
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 14.738547410964966,
+    "local_relief_m": 230.54574928283694
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.31518171310425,
+    "local_relief_m": 285.7244003295898
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 21.19563877105713,
+    "local_relief_m": 362.70525474548333
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 21.145141887664796,
+    "local_relief_m": 356.6358337402343
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 18.137697210311888,
+    "local_relief_m": 290.5186401367188
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.696293320655823,
+    "local_relief_m": 208.46002807617197
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.326740989685058,
+    "local_relief_m": 121.2874755859375
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.529048433303833,
+    "local_relief_m": 163.63729858398438
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 7.5510011625289915,
+    "local_relief_m": 118.52924194335924
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.9170723819732665,
+    "local_relief_m": 114.9085693359375
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.338500051498412,
+    "local_relief_m": 140.6399291992186
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 12.184264478683472,
+    "local_relief_m": 207.09677429199223
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 14.811874628067017,
+    "local_relief_m": 259.2718963623047
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.118569002151489,
+    "local_relief_m": 264.1158203125001
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.6356295464932918,
+    "local_relief_m": 9.400231933593659
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.3402016545087099,
+    "local_relief_m": 4.777478027343477
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.43279328156262636,
+    "local_relief_m": 4.097607421875182
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.6580322106182576,
+    "local_relief_m": 7.982556152343477
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.7306275440007448,
+    "local_relief_m": 5.979089355468659
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.33423015780746934,
+    "local_relief_m": 4.239501953125
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.3633123268187046,
+    "local_relief_m": 5.581066894531432
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.4974744667112827,
+    "local_relief_m": 6.085925292969023
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.24516059402376414,
+    "local_relief_m": 2.447863769531068
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 3000,
+    "valid_cells": 94,
+    "mean_slope_deg": 0.2805267017572484,
+    "local_relief_m": 3.516442871093659
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.5146236584335565,
+    "local_relief_m": 7.262011718749818
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.6431399797461927,
+    "local_relief_m": 9.744067382812318
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.237792772911489,
+    "local_relief_m": 2.640185546875273
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.426396169224754,
+    "local_relief_m": 4.404455566406341
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.4344475093483925,
+    "local_relief_m": 5.402319335937591
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.5295319972932339,
+    "local_relief_m": 7.009179687499909
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.4797579898685217,
+    "local_relief_m": 5.265954589844114
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.5701984360814094,
+    "local_relief_m": 6.8126220703125
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.5198268586397171,
+    "local_relief_m": 8.153881835937227
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.6568724796175957,
+    "local_relief_m": 9.761694335937136
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.7098291241377592,
+    "local_relief_m": 9.381066894531614
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.5422825852781534,
+    "local_relief_m": 8.237280273437591
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 7000,
+    "valid_cells": 93,
+    "mean_slope_deg": 0.5123822407256211,
+    "local_relief_m": 7.185205078125364
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.7507316693663597,
+    "local_relief_m": 12.242590332030886
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.7017386666312814,
+    "local_relief_m": 6.580236816406341
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.8579429483413696,
+    "local_relief_m": 11.333203125000182
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.8540568665415048,
+    "local_relief_m": 5.28515625
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 2.0055034502968194,
+    "local_relief_m": 16.199475097656432
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.5595263115037232,
+    "local_relief_m": 5.9190673828125
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 1.0180415907502174,
+    "local_relief_m": 5.253283691406068
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 2.689029124453664,
+    "local_relief_m": 34.43414306640625
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.6469408161565662,
+    "local_relief_m": 7.84320068359375
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.5476034159213304,
+    "local_relief_m": 6.754956054687682
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.5522571867331862,
+    "local_relief_m": 7.121630859374818
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.5461291429400444,
+    "local_relief_m": 5.829809570312136
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.5544150534272194,
+    "local_relief_m": 6.581030273437591
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.38081316169351337,
+    "local_relief_m": 4.032373046874909
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.617318383064121,
+    "local_relief_m": 4.088977050781068
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.3394428727030754,
+    "local_relief_m": 3.234289550781341
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.5522922895476222,
+    "local_relief_m": 6.38397216796875
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.36579085540026424,
+    "local_relief_m": 3.987438964843932
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 13000,
+    "valid_cells": 92,
+    "mean_slope_deg": 0.515611431075503,
+    "local_relief_m": 6.7191162109375
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 13000,
+    "valid_cells": 91,
+    "mean_slope_deg": 0.5097541062386481,
+    "local_relief_m": 6.2327880859375
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.4582464887201786,
+    "local_relief_m": 5.967883300781523
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.5624822263419628,
+    "local_relief_m": 7.677661132812773
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.42331203140318396,
+    "local_relief_m": 5.514294433593477
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 15000,
+    "valid_cells": 96,
+    "mean_slope_deg": 0.2311111906504569,
+    "local_relief_m": 2.49346923828125
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 15000,
+    "valid_cells": 100,
+    "mean_slope_deg": 0.2802874438930303,
+    "local_relief_m": 2.951074218749909
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.344389743804932,
+    "local_relief_m": 208.3273711323738
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.960545768737793,
+    "local_relief_m": 238.15479145050048
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.822271890640259,
+    "local_relief_m": 209.7699565887451
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 18.150465507507324,
+    "local_relief_m": 312.71780319213866
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 23.2375030708313,
+    "local_relief_m": 410.93445129394524
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 23.052604217529296,
+    "local_relief_m": 400.9005340576173
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.867677516937256,
+    "local_relief_m": 306.07415161132826
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.695228570699692,
+    "local_relief_m": 149.12404174804692
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 24.729116988182067,
+    "local_relief_m": 436.7918945312499
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.32878076553345,
+    "local_relief_m": 568.6748474121093
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.29264238357544,
+    "local_relief_m": 620.3045974731446
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.99143226623535,
+    "local_relief_m": 587.1232994079589
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.08628080368042,
+    "local_relief_m": 593.0439476013183
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 1000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.45923740386963,
+    "local_relief_m": 581.0548446655274
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.591662607192994,
+    "local_relief_m": 160.9687431335449
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.383711595535278,
+    "local_relief_m": 181.75668334960935
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 12.405038080215455,
+    "local_relief_m": 190.19121856689446
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.3096706199646,
+    "local_relief_m": 295.25958251953125
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 21.98772310256958,
+    "local_relief_m": 379.4314208984375
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 21.051491451263427,
+    "local_relief_m": 362.8103210449219
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.929504160881043,
+    "local_relief_m": 161.27800903320303
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 22.097180013656615,
+    "local_relief_m": 379.13552551269527
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.926427040100098,
+    "local_relief_m": 558.8510131835938
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.4129669380188,
+    "local_relief_m": 594.2678871154785
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.586862316131594,
+    "local_relief_m": 613.5607818603515
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.28723335266113,
+    "local_relief_m": 604.2754531860351
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.029385566711426,
+    "local_relief_m": 584.2729187011719
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 2000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.472482776641847,
+    "local_relief_m": 570.5331237792971
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.745778379440308,
+    "local_relief_m": 136.71893157958988
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.865721864700317,
+    "local_relief_m": 165.58523101806634
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.35405795097351,
+    "local_relief_m": 219.40297851562502
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 18.482661867141722,
+    "local_relief_m": 317.73212280273435
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 20.46852907180786,
+    "local_relief_m": 355.1710784912109
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.273970937728883,
+    "local_relief_m": 285.4156616210937
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.492210729122162,
+    "local_relief_m": 247.10684204101562
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.022128810882567,
+    "local_relief_m": 544.0420684814453
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.83229221343994,
+    "local_relief_m": 611.8439796447755
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.777499256134035,
+    "local_relief_m": 595.1124061584472
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.97679983139038,
+    "local_relief_m": 574.631950378418
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.6728874206543,
+    "local_relief_m": 587.0889923095702
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.468387393951417,
+    "local_relief_m": 594.3526550292968
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 3000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.59517511367798,
+    "local_relief_m": 552.1362182617188
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.839581117630005,
+    "local_relief_m": 112.80157470703125
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.037528376579285,
+    "local_relief_m": 159.17224426269536
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.058041429519653,
+    "local_relief_m": 217.72491455078125
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.29820824623108,
+    "local_relief_m": 296.14050598144524
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 18.22357166290283,
+    "local_relief_m": 302.0006225585937
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.97111549139023,
+    "local_relief_m": 191.6403991699217
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 24.90284460067749,
+    "local_relief_m": 424.359991455078
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.67382465362549,
+    "local_relief_m": 574.2172607421876
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.533933868408205,
+    "local_relief_m": 575.0210765838623
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.22578125,
+    "local_relief_m": 581.2630126953125
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.736572265625,
+    "local_relief_m": 576.9831756591797
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.23201295852661,
+    "local_relief_m": 561.3560546875001
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.1358966255188,
+    "local_relief_m": 547.0810241699219
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 4000,
+    "valid_cells": 100,
+    "mean_slope_deg": 26.558432312011718,
+    "local_relief_m": 481.56179199218786
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 4.701448135375976,
+    "local_relief_m": 73.65154113769529
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.972310228347778,
+    "local_relief_m": 140.9108245849609
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 12.602736530303956,
+    "local_relief_m": 205.64276123046875
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.063467197418213,
+    "local_relief_m": 286.3659484863283
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 14.495778512954711,
+    "local_relief_m": 235.2399963378905
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 12.24281270980835,
+    "local_relief_m": 122.2859069824217
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.957588653564454,
+    "local_relief_m": 525.0047912597656
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 33.869148635864256,
+    "local_relief_m": 594.7506652832031
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.612481842041014,
+    "local_relief_m": 571.7983108520507
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.10520439147949,
+    "local_relief_m": 560.1143218994141
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.166238803863525,
+    "local_relief_m": 551.0495513916014
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.12988147735596,
+    "local_relief_m": 539.7086181640625
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 27.12362646102905,
+    "local_relief_m": 476.9875000000002
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 5000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.516749019622802,
+    "local_relief_m": 250.73247070312482
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 4.848839597702026,
+    "local_relief_m": 64.77533569335935
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.752878980636597,
+    "local_relief_m": 181.7337005615234
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 14.962735471725464,
+    "local_relief_m": 234.54086303710938
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 16.737285594940186,
+    "local_relief_m": 270.51512451171857
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 14.02706259727478,
+    "local_relief_m": 230.8079956054687
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.130934414863585,
+    "local_relief_m": 242.0403076171874
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.1560192489624,
+    "local_relief_m": 541.966372680664
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 33.518177604675294,
+    "local_relief_m": 588.5579238891602
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.58541938781738,
+    "local_relief_m": 563.1637504577636
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.35578998565674,
+    "local_relief_m": 553.6374328613281
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.71666000366211,
+    "local_relief_m": 525.2390319824219
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 28.834766521453858,
+    "local_relief_m": 485.153503417969
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 21.93152967453003,
+    "local_relief_m": 355.9097167968753
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 6000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.885252161026001,
+    "local_relief_m": 127.39846191406241
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.585565889179707,
+    "local_relief_m": 128.2823028564453
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.750057249069213,
+    "local_relief_m": 171.09662475585935
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.269841661453247,
+    "local_relief_m": 238.78580017089848
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.81828417778015,
+    "local_relief_m": 288.85009765625
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.891964588165283,
+    "local_relief_m": 261.94832763671866
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 18.43351204544306,
+    "local_relief_m": 294.06683959960947
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.13322240829468,
+    "local_relief_m": 570.6179809570311
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 33.45650653839111,
+    "local_relief_m": 594.2625930786132
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.36607580184936,
+    "local_relief_m": 568.0395328521729
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.886933002471924,
+    "local_relief_m": 555.5533935546875
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.406896171569823,
+    "local_relief_m": 529.492608642578
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 27.178740520477294,
+    "local_relief_m": 457.2944152832031
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 16.452154722213745,
+    "local_relief_m": 257.1264160156247
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 7000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.324263877868653,
+    "local_relief_m": 172.26097412109402
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.600819149017333,
+    "local_relief_m": 179.07846984863272
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.621456384658813,
+    "local_relief_m": 216.4672088623047
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 12.682622509002686,
+    "local_relief_m": 207.4575653076172
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 14.839358053207398,
+    "local_relief_m": 234.4753173828126
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 16.297456436157226,
+    "local_relief_m": 267.5835021972657
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 18.361636132001877,
+    "local_relief_m": 302.80791625976553
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.522922916412355,
+    "local_relief_m": 531.5506134033204
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 32.120340461730954,
+    "local_relief_m": 556.6147727966309
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.656933879852296,
+    "local_relief_m": 548.3333869934081
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.32890729904175,
+    "local_relief_m": 527.3787002563477
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 29.688535060882568,
+    "local_relief_m": 510.57669677734384
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 27.27431348800659,
+    "local_relief_m": 472.17589721679656
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 19.300817346572877,
+    "local_relief_m": 321.00614013671884
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 8000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.88111283302307,
+    "local_relief_m": 181.68306884765616
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.381818671226501,
+    "local_relief_m": 209.1496704101562
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 12.803821086883545,
+    "local_relief_m": 192.9165893554689
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 12.723550863265991,
+    "local_relief_m": 202.98338012695308
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.234418621063233,
+    "local_relief_m": 222.5984130859374
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 14.431401863098145,
+    "local_relief_m": 234.52978515625
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 17.174718415737154,
+    "local_relief_m": 286.27887573242174
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 29.742005615234376,
+    "local_relief_m": 501.0700805664063
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.163406105041503,
+    "local_relief_m": 528.1536758422851
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.010365619659424,
+    "local_relief_m": 535.6460464477539
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.822466621398927,
+    "local_relief_m": 532.4167831420898
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 29.59552213668823,
+    "local_relief_m": 523.7533020019532
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 28.14250762939453,
+    "local_relief_m": 486.9658203125
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 25.812311096191408,
+    "local_relief_m": 443.1290344238282
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 9000,
+    "valid_cells": 100,
+    "mean_slope_deg": 18.006083431243898,
+    "local_relief_m": 285.00357666015634
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 18.78221187591553,
+    "local_relief_m": 300.2487426757814
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.492265100479125,
+    "local_relief_m": 258.2919738769533
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.438601078987121,
+    "local_relief_m": 134.91854248046866
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 12.000337643623352,
+    "local_relief_m": 155.28129272460933
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.215786964893342,
+    "local_relief_m": 165.99968872070326
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 14.61937298297882,
+    "local_relief_m": 215.24417114257812
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 27.15204870223999,
+    "local_relief_m": 464.3084655761719
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.63516233444214,
+    "local_relief_m": 536.1643402099609
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.93557825088501,
+    "local_relief_m": 559.0741546630859
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.139397258758546,
+    "local_relief_m": 563.6317096710205
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.555086193084716,
+    "local_relief_m": 547.3659912109375
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.683029708862303,
+    "local_relief_m": 549.1253967285156
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 28.926524295806885,
+    "local_relief_m": 535.6100585937502
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 10000,
+    "valid_cells": 100,
+    "mean_slope_deg": 25.861530666351317,
+    "local_relief_m": 459.56689453125
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.705265214443207,
+    "local_relief_m": 137.97738647460938
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.484079103469849,
+    "local_relief_m": 148.8621826171875
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.679529831409454,
+    "local_relief_m": 146.61091918945317
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.03167423248291,
+    "local_relief_m": 240.17686157226558
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 16.86655429124832,
+    "local_relief_m": 267.0289672851561
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.114758620262146,
+    "local_relief_m": 177.62977905273442
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 20.145224852561952,
+    "local_relief_m": 323.0733581542968
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 29.26150173187256,
+    "local_relief_m": 525.8024261474609
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.76775129318237,
+    "local_relief_m": 551.2181007385254
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.845428199768065,
+    "local_relief_m": 571.5327110290527
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.56041353225708,
+    "local_relief_m": 576.3432723999023
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.194705238342284,
+    "local_relief_m": 589.3484893798827
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 29.71964672088623,
+    "local_relief_m": 559.3098693847658
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 11000,
+    "valid_cells": 100,
+    "mean_slope_deg": 27.60556537628174,
+    "local_relief_m": 500.45564575195294
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 3.8927334888279437,
+    "local_relief_m": 44.41475219726567
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.45433252811432,
+    "local_relief_m": 178.50406494140634
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.349528435468674,
+    "local_relief_m": 185.00731811523428
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 8.082185368537903,
+    "local_relief_m": 114.03931274414049
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.045348944664001,
+    "local_relief_m": 138.81283569335938
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 12.422418236732483,
+    "local_relief_m": 198.60643920898428
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.716224249601364,
+    "local_relief_m": 116.67570190429683
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 25.895647764205933,
+    "local_relief_m": 463.83955078125007
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 29.195228996276857,
+    "local_relief_m": 524.0848388671874
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.626991958618163,
+    "local_relief_m": 580.4481332778931
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.418609142303467,
+    "local_relief_m": 582.3648067474365
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.952198162078858,
+    "local_relief_m": 587.1486618041993
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.057447509765623,
+    "local_relief_m": 566.2015075683593
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 12000,
+    "valid_cells": 100,
+    "mean_slope_deg": 29.223491306304933,
+    "local_relief_m": 518.1533630371093
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.187086482048034,
+    "local_relief_m": 90.96550292968732
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.20160748243332,
+    "local_relief_m": 153.68560180664076
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 15.260287485122682,
+    "local_relief_m": 250.33051147460947
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.72997808098793,
+    "local_relief_m": 84.13662109374991
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.263603082299232,
+    "local_relief_m": 104.16361083984384
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.074226398468017,
+    "local_relief_m": 144.05626831054678
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.653193635940552,
+    "local_relief_m": 148.12322998046875
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 13.305389747619628,
+    "local_relief_m": 208.6325866699217
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 25.34019630432129,
+    "local_relief_m": 439.5787872314453
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 29.828664989471434,
+    "local_relief_m": 547.426383972168
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.464219646453856,
+    "local_relief_m": 602.7904304504394
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.534967708587647,
+    "local_relief_m": 597.2940811157226
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.906629657745363,
+    "local_relief_m": 557.5345947265624
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 13000,
+    "valid_cells": 100,
+    "mean_slope_deg": 30.53961009979248,
+    "local_relief_m": 550.6166961669921
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 1000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.30789885520935,
+    "local_relief_m": 150.24606933593736
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 2000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 11.486848618984222,
+    "local_relief_m": 185.42924804687505
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 3000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 10.474396500587464,
+    "local_relief_m": 171.72943115234375
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 4000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.263080465793609,
+    "local_relief_m": 66.55573120117197
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 5000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 3.6980593782663345,
+    "local_relief_m": 44.396734619140716
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 6000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 6.9876812863349915,
+    "local_relief_m": 109.4511901855467
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 7000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.193078813552857,
+    "local_relief_m": 140.47363891601572
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 8000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 9.086412777900696,
+    "local_relief_m": 137.58746337890625
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 9000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 12.454699218273163,
+    "local_relief_m": 189.98209838867206
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 10000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 24.878957052230835,
+    "local_relief_m": 443.39219665527344
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 11000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 29.1566711807251,
+    "local_relief_m": 546.8607406616211
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 12000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.38938703536987,
+    "local_relief_m": 578.8302884101867
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 13000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.358764476776123,
+    "local_relief_m": 556.8541610717773
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 1000,
+    "x_local_m": 14000,
+    "y_local_m": 14000,
+    "valid_cells": 100,
+    "mean_slope_deg": 31.55515769958496,
+    "local_relief_m": 570.4846538543701
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 0,
+    "valid_cells": 360,
+    "mean_slope_deg": 30.318580985069275,
+    "local_relief_m": 670.2343688964843
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 4000,
+    "y_local_m": 0,
+    "valid_cells": 360,
+    "mean_slope_deg": 31.327845428387324,
+    "local_relief_m": 645.1875671386722
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 6000,
+    "y_local_m": 0,
+    "valid_cells": 360,
+    "mean_slope_deg": 26.085877058903375,
+    "local_relief_m": 515.3860229492184
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 8000,
+    "y_local_m": 0,
+    "valid_cells": 360,
+    "mean_slope_deg": 22.9343110885885,
+    "local_relief_m": 390.4544921874999
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 10000,
+    "y_local_m": 0,
+    "valid_cells": 360,
+    "mean_slope_deg": 16.636985993385316,
+    "local_relief_m": 376.90977783203107
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 0,
+    "y_local_m": 2000,
+    "valid_cells": 360,
+    "mean_slope_deg": 24.3021408756574,
+    "local_relief_m": 362.24755859375
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 2000,
+    "valid_cells": 400,
+    "mean_slope_deg": 24.45737620830536,
+    "local_relief_m": 549.9143493652343
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 4000,
+    "y_local_m": 2000,
+    "valid_cells": 400,
+    "mean_slope_deg": 25.460180410146712,
+    "local_relief_m": 552.1377258300779
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 6000,
+    "y_local_m": 2000,
+    "valid_cells": 400,
+    "mean_slope_deg": 20.643517909049987,
+    "local_relief_m": 370.6103515625
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 8000,
+    "y_local_m": 2000,
+    "valid_cells": 400,
+    "mean_slope_deg": 22.3784741923213,
+    "local_relief_m": 552.5577758789059
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 10000,
+    "y_local_m": 2000,
+    "valid_cells": 400,
+    "mean_slope_deg": 25.05792856901884,
+    "local_relief_m": 633.7859252929688
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 0,
+    "y_local_m": 4000,
+    "valid_cells": 360,
+    "mean_slope_deg": 28.893122084935506,
+    "local_relief_m": 730.5911743164063
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 4000,
+    "valid_cells": 400,
+    "mean_slope_deg": 20.118008867800235,
+    "local_relief_m": 577.4792114257814
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 4000,
+    "y_local_m": 4000,
+    "valid_cells": 400,
+    "mean_slope_deg": 25.036602811813353,
+    "local_relief_m": 930.8082885742183
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 6000,
+    "y_local_m": 4000,
+    "valid_cells": 400,
+    "mean_slope_deg": 24.870598013401032,
+    "local_relief_m": 816.7719726562495
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 8000,
+    "y_local_m": 4000,
+    "valid_cells": 400,
+    "mean_slope_deg": 22.593500471115114,
+    "local_relief_m": 666.0054321289058
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 10000,
+    "y_local_m": 4000,
+    "valid_cells": 400,
+    "mean_slope_deg": 27.658906087875366,
+    "local_relief_m": 395.9277832031253
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 0,
+    "y_local_m": 6000,
+    "valid_cells": 360,
+    "mean_slope_deg": 29.2163852625423,
+    "local_relief_m": 652.0315979003904
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 6000,
+    "valid_cells": 400,
+    "mean_slope_deg": 23.699304065704347,
+    "local_relief_m": 537.8519042968746
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 4000,
+    "y_local_m": 6000,
+    "valid_cells": 400,
+    "mean_slope_deg": 27.653381674289705,
+    "local_relief_m": 912.1564697265626
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 6000,
+    "y_local_m": 6000,
+    "valid_cells": 400,
+    "mean_slope_deg": 30.958156652450562,
+    "local_relief_m": 593.2352783203123
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 8000,
+    "y_local_m": 6000,
+    "valid_cells": 400,
+    "mean_slope_deg": 27.258104498386384,
+    "local_relief_m": 779.0835815429687
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 10000,
+    "y_local_m": 6000,
+    "valid_cells": 400,
+    "mean_slope_deg": 21.955760530233384,
+    "local_relief_m": 492.02777099609375
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 0,
+    "y_local_m": 8000,
+    "valid_cells": 360,
+    "mean_slope_deg": 26.61460482213232,
+    "local_relief_m": 583.308544921875
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 8000,
+    "valid_cells": 400,
+    "mean_slope_deg": 23.99217460513115,
+    "local_relief_m": 633.0104003906249
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 4000,
+    "y_local_m": 8000,
+    "valid_cells": 400,
+    "mean_slope_deg": 31.66720564842224,
+    "local_relief_m": 1037.2256469726562
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 6000,
+    "y_local_m": 8000,
+    "valid_cells": 400,
+    "mean_slope_deg": 27.937500598430635,
+    "local_relief_m": 857.6090698242188
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 8000,
+    "y_local_m": 8000,
+    "valid_cells": 400,
+    "mean_slope_deg": 27.87707051038742,
+    "local_relief_m": 796.3736328124996
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 10000,
+    "y_local_m": 8000,
+    "valid_cells": 400,
+    "mean_slope_deg": 21.881046003103258,
+    "local_relief_m": 462.379278564453
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 0,
+    "y_local_m": 10000,
+    "valid_cells": 360,
+    "mean_slope_deg": 20.843527338902156,
+    "local_relief_m": 457.8648315429689
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 10000,
+    "valid_cells": 400,
+    "mean_slope_deg": 22.249827590584754,
+    "local_relief_m": 630.9712280273438
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 4000,
+    "y_local_m": 10000,
+    "valid_cells": 400,
+    "mean_slope_deg": 26.68402020096779,
+    "local_relief_m": 867.1744445800782
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 6000,
+    "y_local_m": 10000,
+    "valid_cells": 400,
+    "mean_slope_deg": 24.356668433249,
+    "local_relief_m": 736.4951782226556
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 8000,
+    "y_local_m": 10000,
+    "valid_cells": 400,
+    "mean_slope_deg": 23.714101017713546,
+    "local_relief_m": 562.6832702636716
+  },
+  {
+    "region": "tierra_tacana",
+    "name": "Tacaná",
+    "block_side_m": 2000,
+    "x_local_m": 10000,
+    "y_local_m": 10000,
+    "valid_cells": 400,
+    "mean_slope_deg": 26.03905767261982,
+    "local_relief_m": 595.4591735839838
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 2000,
+    "valid_cells": 400,
+    "mean_slope_deg": 13.164649235457182,
+    "local_relief_m": 294.44569091796893
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 4000,
+    "y_local_m": 2000,
+    "valid_cells": 400,
+    "mean_slope_deg": 9.497350853085518,
+    "local_relief_m": 286.661749267578
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 6000,
+    "y_local_m": 2000,
+    "valid_cells": 400,
+    "mean_slope_deg": 5.888079137206078,
+    "local_relief_m": 164.0096435546874
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 8000,
+    "y_local_m": 2000,
+    "valid_cells": 400,
+    "mean_slope_deg": 6.707556314766407,
+    "local_relief_m": 231.66739501953123
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 10000,
+    "y_local_m": 2000,
+    "valid_cells": 400,
+    "mean_slope_deg": 8.114688507802784,
+    "local_relief_m": 275.94612426757806
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 12000,
+    "y_local_m": 2000,
+    "valid_cells": 400,
+    "mean_slope_deg": 13.079383983612061,
+    "local_relief_m": 399.66587829589855
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 4000,
+    "valid_cells": 400,
+    "mean_slope_deg": 8.260771716684102,
+    "local_relief_m": 216.39129028320326
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 4000,
+    "y_local_m": 4000,
+    "valid_cells": 400,
+    "mean_slope_deg": 7.006518747210503,
+    "local_relief_m": 174.23865661621096
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 6000,
+    "y_local_m": 4000,
+    "valid_cells": 400,
+    "mean_slope_deg": 11.878503346443177,
+    "local_relief_m": 387.9948516845702
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 8000,
+    "y_local_m": 4000,
+    "valid_cells": 400,
+    "mean_slope_deg": 15.852737451791763,
+    "local_relief_m": 522.517169189453
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 10000,
+    "y_local_m": 4000,
+    "valid_cells": 400,
+    "mean_slope_deg": 16.356097695827483,
+    "local_relief_m": 544.2582427978514
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 12000,
+    "y_local_m": 4000,
+    "valid_cells": 400,
+    "mean_slope_deg": 13.11488645195961,
+    "local_relief_m": 404.52647705078107
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 6000,
+    "valid_cells": 400,
+    "mean_slope_deg": 7.428692256771028,
+    "local_relief_m": 213.44216308593718
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 4000,
+    "y_local_m": 6000,
+    "valid_cells": 400,
+    "mean_slope_deg": 10.960756278038025,
+    "local_relief_m": 365.88251342773424
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 6000,
+    "y_local_m": 6000,
+    "valid_cells": 400,
+    "mean_slope_deg": 16.623558269441126,
+    "local_relief_m": 574.2240356445311
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 8000,
+    "y_local_m": 6000,
+    "valid_cells": 400,
+    "mean_slope_deg": 12.51544391080737,
+    "local_relief_m": 360.5730041503905
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 10000,
+    "y_local_m": 6000,
+    "valid_cells": 400,
+    "mean_slope_deg": 9.091151062920689,
+    "local_relief_m": 213.5351928710936
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 12000,
+    "y_local_m": 6000,
+    "valid_cells": 400,
+    "mean_slope_deg": 10.491756413727998,
+    "local_relief_m": 332.49577636718755
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 8000,
+    "valid_cells": 400,
+    "mean_slope_deg": 12.842870827615261,
+    "local_relief_m": 431.60035705566395
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 4000,
+    "y_local_m": 8000,
+    "valid_cells": 400,
+    "mean_slope_deg": 13.149236360639334,
+    "local_relief_m": 368.4848815917969
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 6000,
+    "y_local_m": 8000,
+    "valid_cells": 400,
+    "mean_slope_deg": 9.142829499691725,
+    "local_relief_m": 248.61494750976544
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 8000,
+    "y_local_m": 8000,
+    "valid_cells": 400,
+    "mean_slope_deg": 8.994966164827346,
+    "local_relief_m": 272.72824707031236
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 10000,
+    "y_local_m": 8000,
+    "valid_cells": 400,
+    "mean_slope_deg": 7.620830976366997,
+    "local_relief_m": 233.48240356445308
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 12000,
+    "y_local_m": 8000,
+    "valid_cells": 400,
+    "mean_slope_deg": 11.85607530683279,
+    "local_relief_m": 355.1589538574219
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 10000,
+    "valid_cells": 400,
+    "mean_slope_deg": 17.991791039705276,
+    "local_relief_m": 622.5042175292966
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 4000,
+    "y_local_m": 10000,
+    "valid_cells": 400,
+    "mean_slope_deg": 13.550934051275254,
+    "local_relief_m": 437.50370483398433
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 6000,
+    "y_local_m": 10000,
+    "valid_cells": 400,
+    "mean_slope_deg": 8.855510990917683,
+    "local_relief_m": 229.88486938476558
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 8000,
+    "y_local_m": 10000,
+    "valid_cells": 400,
+    "mean_slope_deg": 6.313471059203148,
+    "local_relief_m": 214.81329345703102
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 10000,
+    "y_local_m": 10000,
+    "valid_cells": 400,
+    "mean_slope_deg": 7.580437808334827,
+    "local_relief_m": 248.5587280273437
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 12000,
+    "y_local_m": 10000,
+    "valid_cells": 400,
+    "mean_slope_deg": 6.592365382909775,
+    "local_relief_m": 152.44477539062495
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 12000,
+    "valid_cells": 400,
+    "mean_slope_deg": 19.153713495731353,
+    "local_relief_m": 641.7793960571289
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 4000,
+    "y_local_m": 12000,
+    "valid_cells": 400,
+    "mean_slope_deg": 20.36266411781311,
+    "local_relief_m": 716.3783081054687
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 6000,
+    "y_local_m": 12000,
+    "valid_cells": 400,
+    "mean_slope_deg": 10.38041776239872,
+    "local_relief_m": 287.45443115234366
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 8000,
+    "y_local_m": 12000,
+    "valid_cells": 400,
+    "mean_slope_deg": 9.333633370697498,
+    "local_relief_m": 195.87694702148428
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 10000,
+    "y_local_m": 12000,
+    "valid_cells": 400,
+    "mean_slope_deg": 7.769492690525949,
+    "local_relief_m": 254.73555908203116
+  },
+  {
+    "region": "luna_site01",
+    "name": "Luna: Connecting Ridge",
+    "block_side_m": 2000,
+    "x_local_m": 12000,
+    "y_local_m": 12000,
+    "valid_cells": 400,
+    "mean_slope_deg": 8.34213516563177,
+    "local_relief_m": 278.58574218749993
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 2000,
+    "valid_cells": 400,
+    "mean_slope_deg": 0.45187319063581527,
+    "local_relief_m": 9.467431640624909
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 4000,
+    "valid_cells": 400,
+    "mean_slope_deg": 0.47255568495485933,
+    "local_relief_m": 12.402856445312409
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 6000,
+    "valid_cells": 400,
+    "mean_slope_deg": 0.704792984938249,
+    "local_relief_m": 17.48223876953125
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 8000,
+    "valid_cells": 400,
+    "mean_slope_deg": 1.6416577580105514,
+    "local_relief_m": 21.887585449218932
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 10000,
+    "valid_cells": 400,
+    "mean_slope_deg": 0.5087722044438123,
+    "local_relief_m": 8.839880371093386
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 2000,
+    "x_local_m": 4000,
+    "y_local_m": 10000,
+    "valid_cells": 365,
+    "mean_slope_deg": 0.5961859817119085,
+    "local_relief_m": 9.759326171875273
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 12000,
+    "valid_cells": 375,
+    "mean_slope_deg": 0.41849620749553046,
+    "local_relief_m": 9.985693359375091
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 2000,
+    "x_local_m": 4000,
+    "y_local_m": 12000,
+    "valid_cells": 370,
+    "mean_slope_deg": 0.5110138230025768,
+    "local_relief_m": 10.596752929687682
+  },
+  {
+    "region": "marte_cerberus",
+    "name": "Marte: Cerberus Tholi",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 14000,
+    "valid_cells": 396,
+    "mean_slope_deg": 0.37574455673298374,
+    "local_relief_m": 10.34881591796875
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 2000,
+    "valid_cells": 400,
+    "mean_slope_deg": 12.00213237285614,
+    "local_relief_m": 377.7680831909177
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 4000,
+    "y_local_m": 2000,
+    "valid_cells": 400,
+    "mean_slope_deg": 19.56214616537094,
+    "local_relief_m": 688.1296676635741
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 6000,
+    "y_local_m": 2000,
+    "valid_cells": 400,
+    "mean_slope_deg": 16.186794319748877,
+    "local_relief_m": 431.22835693359366
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 8000,
+    "y_local_m": 2000,
+    "valid_cells": 400,
+    "mean_slope_deg": 28.969507019519806,
+    "local_relief_m": 1050.5965042114253
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 10000,
+    "y_local_m": 2000,
+    "valid_cells": 400,
+    "mean_slope_deg": 32.4385320854187,
+    "local_relief_m": 1209.0711486816401
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 12000,
+    "y_local_m": 2000,
+    "valid_cells": 400,
+    "mean_slope_deg": 31.864473433494567,
+    "local_relief_m": 1194.49973449707
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 4000,
+    "valid_cells": 400,
+    "mean_slope_deg": 11.167654141187668,
+    "local_relief_m": 354.0069488525388
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 4000,
+    "y_local_m": 4000,
+    "valid_cells": 400,
+    "mean_slope_deg": 16.770256404876708,
+    "local_relief_m": 579.6395233154296
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 6000,
+    "y_local_m": 4000,
+    "valid_cells": 400,
+    "mean_slope_deg": 20.01859036386013,
+    "local_relief_m": 549.4925048828125
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 8000,
+    "y_local_m": 4000,
+    "valid_cells": 400,
+    "mean_slope_deg": 32.92234724998474,
+    "local_relief_m": 1188.9672805786133
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 10000,
+    "y_local_m": 4000,
+    "valid_cells": 400,
+    "mean_slope_deg": 31.808449177742006,
+    "local_relief_m": 1148.6448844909662
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 12000,
+    "y_local_m": 4000,
+    "valid_cells": 400,
+    "mean_slope_deg": 29.655354380607605,
+    "local_relief_m": 1073.5219604492186
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 6000,
+    "valid_cells": 400,
+    "mean_slope_deg": 12.93387834072113,
+    "local_relief_m": 413.8181091308593
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 4000,
+    "y_local_m": 6000,
+    "valid_cells": 400,
+    "mean_slope_deg": 16.1186492395401,
+    "local_relief_m": 521.2656860351562
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 6000,
+    "y_local_m": 6000,
+    "valid_cells": 400,
+    "mean_slope_deg": 24.96342202939093,
+    "local_relief_m": 848.1110778808593
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 8000,
+    "y_local_m": 6000,
+    "valid_cells": 400,
+    "mean_slope_deg": 32.981544833183285,
+    "local_relief_m": 1163.4117599487304
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 10000,
+    "y_local_m": 6000,
+    "valid_cells": 400,
+    "mean_slope_deg": 31.34156979084015,
+    "local_relief_m": 1090.3113525390627
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 12000,
+    "y_local_m": 6000,
+    "valid_cells": 400,
+    "mean_slope_deg": 23.59929785966873,
+    "local_relief_m": 791.7048095703124
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 8000,
+    "valid_cells": 400,
+    "mean_slope_deg": 12.957862710952758,
+    "local_relief_m": 424.4767089843749
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 4000,
+    "y_local_m": 8000,
+    "valid_cells": 400,
+    "mean_slope_deg": 14.700658743381501,
+    "local_relief_m": 482.5370788574219
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 6000,
+    "y_local_m": 8000,
+    "valid_cells": 400,
+    "mean_slope_deg": 23.95032076984644,
+    "local_relief_m": 827.959439086914
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 8000,
+    "y_local_m": 8000,
+    "valid_cells": 400,
+    "mean_slope_deg": 31.487761516571044,
+    "local_relief_m": 1088.832550048828
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 10000,
+    "y_local_m": 8000,
+    "valid_cells": 400,
+    "mean_slope_deg": 30.35885777950287,
+    "local_relief_m": 1061.5321655273433
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 12000,
+    "y_local_m": 8000,
+    "valid_cells": 400,
+    "mean_slope_deg": 25.13248739004135,
+    "local_relief_m": 861.3586547851562
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 10000,
+    "valid_cells": 400,
+    "mean_slope_deg": 11.523618778586387,
+    "local_relief_m": 296.7825012207029
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 4000,
+    "y_local_m": 10000,
+    "valid_cells": 400,
+    "mean_slope_deg": 14.278588283061982,
+    "local_relief_m": 435.3347473144531
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 6000,
+    "y_local_m": 10000,
+    "valid_cells": 400,
+    "mean_slope_deg": 18.757851289510725,
+    "local_relief_m": 568.5049926757813
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 8000,
+    "y_local_m": 10000,
+    "valid_cells": 400,
+    "mean_slope_deg": 30.39999840259552,
+    "local_relief_m": 1088.57840270996
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 10000,
+    "y_local_m": 10000,
+    "valid_cells": 400,
+    "mean_slope_deg": 31.2750812959671,
+    "local_relief_m": 1151.128845596313
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 12000,
+    "y_local_m": 10000,
+    "valid_cells": 400,
+    "mean_slope_deg": 30.130976490974426,
+    "local_relief_m": 1114.8871459960933
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 2000,
+    "y_local_m": 12000,
+    "valid_cells": 400,
+    "mean_slope_deg": 12.066438982784748,
+    "local_relief_m": 376.7181091308594
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 4000,
+    "y_local_m": 12000,
+    "valid_cells": 400,
+    "mean_slope_deg": 7.530278869122267,
+    "local_relief_m": 124.55476074218745
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 6000,
+    "y_local_m": 12000,
+    "valid_cells": 400,
+    "mean_slope_deg": 10.466515630185604,
+    "local_relief_m": 241.11504516601553
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 8000,
+    "y_local_m": 12000,
+    "valid_cells": 400,
+    "mean_slope_deg": 23.434115703105928,
+    "local_relief_m": 806.0496795654295
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 10000,
+    "y_local_m": 12000,
+    "valid_cells": 400,
+    "mean_slope_deg": 31.08462143421173,
+    "local_relief_m": 1151.4840072631835
+  },
+  {
+    "region": "luna_site04",
+    "name": "Luna: borde de Shackleton",
+    "block_side_m": 2000,
+    "x_local_m": 12000,
+    "y_local_m": 12000,
+    "valid_cells": 400,
+    "mean_slope_deg": 30.862810759544374,
+    "local_relief_m": 1152.3473468780517
+  }
+]

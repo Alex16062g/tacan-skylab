@@ -1,0 +1,80 @@
+[
+  {
+    "body": "MOON",
+    "variable": "elevation_m",
+    "groups": 36,
+    "n_per_group": 80,
+    "classic_F": 86.04346595360047,
+    "classic_p": 0.0,
+    "welch_F": 89.30921831827452,
+    "welch_p": 6.390713316391356e-280,
+    "levene_p": 2.377928612767384e-101,
+    "residual_normality_p": 1.343790925316291e-17,
+    "welch_p_holm": 3.195356658195678e-279
+  },
+  {
+    "body": "MOON",
+    "variable": "slope_deg",
+    "groups": 36,
+    "n_per_group": 80,
+    "classic_F": 15.962512175770547,
+    "classic_p": 2.821518536631831e-86,
+    "welch_F": 37.00092144325496,
+    "welch_p": 1.5609703270778424e-154,
+    "levene_p": 1.5414321511908939e-44,
+    "residual_normality_p": 6.732326937874248e-130,
+    "welch_p_holm": 3.121940654155685e-154
+  },
+  {
+    "body": "MOON",
+    "variable": "relief_p95_p05_m",
+    "groups": 36,
+    "n_per_group": 80,
+    "classic_F": 35.6435039905302,
+    "classic_p": 1.0517011240723527e-195,
+    "welch_F": 66.7359171194419,
+    "welch_p": 2.659621457599111e-234,
+    "levene_p": 4.747866063004127e-50,
+    "residual_normality_p": 2.3435052740482506e-35,
+    "welch_p_holm": 1.0638485830396443e-233
+  },
+  {
+    "body": "MARS",
+    "variable": "elevation_m",
+    "groups": 36,
+    "n_per_group": 80,
+    "classic_F": 204.9007772630528,
+    "classic_p": 0.0,
+    "welch_F": 1585.9760943898202,
+    "welch_p": 0.0,
+    "levene_p": 5.681609240547093e-149,
+    "residual_normality_p": 0.0,
+    "welch_p_holm": 0.0
+  },
+  {
+    "body": "MARS",
+    "variable": "slope_deg",
+    "groups": 36,
+    "n_per_group": 80,
+    "classic_F": 10.795779413935746,
+    "classic_p": 5.9880292846051475e-55,
+    "welch_F": 22.309818129051376,
+    "welch_p": 3.475533406650048e-101,
+    "levene_p": 1.2793715203653005e-35,
+    "residual_normality_p": 0.0,
+    "welch_p_holm": 3.475533406650048e-101
+  },
+  {
+    "body": "MARS",
+    "variable": "relief_p95_p05_m",
+    "groups": 36,
+    "n_per_group": 80,
+    "classic_F": 15.666436085790687,
+    "classic_p": 1.668464973344564e-84,
+    "welch_F": 38.72965766052397,
+    "welch_p": 6.313506409862279e-160,
+    "levene_p": 1.9121691938410223e-50,
+    "residual_normality_p": 0.0,
+    "welch_p_holm": 1.8940519229586836e-159
+  }
+]

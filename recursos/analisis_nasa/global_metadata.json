@@ -1,0 +1,34 @@
+{
+  "moon": {
+    "shape": [
+      2880,
+      5760
+    ],
+    "file": "luna/global/ldem_16.tif",
+    "stored_units": "km",
+    "to_meters": 1000,
+    "nominal_pixel_m": 1895.2094015093426,
+    "reference": "Esfera de radio 1737.4 km",
+    "longitude": "−180..180 E, centrado en 0; norte arriba",
+    "range_m": [
+      -8981.5009765625,
+      10685.5
+    ]
+  },
+  "mars": {
+    "shape": [
+      5760,
+      11520
+    ],
+    "file": "marte/global/megt90n000fb.img",
+    "dtype": ">i2",
+    "stored_units": "m",
+    "nominal_pixel_m": 1852.2306686789823,
+    "reference": "Areoide GMM3 (mgm1025), grado/orden 50, IAU2000; ver etiqueta",
+    "longitude": "0..360 E, norte arriba",
+    "range_m": [
+      -8206,
+      21181
+    ]
+  }
+}

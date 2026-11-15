@@ -1,0 +1,118 @@
+{
+  "alcance": "Comparación descriptiva de Luna, Marte y Tacaná usando solo los dos JSON locales.",
+  "fuentes": [
+    {
+      "archivo": "datos\\luna_marte.json",
+      "sha256": "1fb6c3b603de319cd7f7ab8819b8e9dfeba4665e3353494a813234355bdc469f"
+    },
+    {
+      "archivo": "datos\\tacana.json",
+      "sha256": "04315f486a3ceb50b44d31a67b6ca246fe05ae30b0a6bfbbf8d328c3a086699b"
+    }
+  ],
+  "registros_por_entidad": {
+    "Luna": 1,
+    "Marte": 1,
+    "Tacaná": 1
+  },
+  "campos_comunes_tres_entidades": [],
+  "variables_cuantitativas_comunes": [],
+  "comparacion": [
+    {
+      "variable": "Masa",
+      "unidad": "10^24 kg",
+      "valores": {
+        "Luna": 0.073,
+        "Marte": 0.642,
+        "Tacaná": null
+      }
+    },
+    {
+      "variable": "Diámetro del cuerpo",
+      "unidad": "km",
+      "valores": {
+        "Luna": 3475,
+        "Marte": 6792,
+        "Tacaná": null
+      }
+    },
+    {
+      "variable": "Densidad",
+      "unidad": "kg/m^3",
+      "valores": {
+        "Luna": 3340,
+        "Marte": 3934,
+        "Tacaná": null
+      }
+    },
+    {
+      "variable": "Gravedad superficial",
+      "unidad": "m/s^2",
+      "valores": {
+        "Luna": 1.6,
+        "Marte": 3.7,
+        "Tacaná": null
+      }
+    },
+    {
+      "variable": "Temperatura media",
+      "unidad": "°C",
+      "valores": {
+        "Luna": -20,
+        "Marte": -65,
+        "Tacaná": null
+      }
+    },
+    {
+      "variable": "Elevación sobre el nivel del mar",
+      "unidad": "m",
+      "valores": {
+        "Luna": null,
+        "Marte": null,
+        "Tacaná": 4064
+      }
+    },
+    {
+      "variable": "Altura sobre terreno circundante",
+      "unidad": "m",
+      "valores": {
+        "Luna": null,
+        "Marte": null,
+        "Tacaná": 1800
+      }
+    }
+  ],
+  "descripcion_tacana": {
+    "Countries": [
+      "Mexico",
+      "Guatemala"
+    ],
+    "Volcano Types": [
+      "Stratovolcano",
+      "Lava dome(s)"
+    ],
+    "Major Rock Types": [
+      "Andesite / Basaltic Andesite",
+      "Trachyandesite / Basaltic Trachyandesite"
+    ],
+    "Tectonic Setting": "Subduction zone"
+  },
+  "anova": {
+    "estado": "No estimable con estos archivos",
+    "F": null,
+    "p": null,
+    "razones": [
+      "No hay una misma variable cuantitativa observada en las tres entidades.",
+      "Cada JSON proporciona un registro por entidad y ninguna serie de réplicas.",
+      "Con un valor de una misma variable por grupo, N-k sería 3-3=0 y el cuadrado medio residual no podría estimarse."
+    ],
+    "fundamento": "ANOVA contrasta medias de una misma variable. F = MS_entre / MS_dentro, con gl_dentro = N-k.",
+    "referencia": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.f_oneway.html"
+  },
+  "similitud": {
+    "estado": "Sin puntuación cuantitativa estimable respecto al Tacaná",
+    "razon": "Los atributos planetarios y volcanológicos disponibles describen magnitudes diferentes.",
+    "interpretacion": "Los valores ausentes se conservan como null. Las propiedades distintas no constituyen réplicas de una misma variable."
+  },
+  "datos_necesarios": "Mediciones comparables de una misma variable, con unidades compatibles y réplicas independientes en cada grupo, por ejemplo pendientes de varias zonas de cada entorno."
+}

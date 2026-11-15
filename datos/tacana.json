@@ -1,0 +1,34 @@
+{
+  "TACANA": {
+    "Name": "Tacaná",
+    "Volcano Number": 341130,
+    "Countries": [
+      "Mexico",
+      "Guatemala"
+    ],
+    "Volcanic Region": "Central America Volcanic Arc",
+    "Volcano Landform": "Composite",
+    "Volcano Types": [
+      "Stratovolcano",
+      "Lava dome(s)"
+    ],
+    "Elevation (m above sea level)": 4064,
+    "Latitude (degrees north)": 15.132,
+    "Longitude (degrees east)": -92.109,
+    "Height Above Surrounding Terrain (m)": 1800,
+    "Last Known Eruption (CE)": 1986,
+    "Major Rock Types": [
+      "Andesite / Basaltic Andesite",
+      "Trachyandesite / Basaltic Trachyandesite"
+    ],
+    "Minor Rock Types": [
+      "Dacite",
+      "Basalt / Picro-Basalt"
+    ],
+    "Tectonic Setting": "Subduction zone",
+    "Crust Type": "Continental crust (> 25 km)",
+    "Source": "https://volcano.si.edu/volcano.cfm?vn=341130",
+    "Number of Large Calderas": 3,
+    "Last Known Eruption VEI": 1
+  }
+}

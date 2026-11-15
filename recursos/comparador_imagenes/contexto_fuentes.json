@@ -1,0 +1,14 @@
+{
+  "file": "tacana_contexto.png",
+  "bounds_wsen": [
+    -92.38848675703743,
+    14.862203890882638,
+    -91.82951324296256,
+    15.401796109117361
+  ],
+  "product_id": "LC08_L2SP_021050_20251126_02_T1",
+  "native_resolution_m": 30,
+  "window_side_approx_km": 60,
+  "processing": "Landsat B4/B3/B2; same fixed RGB stretch as comparison. Outer 5 km alpha feather for map display only. No infill or generated terrain.",
+  "sha256": "df1c7b95270f69c9722c46718392830e3194cbcc4ea5c1d5cfe91e00d42f98d5"
+}

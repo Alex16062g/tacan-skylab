@@ -1,0 +1,32 @@
+[
+  {
+    "phase": "day",
+    "n_reference_pixels": 91,
+    "temperature_mean_C": 14.988461538461564,
+    "temperature_sd_C": 2.1227534127359355,
+    "min_local_time": 12.8,
+    "max_local_time": 13.0,
+    "good_mandatory_QA_pixels": 0,
+    "other_produced_QA_pixels": 91,
+    "area_pixels": 225,
+    "window_hours": [
+      12.0,
+      14.0
+    ]
+  },
+  {
+    "phase": "night",
+    "n_reference_pixels": 225,
+    "temperature_mean_C": 11.64111111111114,
+    "temperature_sd_C": 3.622566561440036,
+    "min_local_time": 1.5,
+    "max_local_time": 1.8,
+    "good_mandatory_QA_pixels": 180,
+    "other_produced_QA_pixels": 45,
+    "area_pixels": 225,
+    "window_hours": [
+      1.0,
+      2.0
+    ]
+  }
+]

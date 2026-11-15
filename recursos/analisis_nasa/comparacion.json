@@ -1,0 +1,89 @@
+{
+  "method": "Filtro gaussiano normalizado con sigma = 50 m; remuestreo bilineal a 100 m; se exige soporte válido >=99.9%; gradiente central con separación de 100 m; atan de magnitud del gradiente. Un píxel de borde excluido.",
+  "not_official": "Las pendientes de 100 m son derivados calculados localmente, no productos publicados por NASA.",
+  "limits": [
+    "Son tres regiones diferentes y con extensiones distintas; no representan distribuciones globales.",
+    "Resolución de malla no equivale a resolución efectiva: LOLA contiene interpolación.",
+    "No comparar altitudes absolutas de diferentes cuerpos/datums; comparar relieve relativo y pendientes a la misma escala.",
+    "DSM terrestre incluye vegetación. La comparabilidad geométrica no elimina diferencias de sensor y reconstrucción.",
+    "NPZ usa coordenadas métricas locales relativas al primer centro de píxel; consultar etiquetas originales para georreferenciar."
+  ],
+  "regions": [
+    {
+      "id": "luna_site01",
+      "region": "Luna · Connecting ridge",
+      "source": "datos\\nasa\\luna\\site01\\Site01_final_adj_5mpp_surf.tif",
+      "datum": "LOLA, polo sur, MOON_ME DE421; alturas respecto a esfera lunar. Malla 5 m con fuerte interpolación.",
+      "native_spacing_m": [
+        5.0,
+        5.0
+      ],
+      "output_spacing_m": 100.0,
+      "output_shape": [
+        160,
+        160
+      ],
+      "valid_slope_cells": 23716,
+      "analyzed_area_km2": 237.16,
+      "elevation_range_m": [
+        -448.8857727050781,
+        1956.8289794921875
+      ],
+      "relief_p95_p05_m": 1349.4625244140625,
+      "slope_median_deg": 11.501138687133789,
+      "slope_p90_deg": 19.451141357421875,
+      "native_missing_fraction": 0.0,
+      "native_fraction_with_direct_lola_returns": 0.094941796875
+    },
+    {
+      "id": "marte_cerberus",
+      "region": "Marte · Cerberus Tholi",
+      "source": "datos\\nasa\\marte\\cerberus\\DTEED_044184_1850_044039_1850_A01.IMG",
+      "datum": "HiRISE DTM; alturas sobre equipotencial Mars 2000; datos estereoscópicos.",
+      "native_spacing_m": [
+        2.0234935891591,
+        2.0234935891591
+      ],
+      "output_spacing_m": 100.0,
+      "output_shape": [
+        168,
+        67
+      ],
+      "valid_slope_cells": 6571,
+      "analyzed_area_km2": 65.71000000000001,
+      "elevation_range_m": [
+        -2965.566162109375,
+        -2873.02880859375
+      ],
+      "relief_p95_p05_m": 26.777587890625,
+      "slope_median_deg": 0.41549181938171387,
+      "slope_p90_deg": 1.0129961967468262,
+      "native_missing_fraction": 0.3106923704441804
+    },
+    {
+      "id": "tierra_tacana",
+      "region": "Tierra · Tacaná",
+      "source": "datos/tacana_alturas.npy",
+      "datum": "Copernicus DSM EGM2008; incluye vegetación; no es un producto NASA.",
+      "native_spacing_m": [
+        29.856729877028556,
+        30.736106038814796
+      ],
+      "output_spacing_m": 100.0,
+      "output_shape": [
+        139,
+        139
+      ],
+      "valid_slope_cells": 18225,
+      "analyzed_area_km2": 182.25,
+      "elevation_range_m": [
+        899.2364501953125,
+        4058.927734375
+      ],
+      "relief_p95_p05_m": 2013.9708251953125,
+      "slope_median_deg": 23.875097274780273,
+      "slope_p90_deg": 36.11539840698242,
+      "native_missing_fraction": 0.0
+    }
+  ]
+}
