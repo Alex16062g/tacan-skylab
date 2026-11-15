@@ -42,4 +42,10 @@ button { font: inherit; color: #fff; background: #203440; padding: 10px 16px; bo
 .image-view-controls { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-block: 8px 14px; font-size: .85rem; }
 .stage { background-color: #203440; }
 ::selection { color: #111c26; background: #a6dce5; }
-@media(max-width:600px) { header,main { padding: 14px; } .tag { font-size: .7rem; padding: 4px 6px; } }
+@media(max-width:600px) {
+  header,main { padding: 12px; }
+  header, nav { flex-wrap: wrap; }
+  .tag { font-size: .75rem; padding: 4px 6px; overflow-wrap: anywhere; }
+  .embedded main { padding: 8px; }
+  .embedded-sources { font-size: .85rem; }
+}
