@@ -90,7 +90,9 @@ async function initializeMap() {
 
     function frameTacana() {
         map.fitBounds([[west, south], [east, north]], {
-            padding: { top: 160, bottom: 60, left: 45, right: 65 },
+            padding: window.matchMedia('(max-width: 1000px), (max-height: 600px) and (pointer: coarse)').matches
+                ? { top: 85, bottom: 45, left: 20, right: 65 }
+                : { top: 160, bottom: 60, left: 45, right: 65 },
             pitch: is3D ? 45 : 0,
             bearing: 0,
             duration: duration()

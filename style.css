@@ -130,7 +130,7 @@ body {
 .planet-map-preview figcaption > :is(strong, span) { grid-column: 1; }
 
 .planet-map-preview strong { font-size: .9rem; }
-.planet-map-preview span { color: #c6dce7; font-size: .65rem; }
+.planet-map-preview span { color: #c6dce7; font-size: .75rem; }
 
 .comparisons-open .planet-map-preview {
     inline-size: clamp(140px, 28vw, 340px);
@@ -374,5 +374,51 @@ select.comparison-region:focus-visible { outline: 3px solid #a6dce5; outline-off
 @media (max-width: 575px) {
     .map-stage {
         min-block-size: 55svh;
+    }
+}
+
+/* On narrow screens comparisons follow the map instead of covering it. */
+@media (max-width: 1000px), (max-height: 600px) and (pointer: coarse) {
+    .map-stage { flex: none; min-block-size: 0; }
+    #mapa { position: relative; block-size: clamp(320px, 60dvh, 600px); }
+    #mapa:fullscreen { block-size: 100dvh; }
+    .planet-map-previews {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 12px;
+        background: #111c26;
+        pointer-events: auto;
+    }
+    .comparisons-open .planet-map-preview {
+        inline-size: 100%;
+        max-inline-size: 100%;
+        max-block-size: none;
+        overflow: visible;
+        box-shadow: none;
+    }
+    .planet-map-image { max-inline-size: 520px; margin-inline: auto; }
+    .planet-map-preview figcaption {
+        position: sticky;
+        inset-block-start: 0;
+        z-index: 3;
+        background: #111c26;
+        border-block-end: 1px solid #31414f;
+    }
+    .planet-comparison { padding: 12px; font-size: 1rem; }
+    .planet-map-preview strong { font-size: 1rem; }
+    .comparison-table { font-size: .9rem; }
+    .comparison-table-wrap { overscroll-behavior-inline: contain; }
+    .map-message { inset-block-start: 12px; inset-block-end: auto; }
+    .maplibregl-ctrl-group button { inline-size: 44px; block-size: 44px; }
+    .map-layers label { min-block-size: 44px; }
+    .image-dialog-heading { flex-shrink: 0; padding: 4px 8px; }
+    .image-dialog-heading button { flex-shrink: 0; }
+    #image-comparison-dialog {
+        inline-size: calc(100% - 12px);
+        max-inline-size: calc(100% - 12px);
+        block-size: calc(100dvh - 12px);
+        max-block-size: calc(100dvh - 12px);
     }
 }
